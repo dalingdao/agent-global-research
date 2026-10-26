@@ -510,324 +510,653 @@ cat README.md
 
 ---
 
-## 浜屽崄浜屻€侌煍?Agent 鍙皟鐢ㄥ伐鍏蜂笌鎶€鑳藉ぇ鍏?(Agent-Callable Tools & Skills)
+## 浜屽崄涓夈€侌煍?Agent 鍙皟鐢ㄥ伐鍏蜂笌鎶€鑳藉ぇ鍏?V2 (Complete Agent-Callable Tools)
 
 > **鏀跺綍鏍囧噯**: 浠呮敹褰曞彲琚?AI Agent 鐩存帴璋冪敤鐨勫伐鍏枫€佹妧鑳姐€丮CP 鏈嶅姟鍣ㄥ拰鎻掍欢
 > **鏁版嵁鏃堕棿**: 2026-10-26
-> **鏀惰棌鏍囧噯**: 鏃犻檺鍒讹紝0 鏀惰棌涔熸敹褰?
+> **鏀惰棌鏍囧噯**: 鏃犻檺鍒讹紝0 鏀惰棌涔熸敹褰?> **瑕嗙洊鑼冨洿**: GitHub 涓婃墍鏈?Agent 鍙皟鐢ㄥ伐鍏峰拰鎶€鑳?
 ---
 
-### 22.1 鎬昏缁熻
+### 23.1 鎬昏缁熻
 
-| 鍒嗙被 | 浠撳簱鏁?| 鏀跺綍鏁伴噺 |
-|------|--------|---------|
-| 馃攲 MCP 宸ュ叿鏈嶅姟鍣?| 22,749 | 50 |
-| 鈿?Agent 鎶€鑳?鎻掍欢 | 7,283 | 30 |
-| 馃洜锔?Function Calling 宸ュ叿 | 751 | 20 |
-| 馃摝 Agent 宸ュ叿搴?| 75 | 15 |
-| 馃幆 Agent 鎵╁睍 | 62 | 10 |
-| 馃啌 0 鏄熷伐鍏?| 20,392+ | 20 |
-| **鎬昏** | **51,312+** | **145+** |
+| 鍒嗙被 | 浠撳簱鎬绘暟 | 鏀跺綍鏁伴噺 | 璇存槑 |
+|------|---------|---------|------|
+| 馃攲 MCP 鏈嶅姟鍣?| 39,549 | 100 | Model Context Protocol 鏈嶅姟鍣?|
+| 馃洜锔?MCP 宸ュ叿 | 51,321 | 100 | MCP 鍗忚宸ュ叿 |
+| 鈿?Agent 鎶€鑳?| 5,836 | 50 | Agent 鍙皟鐢ㄦ妧鑳?|
+| 馃摝 宸ュ叿搴?| 22 | 22 | Agent 宸ュ叿搴?|
+| 馃幆 宸ュ叿璋冪敤 | 3,798 | 50 | 宸ュ叿璋冪敤妗嗘灦 |
+| 馃З 鎶€鑳芥彃浠?| 6,267 | 50 | 鎶€鑳?鎻掍欢绯荤粺 |
+| 馃敡 Agent 宸ュ叿 | 78 | 78 | Agent 涓撶敤宸ュ叿 |
+| 馃幃 Agent 鎻掍欢 | 194 | 50 | Agent 鎻掍欢绯荤粺 |
+| 馃摎 Agent 宸ュ叿 | 94,677 | 100 | 閫氱敤 Agent 宸ュ叿 |
+| 馃敆 Agent 鍙皟鐢?| 5,820 | 50 | 鍙皟鐢ㄥ伐鍏?|
+| 馃寪 宸ュ叿鏈嶅姟鍣?| 958 | 50 | 宸ュ叿鏈嶅姟鍣?|
+| 馃洜锔?Function Calling | 751 | 50 | 鍑芥暟璋冪敤宸ュ叿 |
+| 馃啌 0 鏄熷伐鍏?| 20,392+ | 30 | 0 鏀惰棌宸ュ叿 |
+| **鎬昏** | **235,563+** | **830+** | **Agent 鍙皟鐢ㄥ伐鍏?* |
 
 ---
 
-### 22.2 馃攲 MCP 宸ュ叿鏈嶅姟鍣?(22,749 repos)
+### 23.2 馃攲 MCP 鏈嶅姟鍣?(39,549 repos)
 
 > MCP (Model Context Protocol) 鏈嶅姟鍣ㄦ槸 Agent 鍙皟鐢ㄧ殑鏍稿績宸ュ叿锛屾敮鎸佸伐鍏锋敞鍐屻€佽皟鐢ㄥ拰缁撴灉杩斿洖銆?
-| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ伐鍏?| 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
-|---|------|------|-----------|----------|-----|---------|------|
-| 1 | **headroom** | AI 宸ュ叿杈撳嚭鍘嬬缉锛岀紪鐮佷唬鐞嗗皯 20% Token | Token 鍘嬬缉銆佸伐鍏疯皟鐢ㄤ紭鍖?| 缂栫▼寮€鍙?| 77,820 | 2026-10-24 | [GitHub](https://github.com/headroomlabs-ai/headroom) |
-| 2 | **codebase-memory-mcp** | 鏈湴浠ｇ爜鏅鸿兘锛屼唬鐮?鏂囨。-鍩虹璁炬柦鍥捐氨 | 浠ｇ爜鎼滅储銆佹枃妗ｆ煡璇€佸浘璋卞垎鏋?| 浠ｇ爜鏅鸿兘 | 47,476 | 2026-10-26 | [GitHub](https://github.com/DeusData/codebase-memory-mcp) |
-| 3 | **context-mode** | 缂栫爜浠ｇ悊涓婁笅鏂囩獥鍙ｄ紭鍖栵紝98% 鍑忓皯 | 涓婁笅鏂囩鐞嗐€佺獥鍙ｄ紭鍖?| 缂栫▼寮€鍙?| 32,265 | 2026-10-26 | [GitHub](https://github.com/mksglu/context-mode) |
-| 4 | **editor** | 寮€婧?3D 寤虹瓚缂栬緫鍣紝CLI + MCP 宸ュ叿 | 3D 寤烘ā銆佸缓绛戠紪杈?| 寤虹瓚璁捐 | 25,111 | 2026-10-25 | [GitHub](https://github.com/pascalorg/editor) |
-| 5 | **mcp-toolbox** | Google API MCP 宸ュ叿绠?| Google API 璋冪敤 | 浜戦泦鎴?| 16,721 | 2026-10-25 | [GitHub](https://github.com/googleapis/mcp-toolbox) |
-| 6 | **apify-mcp-server** | Apify MCP 鏈嶅姟鍣紝鐖櫕 API 闆嗘垚 | Web 鐖彇銆佹暟鎹彁鍙?| 鏁版嵁閲囬泦 | 13,170 | 2026-10-25 | [GitHub](https://github.com/apify/apify-mcp-server) |
-| 7 | **hexstrike-ai** | AI 娓楅€忔祴璇?MCP 鏈嶅姟鍣?| 婕忔礊鎵弿銆佹笚閫忔祴璇?| 瀹夊叏娴嬭瘯 | 13,094 | 2026-08-03 | [GitHub](https://github.com/0x4m4/hexstrike-ai) |
-| 8 | **fastapi_mcp** | FastAPI MCP 闆嗘垚锛孭ython API 宸ュ叿 | API 璋冪敤銆佹暟鎹鐞?| 鍚庣寮€鍙?| 12,020 | 2025-11-24 | [GitHub](https://github.com/tadata-org/fastapi_mcp) |
-| 9 | **mcp-inspector** | MCP 瀹樻柟妫€鏌ュ伐鍏凤紝璋冭瘯 MCP 鏈嶅姟鍣?| MCP 璋冭瘯銆佸伐鍏锋鏌?| 寮€鍙戝伐鍏?| 11,150 | 2026-10-25 | [GitHub](https://github.com/modelcontextprotocol/inspector) |
-| 10 | **browser-tools-mcp** | 娴忚鍣ㄥ伐鍏?MCP 鏈嶅姟鍣?| 娴忚鍣ㄨ嚜鍔ㄥ寲銆佺綉椤垫搷浣?| 娴忚鍣ㄨ嚜鍔ㄥ寲 | 7,332 | 2026-10-16 | [GitHub](https://github.com/AgentDeskAI/browser-tools-mcp) |
-| 11 | **MobileBuildMCP** | Sentry 绉诲姩鏋勫缓 MCP 鏈嶅姟鍣?| 绉诲姩搴旂敤鏋勫缓 | 绉诲姩寮€鍙?| 6,507 | 2026-10-22 | [GitHub](https://github.com/getsentry/MobileBuildMCP) |
-| 12 | **godot-mcp** | Godot 娓告垙寮曟搸 MCP 鏈嶅姟鍣?| 娓告垙寮€鍙戝伐鍏疯皟鐢?| 娓告垙寮€鍙?| 6,351 | 2026-04-16 | [GitHub](https://github.com/Coding-Solo/godot-mcp) |
-| 13 | **mcp-atlassian** | Atlassian 宸ュ叿 MCP 鏈嶅姟鍣?| Jira/Confluence 鎿嶄綔 | 椤圭洰绠＄悊 | 6,045 | 2026-09-19 | [GitHub](https://github.com/sooperset/mcp-atlassian) |
-| 14 | **ghidra-mcp** | Ghidra 鍙嶆眹缂?MCP 鏈嶅姟鍣?| 鍙嶆眹缂栥€侀€嗗悜宸ョ▼ | 閫嗗悜宸ョ▼ | 5,902 | 2026-10-23 | [GitHub](https://github.com/bethington/ghidra-mcp) |
-| 15 | **klavis** | Klavis AI MCP 宸ュ叿鏈嶅姟鍣?| 澶氬伐鍏烽泦鎴愯皟鐢?| 閫氱敤宸ュ叿 | 5,827 | 2026-06-01 | [GitHub](https://github.com/Klavis-AI/klavis) |
-| 16 | **FinanceToolkit** | 閲戣瀺宸ュ叿 MCP 鏈嶅姟鍣?| 閲戣瀺鏁版嵁澶勭悊銆佸垎鏋?| 閲戣瀺鍒嗘瀽 | 5,460 | 2026-10-25 | [GitHub](https://github.com/JerBouma/FinanceToolkit) |
-| 17 | **tradingview-mcp** | TradingView MCP 鏈嶅姟鍣?| 浜ゆ槗鏁版嵁鍒嗘瀽銆佸浘琛?| 閲戣瀺浜ゆ槗 | 5,137 | 2026-10-25 | [GitHub](https://github.com/atilaahmettaner/tradingview-mcp) |
-| 18 | **aci** | AI Agent 宸ュ叿璋冪敤妗嗘灦 | 宸ュ叿璋冪敤缂栨帓 | 宸ュ叿缂栨帓 | 4,924 | 2026-10-23 | [GitHub](https://github.com/aipotheosis-labs/aci) |
-| 19 | **Unity-MCP** | Unity 娓告垙寮曟搸 MCP 鏈嶅姟鍣?| Unity 宸ュ叿璋冪敤 | 娓告垙寮€鍙?| 4,530 | 2026-10-24 | [GitHub](https://github.com/IvanMurzak/Unity-MCP) |
-| 20 | **CodeGraphContext** | 浠ｇ爜鍥捐氨涓婁笅鏂?MCP 鏈嶅姟鍣?| 浠ｇ爜鍥捐氨鏌ヨ | 浠ｇ爜鏅鸿兘 | 4,352 | 2026-10-22 | [GitHub](https://github.com/CodeGraphContext/CodeGraphContext) |
-| 21 | **tokensave** | Token 鑺傜渷宸ュ叿 | Token 浼樺寲 | 鎴愭湰浼樺寲 | 678 | 2026-10-25 | [GitHub](https://github.com/aovestdipaperino/tokensave) |
-| 22 | **pctx** | 涓婁笅鏂囩鐞嗗伐鍏?| 涓婁笅鏂囩鐞?| 涓婁笅鏂囦紭鍖?| 282 | 2026-10-24 | [GitHub](https://github.com/portofcontext/pctx) |
-| 23 | **Equibles** | 澶氬伐鍏烽泦鎴?MCP 鏈嶅姟鍣?| 澶氬伐鍏疯皟鐢?| 閫氱敤宸ュ叿 | 239 | 2026-10-26 | [GitHub](https://github.com/daniel3303/Equibles) |
-| 24 | **ai-forge-mcp** | AI 宸ュ叿閿婚€?MCP 鏈嶅姟鍣?| 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 100 | 2026-04-09 | [GitHub](https://github.com/HurtzDonutStudios/ai-forge-mcp) |
-| 25 | **windbg-mcp** | Windows Debug 宸ュ叿 MCP 鏈嶅姟鍣?| 璋冭瘯宸ュ叿璋冪敤 | 璋冭瘯宸ュ叿 | 94 | 2026-05-03 | [GitHub](https://github.com/gengstah/windbg-mcp) |
-| 26 | **roslyn-codelens-mcp** | Roslyn 浠ｇ爜鏅鸿兘 MCP 鏈嶅姟鍣?| C# 浠ｇ爜鍒嗘瀽 | 浠ｇ爜鏅鸿兘 | 69 | 2026-10-26 | [GitHub](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) |
-| 27 | **shinzo-ts** | TypeScript Agent 宸ュ叿 MCP 鏈嶅姟鍣?| TS 宸ュ叿璋冪敤 | 寮€鍙戝伐鍏?| 68 | 2025-12-08 | [GitHub](https://github.com/shinzo-labs/shinzo-ts) |
-| 28 | **tiger_cowork** | 鍗忎綔宸ュ叿 MCP 鏈嶅姟鍣?| 鍗忎綔宸ュ叿璋冪敤 | 鍗忎綔宸ュ叿 | 64 | 2026-07-06 | [GitHub](https://github.com/Sompote/tiger_cowork) |
-| 29 | **agent-inbox** | Agent 鏀朵欢绠卞伐鍏?| 娑堟伅绠＄悊 | 閫氫俊宸ュ叿 | 63 | 2026-04-10 | [GitHub](https://github.com/gsd-build/agent-inbox) |
-| 30 | **awesome-ai-cae** | AI CAE 宸ュ叿闆嗗悎 | CAE 宸ュ叿璋冪敤 | 宸ョ▼璁＄畻 | 62 | 2026-10-12 | [GitHub](https://github.com/kimimgo/awesome-ai-cae) |
-| 31 | **srclight** | 婧愪唬鐮佸伐鍏?MCP 鏈嶅姟鍣?| 婧愮爜鍒嗘瀽宸ュ叿 | 浠ｇ爜鏅鸿兘 | 59 | 2026-10-14 | [GitHub](https://github.com/srclight/srclight) |
-| 32 | **mcp-server-js** | JavaScript MCP 鏈嶅姟鍣?| JS 宸ュ叿璋冪敤 | 寮€鍙戝伐鍏?| 47 | 2026-03-17 | [GitHub](https://github.com/yepcode/mcp-server-js) |
-| 33 | **toolfunnel** | 宸ュ叿婕忔枟 MCP 鏈嶅姟鍣?| 宸ュ叿闆嗘垚璋冪敤 | 宸ュ叿缂栨帓 | 38 | 2026-09-21 | [GitHub](https://github.com/Rendeverance/toolfunnel) |
-| 34 | **rpg-encoder** | RPG 缂栫爜宸ュ叿 MCP 鏈嶅姟鍣?| 娓告垙缂栫爜宸ュ叿 | 娓告垙寮€鍙?| 31 | 2026-05-29 | [GitHub](https://github.com/userFRM/rpg-encoder) |
-| 35 | **estonian-mcp** | 鐖辨矙灏间簹宸ュ叿 MCP 鏈嶅姟鍣?| 鐖辨矙灏间簹宸ュ叿璋冪敤 | 鍖哄煙宸ュ叿 | 25 | 2026-10-25 | [GitHub](https://github.com/silly-geese/estonian-mcp) |
-| 36 | **MCP_A2A** | MCP A2A 鍗忚宸ュ叿 | Agent 闂撮€氫俊宸ュ叿 | Agent 閫氫俊 | 22 | 2025-05-04 | [GitHub](https://github.com/regismesquita/MCP_A2A) |
-| 37 | **csharp-code-map** | C# 浠ｇ爜鍥捐氨宸ュ叿 | C# 浠ｇ爜鍒嗘瀽 | 浠ｇ爜鏅鸿兘 | 22 | 2026-10-02 | [GitHub](https://github.com/bbajt/csharp-code-map) |
-| 38 | **aseprite-mcp** | Aseprite 鍍忕礌鐢诲伐鍏?MCP 鏈嶅姟鍣?| 鍍忕礌鐢诲伐鍏?| 娓告垙寮€鍙?| 22 | 2026-10-25 | [GitHub](https://github.com/MalloyTheDev/aseprite-mcp) |
-| 39 | **mcp-agents** | MCP Agent 宸ュ叿 | Agent 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 20 | 2026-10-14 | [GitHub](https://github.com/thomaswitt/mcp-agents) |
-| 40 | **public-browser** | 鍏叡娴忚鍣ㄥ伐鍏?MCP 鏈嶅姟鍣?| 娴忚鍣ㄦ搷浣滃伐鍏?| 娴忚鍣ㄨ嚜鍔ㄥ寲 | 19 | 2026-10-22 | [GitHub](https://github.com/Silbercue/public-browser) |
-| 41 | **code-mode** | 浠ｇ爜妯″紡宸ュ叿璋冪敤鍗忚 | 浠ｇ爜妯″紡宸ュ叿 | 缂栫▼寮€鍙?| 1,614 | 2026-08-25 | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
-| 42 | **zapi** | Zapier API 宸ュ叿 MCP 鏈嶅姟鍣?| Zapier 闆嗘垚璋冪敤 | 宸ヤ綔娴侀泦鎴?| 469 | 2026-01-08 | [GitHub](https://github.com/adoptai/zapi) |
-| 43 | **azan-mcp** | 鍞ゆ嫓宸ュ叿 MCP 鏈嶅姟鍣?| 鍞ゆ嫓宸ュ叿璋冪敤 | 鍖哄煙宸ュ叿 | 382 | 2026-06-02 | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
-| 44 | **NeMo-Relay** | NVIDIA NeMo 涓户宸ュ叿 | NVIDIA 宸ュ叿璋冪敤 | AI 宸ュ叿 | 208 | 2026-10-25 | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
-| 45 | **sagent** | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 83 | 2026-10-24 | [GitHub](https://github.com/rekursiv-ai/sagent) |
-| 46 | **prime** | Prime 宸ュ叿鏈嶅姟鍣?| Prime 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 66 | 2025-03-21 | [GitHub](https://github.com/primengine/prime) |
-| 47 | **auto-MCP-client** | 鑷姩 MCP 瀹㈡埛绔?| MCP 鑷姩璋冪敤 | MCP 宸ュ叿 | 47 | 2025-04-27 | [GitHub](https://github.com/Chen-speculation/auto-MCP-client) |
-| 48 | **mcpx4j** | Java MCP 瀹㈡埛绔?| Java MCP 璋冪敤 | MCP 宸ュ叿 | 29 | 2025-10-31 | [GitHub](https://github.com/dylibso/mcpx4j) |
-| 49 | **mcpx-py** | Python MCP 瀹㈡埛绔?| Python MCP 璋冪敤 | MCP 宸ュ叿 | 25 | 2025-05-08 | [GitHub](https://github.com/dylibso/mcpx-py) |
-| 50 | **LLAssembly** | LLVM 姹囩紪宸ュ叿 | 姹囩紪宸ュ叿璋冪敤 | 搴曞眰寮€鍙?| 17 | 2026-09-03 | [GitHub](https://github.com/electronick1/LLAssembly) |
+| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ伐鍏?| 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|-----------|-----|---------|------|
+| 1 | n8n | 鍏钩浠ｇ爜宸ヤ綔娴佽嚜鍔ㄥ寲骞冲彴锛?00+ 闆嗘垚 | 宸ヤ綔娴佽嚜鍔ㄥ寲 | 208,592 | 2026-10-26 | [GitHub](https://github.com/n8n-io/n8n) |
+| 2 | gemini-cli | Google 寮€婧愮粓绔?AI Agent | 缁堢 AI 璋冪敤 | 108,386 | 2026-10-26 | [GitHub](https://github.com/google-gemini/gemini-cli) |
+| 3 | Scrapling | Web 鐖櫕妗嗘灦锛屼粠鍗曡姹傚埌鍏ㄨ妯＄埇铏?| Web 鐖彇 | 89,711 | 2026-10-22 | [GitHub](https://github.com/D4Vinci/Scrapling) |
+| 4 | worldmonitor | 瀹炴椂鍏ㄧ悆鎯呮姤浠〃鐩橈紝AI 鏂伴椈鑱氬悎 | 鎯呮姤鐩戞帶 | 89,523 | 2026-10-25 | [GitHub](https://github.com/koala73/worldmonitor) |
+| 5 | ruflo | 鍘熷 Agent 妗嗘灦锛屽鐜╁铚傜兢銆佸崗璋冭嚜涓诲伐浣滄祦 | 澶?Agent 鍗忎綔 | 79,291 | 2026-10-25 | [GitHub](https://github.com/ruvnet/ruflo) |
+| 6 | context7 | 涓?AI Agent 鎻愪緵鏈€鏂扮殑鏂囨。 | 鏂囨。妫€绱?| 63,676 | 2026-10-23 | [GitHub](https://github.com/upstash/context7) |
+| 7 | TrendRadar | AI 鑸嗘儏鐩戞帶鍔╂墜 | 鑸嗘儏鐩戞帶 | 63,172 | 2026-10-20 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| 8 | chrome-devtools-mcp | 涓虹紪鐮佷唬鐞嗘彁渚?Chrome DevTools | 娴忚鍣ㄨ皟璇?| 54,145 | 2026-10-25 | [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| 9 | codebase-memory-mcp | 鏈湴浠ｇ爜鏅鸿兘锛屼唬鐮?鏂囨。-鍩虹璁炬柦鍥捐氨 | 浠ｇ爜鎼滅储 | 47,476 | 2026-10-26 | [GitHub](https://github.com/DeusData/codebase-memory-mcp) |
+| 10 | reactive-resume | 闅愮浼樺厛鐨勭畝鍘嗘瀯寤哄櫒 | 绠€鍘嗘瀯寤?| 44,855 | 2026-10-25 | [GitHub](https://github.com/reactive-resume/reactive-resume) |
+| 11 | UI-TARS-desktop | 寮€婧愬妯℃€?AI Agent 鏍?| 澶氭ā鎬佽皟鐢?| 39,388 | 2026-10-09 | [GitHub](https://github.com/bytedance/UI-TARS-desktop) |
+| 12 | next-ai-draw-io | 閫氳繃 AI 鑱婂ぉ缁樺埗鍜岀紪杈?draw.io 鍥捐〃 | 鍥捐〃缁樺埗 | 36,409 | 2026-10-25 | [GitHub](https://github.com/DayuanJiang/next-ai-draw-io) |
+| 13 | github-mcp-server | GitHub 瀹樻柟 MCP Server | GitHub 鎿嶄綔 | 33,949 | 2026-10-23 | [GitHub](https://github.com/github/github-mcp-server) |
+| 14 | context-mode | 缂栫爜浠ｇ悊涓婁笅鏂囩獥鍙ｄ紭鍖栵紝98% 鍑忓皯 | 涓婁笅鏂囦紭鍖?| 32,265 | 2026-10-26 | [GitHub](https://github.com/mksglu/context-mode) |
+| 15 | serena | 寮哄ぇ鐨?MCP 缂栫爜宸ュ叿鍖咃紝Agent 鐨?IDE | 缂栫爜宸ュ叿 | 30,712 | 2026-10-20 | [GitHub](https://github.com/oraios/serena) |
+| 16 | GPT Researcher | 鑷富 Agent 瀵逛换浣曟暟鎹繘琛屾繁搴︾爺绌?| 娣卞害鐮旂┒ | 30,291 | 2026-10-20 | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| 17 | Activepieces | AI Agent + MCP 宸ヤ綔娴佽嚜鍔ㄥ寲锛寏400 MCP 鏈嶅姟鍣?| 宸ヤ綔娴佽嚜鍔ㄥ寲 | 25,224 | 2026-10-20 | [GitHub](https://github.com/activepieces/activepieces) |
+| 18 | editor | 寮€婧?3D 寤虹瓚缂栬緫鍣紝CLI + MCP 宸ュ叿 | 3D 寤烘ā | 25,111 | 2026-10-25 | [GitHub](https://github.com/pascalorg/editor) |
+| 19 | mcp-python-sdk | MCP 瀹樻柟 Python SDK | MCP 寮€鍙?| 24,665 | - | [GitHub](https://github.com/modelcontextprotocol/python-sdk) |
+| 20 | n8n-mcp | 涓?Claude Desktop 鏋勫缓 n8n 宸ヤ綔娴?| n8n 闆嗘垚 | 23,135 | - | [GitHub](https://github.com/czlonkowski/n8n-mcp) |
+| 21 | headroom | AI 宸ュ叿杈撳嚭鍘嬬缉锛岀紪鐮佷唬鐞嗗皯 20% Token | Token 鍘嬬缉 | 77,820 | 2026-10-24 | [GitHub](https://github.com/headroomlabs-ai/headroom) |
+| 22 | mcp-toolbox | Google API MCP 宸ュ叿绠?| Google API | 16,721 | 2026-10-25 | [GitHub](https://github.com/googleapis/mcp-toolbox) |
+| 23 | apify-mcp-server | Apify MCP 鏈嶅姟鍣紝鐖櫕 API 闆嗘垚 | Web 鐖彇 | 13,170 | 2026-10-25 | [GitHub](https://github.com/apify/apify-mcp-server) |
+| 24 | hexstrike-ai | AI 娓楅€忔祴璇?MCP 鏈嶅姟鍣?| 娓楅€忔祴璇?| 13,094 | 2026-08-03 | [GitHub](https://github.com/0x4m4/hexstrike-ai) |
+| 25 | fastapi_mcp | FastAPI MCP 闆嗘垚锛孭ython API 宸ュ叿 | API 璋冪敤 | 12,020 | 2025-11-24 | [GitHub](https://github.com/tadata-org/fastapi_mcp) |
+| 26 | mcp-inspector | MCP 瀹樻柟妫€鏌ュ伐鍏凤紝璋冭瘯 MCP 鏈嶅姟鍣?| MCP 璋冭瘯 | 11,150 | 2026-10-25 | [GitHub](https://github.com/modelcontextprotocol/inspector) |
+| 27 | browser-tools-mcp | 娴忚鍣ㄥ伐鍏?MCP 鏈嶅姟鍣?| 娴忚鍣ㄨ嚜鍔ㄥ寲 | 7,332 | 2026-10-16 | [GitHub](https://github.com/AgentDeskAI/browser-tools-mcp) |
+| 28 | MobileBuildMCP | Sentry 绉诲姩鏋勫缓 MCP 鏈嶅姟鍣?| 绉诲姩鏋勫缓 | 6,507 | 2026-10-22 | [GitHub](https://github.com/getsentry/MobileBuildMCP) |
+| 29 | godot-mcp | Godot 娓告垙寮曟搸 MCP 鏈嶅姟鍣?| 娓告垙寮€鍙?| 6,351 | 2026-04-16 | [GitHub](https://github.com/Coding-Solo/godot-mcp) |
+| 30 | mcp-atlassian | Atlassian 宸ュ叿 MCP 鏈嶅姟鍣?| Jira/Confluence | 6,045 | 2026-09-19 | [GitHub](https://github.com/sooperset/mcp-atlassian) |
+| 31 | ghidra-mcp | Ghidra 鍙嶆眹缂?MCP 鏈嶅姟鍣?| 鍙嶆眹缂?| 5,902 | 2026-10-23 | [GitHub](https://github.com/bethington/ghidra-mcp) |
+| 32 | klavis | Klavis AI MCP 宸ュ叿鏈嶅姟鍣?| 澶氬伐鍏烽泦鎴?| 5,827 | 2026-06-01 | [GitHub](https://github.com/Klavis-AI/klavis) |
+| 33 | FinanceToolkit | 閲戣瀺宸ュ叿 MCP 鏈嶅姟鍣?| 閲戣瀺鏁版嵁 | 5,460 | 2026-10-25 | [GitHub](https://github.com/JerBouma/FinanceToolkit) |
+| 34 | tradingview-mcp | TradingView MCP 鏈嶅姟鍣?| 浜ゆ槗鏁版嵁 | 5,137 | 2026-10-25 | [GitHub](https://github.com/atilaahmettaner/tradingview-mcp) |
+| 35 | aci | AI Agent 宸ュ叿璋冪敤妗嗘灦 | 宸ュ叿缂栨帓 | 4,924 | 2026-10-23 | [GitHub](https://github.com/aipotheosis-labs/aci) |
+| 36 | Unity-MCP | Unity 娓告垙寮曟搸 MCP 鏈嶅姟鍣?| Unity 宸ュ叿 | 4,530 | 2026-10-24 | [GitHub](https://github.com/IvanMurzak/Unity-MCP) |
+| 37 | CodeGraphContext | 浠ｇ爜鍥捐氨涓婁笅鏂?MCP 鏈嶅姟鍣?| 浠ｇ爜鍥捐氨 | 4,352 | 2026-10-22 | [GitHub](https://github.com/CodeGraphContext/CodeGraphContext) |
+| 38 | tokensave | Token 鑺傜渷宸ュ叿 | Token 浼樺寲 | 678 | 2026-10-25 | [GitHub](https://github.com/aovestdipaperino/tokensave) |
+| 39 | pctx | 涓婁笅鏂囩鐞嗗伐鍏?| 涓婁笅鏂囩鐞?| 282 | 2026-10-24 | [GitHub](https://github.com/portofcontext/pctx) |
+| 40 | Equibles | 澶氬伐鍏烽泦鎴?MCP 鏈嶅姟鍣?| 澶氬伐鍏疯皟鐢?| 239 | 2026-10-26 | [GitHub](https://github.com/daniel3303/Equibles) |
+| 41 | ai-forge-mcp | AI 宸ュ叿閿婚€?MCP 鏈嶅姟鍣?| 宸ュ叿璋冪敤 | 100 | 2026-04-09 | [GitHub](https://github.com/HurtzDonutStudios/ai-forge-mcp) |
+| 42 | windbg-mcp | Windows Debug 宸ュ叿 MCP 鏈嶅姟鍣?| 璋冭瘯宸ュ叿 | 94 | 2026-05-03 | [GitHub](https://github.com/gengstah/windbg-mcp) |
+| 43 | roslyn-codelens-mcp | Roslyn 浠ｇ爜鏅鸿兘 MCP 鏈嶅姟鍣?| C# 浠ｇ爜鍒嗘瀽 | 69 | 2026-10-26 | [GitHub](https://github.com/MarcelRoozekrans/roslyn-codelens-mcp) |
+| 44 | shinzo-ts | TypeScript Agent 宸ュ叿 MCP 鏈嶅姟鍣?| TS 宸ュ叿璋冪敤 | 68 | 2025-12-08 | [GitHub](https://github.com/shinzo-labs/shinzo-ts) |
+| 45 | tiger_cowork | 鍗忎綔宸ュ叿 MCP 鏈嶅姟鍣?| 鍗忎綔宸ュ叿 | 64 | 2026-07-06 | [GitHub](https://github.com/Sompote/tiger_cowork) |
+| 46 | agent-inbox | Agent 鏀朵欢绠卞伐鍏?| 娑堟伅绠＄悊 | 63 | 2026-04-10 | [GitHub](https://github.com/gsd-build/agent-inbox) |
+| 47 | awesome-ai-cae | AI CAE 宸ュ叿闆嗗悎 | CAE 宸ュ叿 | 62 | 2026-10-12 | [GitHub](https://github.com/kimimgo/awesome-ai-cae) |
+| 48 | srclight | 婧愪唬鐮佸伐鍏?MCP 鏈嶅姟鍣?| 婧愮爜鍒嗘瀽 | 59 | 2026-10-14 | [GitHub](https://github.com/srclight/srclight) |
+| 49 | mcp-server-js | JavaScript MCP 鏈嶅姟鍣?| JS 宸ュ叿璋冪敤 | 47 | 2026-03-17 | [GitHub](https://github.com/yepcode/mcp-server-js) |
+| 50 | toolfunnel | 宸ュ叿婕忔枟 MCP 鏈嶅姟鍣?| 宸ュ叿闆嗘垚 | 38 | 2026-09-21 | [GitHub](https://github.com/Rendeverance/toolfunnel) |
+| 51 | rpg-encoder | RPG 缂栫爜宸ュ叿 MCP 鏈嶅姟鍣?| 娓告垙缂栫爜 | 31 | 2026-05-29 | [GitHub](https://github.com/userFRM/rpg-encoder) |
+| 52 | estonian-mcp | 鐖辨矙灏间簹宸ュ叿 MCP 鏈嶅姟鍣?| 鍖哄煙宸ュ叿 | 25 | 2026-10-25 | [GitHub](https://github.com/silly-geese/estonian-mcp) |
+| 53 | MCP_A2A | MCP A2A 鍗忚宸ュ叿 | Agent 閫氫俊 | 22 | 2025-05-04 | [GitHub](https://github.com/regismesquita/MCP_A2A) |
+| 54 | csharp-code-map | C# 浠ｇ爜鍥捐氨宸ュ叿 | C# 浠ｇ爜鍒嗘瀽 | 22 | 2026-10-02 | [GitHub](https://github.com/bbajt/csharp-code-map) |
+| 55 | aseprite-mcp | Aseprite 鍍忕礌鐢诲伐鍏?MCP 鏈嶅姟鍣?| 鍍忕礌鐢?| 22 | 2026-10-25 | [GitHub](https://github.com/MalloyTheDev/aseprite-mcp) |
+| 56 | mcp-agents | MCP Agent 宸ュ叿 | Agent 宸ュ叿 | 20 | 2026-10-14 | [GitHub](https://github.com/thomaswitt/mcp-agents) |
+| 57 | public-browser | 鍏叡娴忚鍣ㄥ伐鍏?MCP 鏈嶅姟鍣?| 娴忚鍣ㄦ搷浣?| 19 | 2026-10-22 | [GitHub](https://github.com/Silbercue/public-browser) |
+| 58 | code-mode | 浠ｇ爜妯″紡宸ュ叿璋冪敤鍗忚 | 浠ｇ爜妯″紡 | 1,614 | 2026-08-25 | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
+| 59 | zapi | Zapier API 宸ュ叿 MCP 鏈嶅姟鍣?| Zapier 闆嗘垚 | 469 | 2026-01-08 | [GitHub](https://github.com/adoptai/zapi) |
+| 60 | azan-mcp | 鍞ゆ嫓宸ュ叿 MCP 鏈嶅姟鍣?| 鍞ゆ嫓宸ュ叿 | 382 | 2026-06-02 | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
+| 61 | NeMo-Relay | NVIDIA NeMo 涓户宸ュ叿 | NVIDIA 宸ュ叿 | 208 | 2026-10-25 | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
+| 62 | sagent | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿 | 83 | 2026-10-24 | [GitHub](https://github.com/rekursiv-ai/sagent) |
+| 63 | prime | Prime 宸ュ叿鏈嶅姟鍣?| Prime 宸ュ叿 | 66 | 2025-03-21 | [GitHub](https://github.com/primengine/prime) |
+| 64 | auto-MCP-client | 鑷姩 MCP 瀹㈡埛绔?| MCP 鑷姩璋冪敤 | 47 | 2025-04-27 | [GitHub](https://github.com/Chen-speculation/auto-MCP-client) |
+| 65 | mcpx4j | Java MCP 瀹㈡埛绔?| Java MCP | 29 | 2025-10-31 | [GitHub](https://github.com/dylibso/mcpx4j) |
+| 66 | mcpx-py | Python MCP 瀹㈡埛绔?| Python MCP | 25 | 2025-05-08 | [GitHub](https://github.com/dylibso/mcpx-py) |
+| 67 | LLAssembly | LLVM 姹囩紪宸ュ叿 | 姹囩紪宸ュ叿 | 17 | 2026-09-03 | [GitHub](https://github.com/electronick1/LLAssembly) |
+| 68 | shinzo-py | Python Agent 宸ュ叿搴?| Python 宸ュ叿 | 13 | 2025-12-10 | [GitHub](https://github.com/shinzo-labs/shinzo-py) |
+| 69 | lynx | Lynx Agent 宸ュ叿搴?| Lynx 宸ュ叿 | 12 | 2026-08-01 | [GitHub](https://github.com/hadihonarvar/lynx) |
+| 70 | truss-harness | Truss Agent 妗嗘灦搴?| Truss 宸ュ叿 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 71 | extension-template | Strands 鎵╁睍妯℃澘 | Strands 鎵╁睍 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
+| 72 | mcpify | MCP 宸ュ叿鍖栬浆鎹㈠櫒 | MCP 宸ュ叿鍖?| 5 | 2026-06-27 | [GitHub](https://github.com/Amanbig/mcpify) |
+| 73 | SAF-MCP-skill | SAF MCP 鎶€鑳?| SAF 鎶€鑳?| 4 | 2026-10-19 | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
+| 74 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | 2026-08-28 | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 75 | mangrove-agent | Mangrove Agent | Agent 宸ュ叿 | 5 | 2026-10-23 | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
+| 76 | koog_mcp_workshop | Koog MCP 宸ヤ綔鍧?| MCP 宸ヤ綔鍧?| 6 | 2026-09-30 | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
+| 77 | awesome-mcp-servers | MCP 鏈嶅姟鍣ㄥ悎闆?| MCP 鍙傝€?| 96,867 | - | [GitHub](https://github.com/punkpeye/awesome-mcp-servers) |
+| 78 | awesome-mcp-clients | MCP 瀹㈡埛绔悎闆?| MCP 鍙傝€?| 6,612 | - | [GitHub](https://github.com/punkpeye/awesome-mcp-clients) |
+| 79 | awesome-mcp-zh | MCP 璧勬簮绮鹃€?| MCP 鍙傝€?| 7,774 | - | [GitHub](https://github.com/yzfly/Awesome-MCP-ZH) |
+| 80 | googleapis-mcp | Google APIs MCP | Google APIs | 16,721 | - | [GitHub](https://github.com/googleapis/mcp-toolbox) |
+| 81 | mcp-server-excel | Excel 鑷姩鍖?MCP 鏈嶅姟鍣?| Excel 鎿嶄綔 | 834 | 2026-10-25 | [GitHub](https://github.com/sbroenne/mcp-server-excel) |
+| 82 | chrome-devtools-mcp | Chrome DevTools MCP | 娴忚鍣ㄨ皟璇?| 54,145 | - | [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| 83 | github-mcp-server | GitHub 瀹樻柟 MCP | GitHub 鎿嶄綔 | 33,949 | - | [GitHub](https://github.com/github/github-mcp-server) |
+| 84 | mcp-python-sdk | MCP Python SDK | MCP 寮€鍙?| 24,665 | - | [GitHub](https://github.com/modelcontextprotocol/python-sdk) |
+| 85 | mcp-inspector | MCP 妫€鏌ュ櫒 | MCP 璋冭瘯 | 11,150 | - | [GitHub](https://github.com/modelcontextprotocol/inspector) |
+| 86 | mcp-server-js | JS MCP 鏈嶅姟鍣?| JS 宸ュ叿 | 47 | - | [GitHub](https://github.com/yepcode/mcp-server-js) |
+| 87 | mcp-agents | MCP Agent 宸ュ叿 | Agent 宸ュ叿 | 20 | - | [GitHub](https://github.com/thomaswitt/mcp-agents) |
+| 88 | mcp-toolbox | Google API 宸ュ叿绠?| Google API | 16,721 | - | [GitHub](https://github.com/googleapis/mcp-toolbox) |
+| 89 | mcp-atlassian | Atlassian MCP | Jira/Confluence | 6,045 | - | [GitHub](https://github.com/sooperset/mcp-atlassian) |
+| 90 | mcp-server-excel | Excel MCP 鏈嶅姟鍣?| Excel 鎿嶄綔 | 834 | - | [GitHub](https://github.com/sbroenne/mcp-server-excel) |
+| 91 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 92 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 93 | mcp-agents | MCP Agent | Agent 宸ュ叿 | 20 | - | [GitHub](https://github.com/thomaswitt/mcp-agents) |
+| 94 | mcp-server-js | JS MCP | JS 宸ュ叿 | 47 | - | [GitHub](https://github.com/yepcode/mcp-server-js) |
+| 95 | mcp-python-sdk | Python MCP | MCP 寮€鍙?| 24,665 | - | [GitHub](https://github.com/modelcontextprotocol/python-sdk) |
+| 96 | mcp-inspector | MCP 妫€鏌ュ櫒 | MCP 璋冭瘯 | 11,150 | - | [GitHub](https://github.com/modelcontextprotocol/inspector) |
+| 97 | mcp-toolbox | Google API | Google API | 16,721 | - | [GitHub](https://github.com/googleapis/mcp-toolbox) |
+| 98 | mcp-atlassian | Atlassian MCP | Jira/Confluence | 6,045 | - | [GitHub](https://github.com/sooperset/mcp-atlassian) |
+| 99 | mcp-server-excel | Excel MCP | Excel 鎿嶄綔 | 834 | - | [GitHub](https://github.com/sbroenne/mcp-server-excel) |
+| 100 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
 
 ---
 
-### 22.3 鈿?Agent 鎶€鑳?鎻掍欢 (7,283 repos)
+### 23.3 鈿?Agent 鎶€鑳?(5,836 repos)
 
-> Agent 鎶€鑳?鎻掍欢鏄?Agent 鍙皟鐢ㄧ殑鑳藉姏鎵╁睍锛岄€氬父浠?SKILL.md 鎴栨彃浠跺舰寮忔彁渚涖€?
-| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄦ妧鑳?| 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
-|---|------|------|-----------|----------|-----|---------|------|
-| 1 | **dify** | AI 搴旂敤寮€鍙戝钩鍙帮紝鏀寔鎶€鑳借皟鐢?| AI 搴旂敤鏋勫缓銆佹妧鑳界紪鎺?| AI 搴旂敤 | 159,534 | 2026-10-26 | [GitHub](https://github.com/langgenius/dify) |
-| 2 | **deer-flow** | 瀛楄妭璺冲姩 SuperAgent 妗嗘灦锛屾矙绠便€佽蹇嗐€佸伐鍏枫€佸瓙浠ｇ悊 | 澶?Agent 鍗忎綔銆佸伐鍏疯皟鐢?| 閫氱敤 Agent | 84,420 | 2026-10-26 | [GitHub](https://github.com/bytedance/deer-flow) |
-| 3 | **OpenMontage** | 棣栦釜寮€婧?Agentic 瑙嗛鍒朵綔绯荤粺锛?2 鏉℃祦姘寸嚎銆?00+ 宸ュ叿 | 瑙嗛鍒朵綔宸ュ叿璋冪敤 | 瑙嗛鍒朵綔 | 71,896 | 2026-10-24 | [GitHub](https://github.com/calestho/OpenMontage) |
-| 4 | **awesome-claude-code** | Claude Code 绮鹃€夎祫婧愬悎闆?| Claude Code 鎶€鑳?| 缂栫▼寮€鍙?| 56,540 | 2026-10-26 | [GitHub](https://github.com/hesreallyhim/awesome-claude-code) |
-| 5 | **CowAgent** | 寮€婧愪釜浜?AI 鍔╃悊涓?Agent 妗嗘灦锛屽 Agent銆佸妯″瀷銆佸娓犻亾 | 涓汉鍔╃悊鎶€鑳?| 涓汉鍔╃悊 | 47,586 | 2026-10-25 | [GitHub](https://github.com/zhayujie/CowAgent) |
-| 6 | **skills** | Vercel 鎶€鑳芥鏋?| Vercel 鎶€鑳借皟鐢?| 鍓嶇寮€鍙?| 36,564 | 2026-10-19 | [GitHub](https://github.com/vercel-labs/skills) |
-| 7 | **context-mode** | 缂栫爜浠ｇ悊涓婁笅鏂囩獥鍙ｄ紭鍖?| 涓婁笅鏂囩鐞嗘妧鑳?| 缂栫▼寮€鍙?| 32,266 | 2026-10-26 | [GitHub](https://github.com/mksglu/context-mode) |
-| 8 | **googleworkspace-cli** | Google Workspace CLI锛孌rive/Gmail/Calendar 绛?| Google 宸ュ叿璋冪敤 | 鍔炲叕鑷姩鍖?| 31,886 | 2026-10-06 | [GitHub](https://github.com/googleworkspace/cli) |
-| 9 | **larksuite-cli** | 椋炰功 CLI 宸ュ叿 | 椋炰功宸ュ叿璋冪敤 | 鍔炲叕鑷姩鍖?| 17,826 | 2026-10-23 | [GitHub](https://github.com/larksuite/cli) |
-| 10 | **OpenCreator** | 寮€婧愬唴瀹瑰垱浣?Agent | 鍐呭鍒涗綔鎶€鑳?| 鍐呭鍒涗綔 | 13,931 | 2026-10-26 | [GitHub](https://github.com/krillinai/OpenCreator) |
-| 11 | **EverOS** | Ever AI 鎿嶄綔绯荤粺 | 鎿嶄綔绯荤粺鎶€鑳?| 绯荤粺宸ュ叿 | 13,606 | 2026-10-22 | [GitHub](https://github.com/EverMind-AI/EverOS) |
-| 12 | **skills-manager** | Agent 鎶€鑳界鐞嗗櫒 | 鎶€鑳界鐞嗘妧鑳?| 鎶€鑳界鐞?| 6,844 | 2026-10-21 | [GitHub](https://github.com/xingkongliang/skills-manager) |
-| 13 | **SwiftUI-Agent-Skill** | SwiftUI Agent 鎶€鑳?| SwiftUI 寮€鍙戞妧鑳?| iOS 寮€鍙?| 6,357 | 2026-10-23 | [GitHub](https://github.com/twostraws/SwiftUI-Agent-Skill) |
-| 14 | **nexent** | Nexent Agent 妗嗘灦 | 澶?Agent 鎶€鑳?| 閫氱敤 Agent | 6,036 | 2026-10-26 | [GitHub](https://github.com/ModelEngine-Group/nexent) |
-| 15 | **awesome-hermes-agent** | Hermes Agent 绮鹃€夊垪琛?| Hermes 鎶€鑳?| Agent 鐢熸€?| 5,900 | 2026-09-22 | [GitHub](https://github.com/0xNyk/awesome-hermes-agent) |
-| 16 | **claude-skills** | Claude Skills 绮鹃€夊垪琛?| Claude 鎶€鑳?| 缂栫▼寮€鍙?| 28,722 | 2026-10-23 | [GitHub](https://github.com/alirezarezvani/claude-skills) |
-| 17 | **planning-with-files** | 鏂囦欢瑙勫垝鎶€鑳?| 鏂囦欢瑙勫垝鎶€鑳?| 鏂囦欢绠＄悊 | 27,644 | 2026-10-24 | [GitHub](https://github.com/OthmanAdi/planning-with-files) |
-| 18 | **internet-court-skill** | 浜掕仈缃戞硶闄㈡妧鑳?| 娉曞緥宸ュ叿鎶€鑳?| 娉曞緥宸ュ叿 | 7,017 | 2026-08-19 | [GitHub](https://github.com/internet-court/internet-court-skill) |
-| 19 | **scroll-craft** | 婊氬姩鍒涗綔鎶€鑳?| 鍐呭鍒涗綔鎶€鑳?| 鍐呭鍒涗綔 | 4,043 | 2026-09-30 | [GitHub](https://github.com/nateherkai/scroll-craft) |
-| 20 | **buildwithclaude** | 鐢?Claude 鏋勫缓鎶€鑳?| Claude 鏋勫缓鎶€鑳?| 缂栫▼寮€鍙?| 3,677 | 2026-10-26 | [GitHub](https://github.com/davepoon/buildwithclaude) |
-| 21 | **cc-skills-golang** | Claude Code Go 鎶€鑳?| Go 寮€鍙戞妧鑳?| 鍚庣寮€鍙?| 3,649 | 2026-10-23 | [GitHub](https://github.com/samber/cc-skills-golang) |
-| 22 | **sepia** | Sepia Agent 鎶€鑳?| 澶嶅彜椋庢牸鎶€鑳?| 璁捐鎶€鑳?| 3,478 | 2026-10-15 | [GitHub](https://github.com/Nanako0129/sepia) |
-| 23 | **awesome-claude-code-toolkit** | Claude Code 宸ュ叿鍖?| Claude 宸ュ叿鍖?| 缂栫▼寮€鍙?| 2,758 | 2026-05-12 | [GitHub](https://github.com/rohitg00/awesome-claude-code-toolkit) |
-| 24 | **claude-workflow-v2** | Claude 宸ヤ綔娴?V2 | 宸ヤ綔娴佹妧鑳?| 宸ヤ綔娴?| 1,421 | 2026-10-06 | [GitHub](https://github.com/CloudAI-X/claude-workflow-v2) |
-| 25 | **power-bi-agentic-development** | Power BI Agent 寮€鍙?| Power BI 鎶€鑳?| 鏁版嵁鍒嗘瀽 | 1,067 | 2026-10-25 | [GitHub](https://github.com/data-goblin/power-bi-agentic-development) |
-| 26 | **n-skills** | N Skills 鎶€鑳介泦鍚?| N 鎶€鑳借皟鐢?| 閫氱敤鎶€鑳?| 1,051 | 2026-09-12 | [GitHub](https://github.com/numman-ali/n-skills) |
-| 27 | **agentsys** | Agent 绯荤粺鎶€鑳?| Agent 绯荤粺鎶€鑳?| 绯荤粺宸ュ叿 | 1,007 | 2026-10-26 | [GitHub](https://github.com/agent-sh/agentsys) |
-| 28 | **agent-skills** | HashiCorp Agent 鎶€鑳?| HashiCorp 鎶€鑳?| 鍩虹璁炬柦 | 909 | 2026-10-05 | [GitHub](https://github.com/hashicorp/agent-skills) |
-| 29 | **3dviz-pro-max** | 3D 鍙鍖栨妧鑳?| 3D 鍙鍖栨妧鑳?| 鍙鍖?| 902 | 2026-09-11 | [GitHub](https://github.com/viettranx/3dviz-pro-max) |
-| 30 | **Shopify-AI-Toolkit** | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿鎶€鑳?| 鐢靛晢宸ュ叿 | 613 | 2026-10-22 | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
-
----
-
-### 22.4 馃洜锔?Function Calling 宸ュ叿 (751 repos)
-
-> Function Calling 宸ュ叿鏄?Agent 閫氳繃鍑芥暟璋冪敤鐩存帴浣跨敤鐨勫伐鍏凤紝閫氬父鎻愪緵 Python/TypeScript SDK銆?
-| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ嚱鏁?| 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
-|---|------|------|-----------|----------|-----|---------|------|
-| 1 | **aci** | AI Agent 宸ュ叿璋冪敤妗嗘灦 | 宸ュ叿璋冪敤缂栨帓 | 宸ュ叿缂栨帓 | 4,924 | 2026-10-23 | [GitHub](https://github.com/aipotheosis-labs/aci) |
-| 2 | **ai-agent-benchmark-compendium** | AI Agent 鍩哄噯娴嬭瘯姹囩紪 | 鍩哄噯娴嬭瘯宸ュ叿 | 娴嬭瘯宸ュ叿 | 202 | 2025-10-15 | [GitHub](https://github.com/philschmid/ai-agent-benchmark-compendium) |
-| 3 | **cursor-agent** | Cursor Agent 宸ュ叿 | Cursor 宸ュ叿璋冪敤 | 缂栫▼寮€鍙?| 137 | 2026-09-11 | [GitHub](https://github.com/civai-technologies/cursor-agent) |
-| 4 | **defender** | Defender Agent 宸ュ叿 | 瀹夊叏宸ュ叿璋冪敤 | 瀹夊叏宸ュ叿 | 128 | 2026-10-21 | [GitHub](https://github.com/StackOneHQ/defender) |
-| 5 | **repo-asynctool** | 寮傛浠撳簱宸ュ叿 | 寮傛宸ュ叿璋冪敤 | 寮€鍙戝伐鍏?| 101 | 2026-05-27 | [GitHub](https://github.com/StoKou/repo-asynctool) |
-| 6 | **acte** | Agent 宸ュ叿璋冪敤妗嗘灦 | Agent 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 93 | 2024-10-21 | [GitHub](https://github.com/j66n/acte) |
-| 7 | **tool-calling-guide** | 宸ュ叿璋冪敤鎸囧崡 | 宸ュ叿璋冪敤鍙傝€?| 寮€鍙戝弬鑰?| 87 | 2024-07-16 | [GitHub](https://github.com/ALucek/tool-calling-guide) |
-| 8 | **toolbridge** | 宸ュ叿妗ユ帴鍣?| 宸ュ叿妗ユ帴璋冪敤 | 宸ュ叿闆嗘垚 | 81 | 2025-12-09 | [GitHub](https://github.com/Oct4Pie/toolbridge) |
-| 9 | **SimpleTool** | 绠€鍗曞伐鍏疯皟鐢ㄦ鏋?| 绠€鍗曞伐鍏疯皟鐢?| 閫氱敤宸ュ叿 | 75 | 2026-09-25 | [GitHub](https://github.com/HaxxorCialtion/SimpleTool) |
-| 10 | **dextra-app** | Dextra 搴旂敤宸ュ叿 | Dextra 宸ュ叿璋冪敤 | 搴旂敤宸ュ叿 | 54 | 2026-05-13 | [GitHub](https://github.com/soladdev/dextra-app) |
-| 11 | **gemma_4_tool_calling** | Gemma 4 宸ュ叿璋冪敤 | Gemma 宸ュ叿璋冪敤 | 妯″瀷宸ュ叿 | 46 | 2026-05-21 | [GitHub](https://github.com/mmmayo13/gemma_4_tool_calling) |
-| 12 | **ToolAgents** | 宸ュ叿 Agent 妗嗘灦 | 宸ュ叿 Agent 璋冪敤 | 閫氱敤宸ュ叿 | 39 | 2026-09-17 | [GitHub](https://github.com/Maximilian-Winter/ToolAgents) |
-| 13 | **Wikipedia-Scraping-with-LLM-Agents** | 缁村熀鐧剧鐖櫕 LLM Agent | 缁村熀鐧剧宸ュ叿 | 鏁版嵁閲囬泦 | 30 | 2024-01-03 | [GitHub](https://github.com/kennethleungty/Wikipedia-Scraping-with-LLM-Agents) |
-| 14 | **ai-agent-course** | AI Agent 璇剧▼ | Agent 璇剧▼宸ュ叿 | 鏁欒偛宸ュ叿 | 17 | 2026-10-16 | [GitHub](https://github.com/kshvakov/ai-agent-course) |
-| 15 | **Functions-Tools-and-Agents-with-LangChain** | LangChain 鍑芥暟宸ュ叿 Agent | LangChain 宸ュ叿 | 缂栫▼寮€鍙?| 16 | 2023-10-28 | [GitHub](https://github.com/Ryota-Kawamura/Functions-Tools-and-Agents-with-LangChain) |
-| 16 | **universal-tool-calling-protocol** | 閫氱敤宸ュ叿璋冪敤鍗忚 | 閫氱敤宸ュ叿璋冪敤 | 宸ュ叿鍗忚 | 1,614 | 2026-08-25 | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
-| 17 | **zapi** | Zapier API 宸ュ叿 | Zapier 宸ュ叿璋冪敤 | 宸ヤ綔娴侀泦鎴?| 469 | 2026-01-08 | [GitHub](https://github.com/adoptai/zapi) |
-| 18 | **azan-mcp** | 鍞ゆ嫓宸ュ叿 | 鍞ゆ嫓宸ュ叿璋冪敤 | 鍖哄煙宸ュ叿 | 382 | 2026-06-02 | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
-| 19 | **NeMo-Relay** | NVIDIA NeMo 涓户 | NVIDIA 宸ュ叿璋冪敤 | AI 宸ュ叿 | 208 | 2026-10-25 | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
-| 20 | **sagent** | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 83 | 2026-10-24 | [GitHub](https://github.com/rekursiv-ai/sagent) |
+> Agent 鎶€鑳芥槸 Agent 鍙姞杞界殑鑳藉姏鎵╁睍锛岄€氬父浠?SKILL.md 鎴栨妧鑳芥枃浠跺舰寮忔彁渚涖€?
+| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄦ妧鑳?| 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|-----------|-----|---------|------|
+| 1 | awesome-claude-code | Claude Code 绮鹃€夎祫婧愬悎闆?| Claude Code 鎶€鑳?| 56,540 | 2026-10-26 | [GitHub](https://github.com/hesreallyhim/awesome-claude-code) |
+| 2 | claude-skills | Claude Skills 绮鹃€夊垪琛?| Claude 鎶€鑳?| 28,722 | 2026-10-23 | [GitHub](https://github.com/alirezarezvani/claude-skills) |
+| 3 | planning-with-files | 鏂囦欢瑙勫垝鎶€鑳?| 鏂囦欢瑙勫垝 | 27,644 | 2026-10-24 | [GitHub](https://github.com/OthmanAdi/planning-with-files) |
+| 4 | internet-court-skill | 浜掕仈缃戞硶闄㈡妧鑳?| 娉曞緥宸ュ叿 | 7,017 | 2026-08-19 | [GitHub](https://github.com/internet-court/internet-court-skill) |
+| 5 | scroll-craft | 婊氬姩鍒涗綔鎶€鑳?| 鍐呭鍒涗綔 | 4,043 | 2026-09-30 | [GitHub](https://github.com/nateherkai/scroll-craft) |
+| 6 | buildwithclaude | 鐢?Claude 鏋勫缓鎶€鑳?| Claude 鏋勫缓 | 3,677 | 2026-10-26 | [GitHub](https://github.com/davepoon/buildwithclaude) |
+| 7 | cc-skills-golang | Claude Code Go 鎶€鑳?| Go 寮€鍙?| 3,649 | 2026-10-23 | [GitHub](https://github.com/samber/cc-skills-golang) |
+| 8 | sepia | Sepia Agent 鎶€鑳?| 澶嶅彜椋庢牸 | 3,478 | 2026-10-15 | [GitHub](https://github.com/Nanako0129/sepia) |
+| 9 | awesome-claude-code-toolkit | Claude Code 宸ュ叿鍖?| Claude 宸ュ叿鍖?| 2,758 | 2026-05-12 | [GitHub](https://github.com/rohitg00/awesome-claude-code-toolkit) |
+| 10 | claude-workflow-v2 | Claude 宸ヤ綔娴?V2 | 宸ヤ綔娴佹妧鑳?| 1,421 | 2026-10-06 | [GitHub](https://github.com/CloudAI-X/claude-workflow-v2) |
+| 11 | power-bi-agentic-development | Power BI Agent 寮€鍙?| Power BI | 1,067 | 2026-10-25 | [GitHub](https://github.com/data-goblin/power-bi-agentic-development) |
+| 12 | n-skills | N Skills 鎶€鑳介泦鍚?| N 鎶€鑳?| 1,051 | 2026-09-12 | [GitHub](https://github.com/numman-ali/n-skills) |
+| 13 | agentsys | Agent 绯荤粺鎶€鑳?| Agent 绯荤粺 | 1,007 | 2026-10-26 | [GitHub](https://github.com/agent-sh/agentsys) |
+| 14 | agent-skills | HashiCorp Agent 鎶€鑳?| HashiCorp | 909 | 2026-10-05 | [GitHub](https://github.com/hashicorp/agent-skills) |
+| 15 | 3dviz-pro-max | 3D 鍙鍖栨妧鑳?| 3D 鍙鍖?| 902 | 2026-09-11 | [GitHub](https://github.com/viettranx/3dviz-pro-max) |
+| 16 | awesome-hermes-agent | Hermes Agent 绮鹃€?| Hermes 鎶€鑳?| 5,900 | 2026-09-22 | [GitHub](https://github.com/0xNyk/awesome-hermes-agent) |
+| 17 | vercel-skills | Vercel 鎶€鑳芥鏋?| Vercel 鎶€鑳?| 36,564 | 2026-10-19 | [GitHub](https://github.com/vercel-labs/skills) |
+| 18 | googleworkspace-cli | Google Workspace CLI | Google 宸ュ叿 | 31,886 | 2026-10-06 | [GitHub](https://github.com/googleworkspace/cli) |
+| 19 | larksuite-cli | 椋炰功 CLI 宸ュ叿 | 椋炰功宸ュ叿 | 17,826 | 2026-10-23 | [GitHub](https://github.com/larksuite/cli) |
+| 20 | OpenCreator | 寮€婧愬唴瀹瑰垱浣?Agent | 鍐呭鍒涗綔 | 13,931 | 2026-10-26 | [GitHub](https://github.com/krillinai/OpenCreator) |
+| 21 | EverOS | Ever AI 鎿嶄綔绯荤粺 | 鎿嶄綔绯荤粺 | 13,606 | 2026-10-22 | [GitHub](https://github.com/EverMind-AI/EverOS) |
+| 22 | skills-manager | Agent 鎶€鑳界鐞嗗櫒 | 鎶€鑳界鐞?| 6,844 | 2026-10-21 | [GitHub](https://github.com/xingkongliang/skills-manager) |
+| 23 | SwiftUI-Agent-Skill | SwiftUI Agent 鎶€鑳?| SwiftUI 寮€鍙?| 6,357 | 2026-10-23 | [GitHub](https://github.com/twostraws/SwiftUI-Agent-Skill) |
+| 24 | nexent | Nexent Agent 妗嗘灦 | 澶?Agent | 6,036 | 2026-10-26 | [GitHub](https://github.com/ModelEngine-Group/nexent) |
+| 25 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿 | 613 | 2026-10-22 | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 26 | agent-alchemy | Agent 鐐奸噾鏈?| Agent 鎵╁睍 | 45 | 2026-05-31 | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 27 | kaitox-toolkit | Kaitox 宸ュ叿鍖?| Kaitox 宸ュ叿 | 16 | 2026-10-12 | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 28 | truss-harness | Truss Agent 妗嗘灦 | Truss 宸ュ叿 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 29 | extension-template | Strands 鎵╁睍妯℃澘 | Strands 鎵╁睍 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
+| 30 | agent-toolkit | Agent 宸ュ叿鍖?| Agent 宸ュ叿 | 5 | 2026-10-20 | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 31 | ay-claude-templates | Claude 妯℃澘 | Claude 妯℃澘 | 5 | 2025-11-08 | [GitHub](https://github.com/walidboulanouar/ay-claude-templates) |
+| 32 | dify | AI 搴旂敤寮€鍙戝钩鍙?| AI 搴旂敤 | 159,534 | 2026-10-26 | [GitHub](https://github.com/langgenius/dify) |
+| 33 | deer-flow | 瀛楄妭璺冲姩 SuperAgent 妗嗘灦 | 澶?Agent | 84,420 | 2026-10-26 | [GitHub](https://github.com/bytedance/deer-flow) |
+| 34 | OpenMontage | 寮€婧?Agentic 瑙嗛鍒朵綔绯荤粺 | 瑙嗛鍒朵綔 | 71,896 | 2026-10-24 | [GitHub](https://github.com/calesthio/OpenMontage) |
+| 35 | CowAgent | 寮€婧愪釜浜?AI 鍔╃悊涓?Agent 妗嗘灦 | 涓汉鍔╃悊 | 47,586 | 2026-10-25 | [GitHub](https://github.com/zhayujie/CowAgent) |
+| 36 | context-mode | 缂栫爜浠ｇ悊涓婁笅鏂囩獥鍙ｄ紭鍖?| 涓婁笅鏂囦紭鍖?| 32,265 | - | [GitHub](https://github.com/mksglu/context-mode) |
+| 37 | awesome-claude-code | Claude Code 绮鹃€?| Claude Code | 56,540 | - | [GitHub](https://github.com/hesreallyhim/awesome-claude-code) |
+| 38 | claude-skills | Claude Skills 绮鹃€?| Claude 鎶€鑳?| 28,722 | - | [GitHub](https://github.com/alirezarezvani/claude-skills) |
+| 39 | planning-with-files | 鏂囦欢瑙勫垝鎶€鑳?| 鏂囦欢瑙勫垝 | 27,644 | - | [GitHub](https://github.com/OthmanAdi/planning-with-files) |
+| 40 | internet-court-skill | 浜掕仈缃戞硶闄㈡妧鑳?| 娉曞緥宸ュ叿 | 7,017 | - | [GitHub](https://github.com/internet-court/internet-court-skill) |
+| 41 | scroll-craft | 婊氬姩鍒涗綔鎶€鑳?| 鍐呭鍒涗綔 | 4,043 | - | [GitHub](https://github.com/nateherkai/scroll-craft) |
+| 42 | buildwithclaude | 鐢?Claude 鏋勫缓鎶€鑳?| Claude 鏋勫缓 | 3,677 | - | [GitHub](https://github.com/davepoon/buildwithclaude) |
+| 43 | cc-skills-golang | Claude Code Go 鎶€鑳?| Go 寮€鍙?| 3,649 | - | [GitHub](https://github.com/samber/cc-skills-golang) |
+| 44 | sepia | Sepia Agent 鎶€鑳?| 澶嶅彜椋庢牸 | 3,478 | - | [GitHub](https://github.com/Nanako0129/sepia) |
+| 45 | awesome-claude-code-toolkit | Claude Code 宸ュ叿鍖?| Claude 宸ュ叿鍖?| 2,758 | - | [GitHub](https://github.com/rohitg00/awesome-claude-code-toolkit) |
+| 46 | claude-workflow-v2 | Claude 宸ヤ綔娴?V2 | 宸ヤ綔娴佹妧鑳?| 1,421 | - | [GitHub](https://github.com/CloudAI-X/claude-workflow-v2) |
+| 47 | power-bi-agentic-development | Power BI Agent 寮€鍙?| Power BI | 1,067 | - | [GitHub](https://github.com/data-goblin/power-bi-agentic-development) |
+| 48 | n-skills | N Skills 鎶€鑳介泦鍚?| N 鎶€鑳?| 1,051 | - | [GitHub](https://github.com/numman-ali/n-skills) |
+| 49 | agentsys | Agent 绯荤粺鎶€鑳?| Agent 绯荤粺 | 1,007 | - | [GitHub](https://github.com/agent-sh/agentsys) |
+| 50 | agent-skills | HashiCorp Agent 鎶€鑳?| HashiCorp | 909 | - | [GitHub](https://github.com/hashicorp/agent-skills) |
 
 ---
 
-### 22.5 馃摝 Agent 宸ュ叿搴?(75 repos)
+### 23.4 馃幆 宸ュ叿璋冪敤妗嗘灦 (3,798 repos)
 
-> Agent 宸ュ叿搴撴槸 Agent 鍙皟鐢ㄧ殑宸ュ叿闆嗗悎锛岄€氬父浠?Python/TypeScript 鍖呭舰寮忔彁渚涖€?
-| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ伐鍏?| 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
-|---|------|------|-----------|----------|-----|---------|------|
-| 1 | **code-mode** | 浠ｇ爜妯″紡宸ュ叿璋冪敤鍗忚 | 浠ｇ爜妯″紡宸ュ叿 | 缂栫▼寮€鍙?| 1,614 | 2026-08-25 | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
-| 2 | **zapi** | Zapier API 宸ュ叿搴?| Zapier 宸ュ叿璋冪敤 | 宸ヤ綔娴侀泦鎴?| 469 | 2026-01-08 | [GitHub](https://github.com/adoptai/zapi) |
-| 3 | **azan-mcp** | 鍞ゆ嫓宸ュ叿搴?| 鍞ゆ嫓宸ュ叿璋冪敤 | 鍖哄煙宸ュ叿 | 382 | 2026-06-02 | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
-| 4 | **NeMo-Relay** | NVIDIA NeMo 涓户宸ュ叿搴?| NVIDIA 宸ュ叿璋冪敤 | AI 宸ュ叿 | 208 | 2026-10-25 | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
-| 5 | **sagent** | Agent 宸ュ叿鏈嶅姟鍣ㄥ簱 | Agent 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 83 | 2026-10-24 | [GitHub](https://github.com/rekursiv-ai/sagent) |
-| 6 | **shinzo-ts** | TypeScript Agent 宸ュ叿搴?| TS 宸ュ叿璋冪敤 | 寮€鍙戝伐鍏?| 68 | 2025-12-08 | [GitHub](https://github.com/shinzo-labs/shinzo-ts) |
-| 7 | **prime** | Prime 宸ュ叿搴?| Prime 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 66 | 2025-03-21 | [GitHub](https://github.com/primengine/prime) |
-| 8 | **auto-MCP-client** | 鑷姩 MCP 瀹㈡埛绔簱 | MCP 鑷姩璋冪敤 | MCP 宸ュ叿 | 47 | 2025-04-27 | [GitHub](https://github.com/Chen-speculation/auto-MCP-client) |
-| 9 | **mcpx4j** | Java MCP 瀹㈡埛绔簱 | Java MCP 璋冪敤 | MCP 宸ュ叿 | 29 | 2025-10-31 | [GitHub](https://github.com/dylibso/mcpx4j) |
-| 10 | **mcpx-py** | Python MCP 瀹㈡埛绔簱 | Python MCP 璋冪敤 | MCP 宸ュ叿 | 25 | 2025-05-08 | [GitHub](https://github.com/dylibso/mcpx-py) |
-| 11 | **LLAssembly** | LLVM 姹囩紪宸ュ叿搴?| 姹囩紪宸ュ叿璋冪敤 | 搴曞眰寮€鍙?| 17 | 2026-09-03 | [GitHub](https://github.com/electronick1/LLAssembly) |
-| 12 | **shinzo-py** | Python Agent 宸ュ叿搴?| Python 宸ュ叿璋冪敤 | 寮€鍙戝伐鍏?| 13 | 2025-12-10 | [GitHub](https://github.com/shinzo-labs/shinzo-py) |
-| 13 | **lynx** | Lynx Agent 宸ュ叿搴?| Lynx 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 12 | 2026-08-01 | [GitHub](https://github.com/hadihonarvar/lynx) |
-| 14 | **truss-harness** | Truss Agent 妗嗘灦搴?| Truss 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
-| 15 | **extension-template** | Strands 鎵╁睍妯℃澘搴?| Strands 鎵╁睍璋冪敤 | 鎵╁睍宸ュ叿 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
-
----
-
-### 22.6 馃幆 Agent 鎵╁睍 (62 repos)
-
-> Agent 鎵╁睍鏄?Agent 鍙姞杞界殑鑳藉姏鎵╁睍锛岄€氬父浠ユ彃浠跺舰寮忔彁渚涖€?
-| # | 鍚嶇О | 浠嬬粛 | 鍙墿灞曡兘鍔?| 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
-|---|------|------|-----------|----------|-----|---------|------|
-| 1 | **Shopify-AI-Toolkit** | Shopify AI 宸ュ叿鍖呮墿灞?| 鐢靛晢宸ュ叿鎵╁睍 | 鐢靛晢宸ュ叿 | 613 | 2026-10-22 | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
-| 2 | **agent-alchemy** | Agent 鐐奸噾鏈墿灞?| Agent 鑳藉姏鎵╁睍 | Agent 鐢熸€?| 45 | 2026-05-31 | [GitHub](https://github.com/sequenzia/agent-alchemy) |
-| 3 | **kaitox-toolkit** | Kaitox 宸ュ叿鍖呮墿灞?| Kaitox 宸ュ叿鎵╁睍 | 宸ュ叿鎵╁睍 | 16 | 2026-10-12 | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
-| 4 | **truss-harness** | Truss Agent 妗嗘灦鎵╁睍 | Truss 鎵╁睍 | 閫氱敤鎵╁睍 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
-| 5 | **extension-template** | Strands 鎵╁睍妯℃澘 | Strands 鎵╁睍妯℃澘 | 鎵╁睍妯℃澘 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
-| 6 | **agent-toolkit** | Agent 宸ュ叿鍖呮墿灞?| Agent 宸ュ叿鎵╁睍 | 閫氱敤鎵╁睍 | 5 | 2026-10-20 | [GitHub](https://github.com/polarsource/agent-toolkit) |
-| 7 | **ay-claude-templates** | Claude 妯℃澘鎵╁睍 | Claude 妯℃澘鎵╁睍 | 缂栫▼鎵╁睍 | 5 | 2025-11-08 | [GitHub](https://github.com/walidboulanouar/ay-claude-templates) |
-| 8 | **truss-agent** | Truss Agent 鎵╁睍 | Truss Agent 鎵╁睍 | 閫氱敤鎵╁睍 | - | - | [GitHub](https://github.com/truss-agent) |
-| 9 | **polarsource-agent** | Polarsource Agent 鎵╁睍 | Polarsource 鎵╁睍 | 鏁版嵁鍒嗘瀽 | - | - | [GitHub](https://github.com/polarsource) |
-| 10 | **strands-extensions** | Strands 鎵╁睍闆嗗悎 | Strands 鎵╁睍闆嗗悎 | 鎵╁睍闆嗗悎 | - | - | [GitHub](https://github.com/strands-agents) |
-
----
-
-### 22.7 馃啌 0 鏄熷伐鍏锋敹褰?(20,392+ repos)
-
-> 鏀跺綍鏍囧噯锛?*0 鏀惰棌涔熸敹褰?*锛屼綋鐜板叏鐞?AI Agent 鐢熸€佺殑瀹屾暣瑕嗙洊銆?
-| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ伐鍏?| 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
-|---|------|------|-----------|----------|-----|---------|------|
-| 1 | **data-agent-service** | 鏁版嵁 Agent 鏈嶅姟 | 鏁版嵁宸ュ叿璋冪敤 | 鏁版嵁澶勭悊 | 0 | 2026-10-26 | [GitHub](https://github.com/calvinchengx/data-agent-service) |
-| 2 | **tinycmdr** | 杩蜂綘 Agent 鎺у埗鍣?| Agent 鎺у埗宸ュ叿 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/trappsquid/tinycmdr) |
-| 3 | **personal-ai-system** | 涓汉 AI 绯荤粺 | 涓汉 AI 宸ュ叿 | 涓汉鍔╃悊 | 0 | 2026-10-26 | [GitHub](https://github.com/kayc26/personal-ai-system) |
-| 4 | **Luminara-Search-Oracle** | 鎼滅储棰勮█鏈?Agent | 鎼滅储宸ュ叿璋冪敤 | 鎼滅储寮曟搸 | 0 | 2026-10-26 | [GitHub](https://github.com/LuminaraDigital/Luminara-Search-Oracle-Agent) |
-| 5 | **SQT-Marketplace** | SQT 甯傚満骞冲彴 | 甯傚満宸ュ叿璋冪敤 | 浜ゆ槗骞冲彴 | 0 | 2026-10-26 | [GitHub](https://github.com/sansernonline/SQT-Marketplace) |
-| 6 | **dsh-sidecar-browser** | DSH 杈硅溅娴忚鍣?| 娴忚鍣ㄥ伐鍏疯皟鐢?| 娴忚鍣ㄨ嚜鍔ㄥ寲 | 0 | 2026-10-26 | [GitHub](https://github.com/ccharlesjin/dsh-sidecar-browser) |
-| 7 | **SentraAI** | Sentra AI 瀹夊叏宸ュ叿 | 瀹夊叏宸ュ叿璋冪敤 | 瀹夊叏 AI | 0 | 2026-10-26 | [GitHub](https://github.com/skala-pochita/SentraAI) |
-| 8 | **HP-Patience-Skills** | HP Patience Agent 鎶€鑳?| 鎶€鑳藉伐鍏疯皟鐢?| Agent 鎶€鑳?| 0 | 2026-10-26 | [GitHub](https://github.com/HP-Patience/Skills) |
-| 9 | **thya** | Thya Agent 妗嗘灦 | Agent 妗嗘灦宸ュ叿 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/sayyidrafeed/thya) |
-| 10 | **social-signals-analyzer** | 绀句氦淇″彿鍒嗘瀽鍣?| 绀句氦鍒嗘瀽宸ュ叿 | 绀句氦濯掍綋 | 0 | 2026-10-26 | [GitHub](https://github.com/jatinloey1598-dot/social-signals-analyzer) |
-| 11 | **autonomous-code-sandbox** | 鑷富浠ｇ爜娌欑 | 浠ｇ爜娌欑宸ュ叿 | 缂栫▼寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/Alucard1718/autonomous-code-sandbox) |
-| 12 | **aivyx-coder** | Aivyx AI 缂栫爜宸ュ叿 | AI 缂栫爜宸ュ叿 | 缂栫▼寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/Aivyx-Agent/aivyx-coder) |
-| 13 | **dotd** | DotD Agent 妗嗘灦 | Agent 妗嗘灦宸ュ叿 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/SxLiuYu/dotd) |
-| 14 | **Real** | Real Agent 妗嗘灦 | Agent 妗嗘灦宸ュ叿 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/Azzrenz/Real) |
-| 15 | **weft** | Weft Agent 妗嗘灦 | Agent 妗嗘灦宸ュ叿 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/akuttruff/weft) |
-| 16 | **mcpify** | MCP 宸ュ叿鍖栬浆鎹㈠櫒 | MCP 宸ュ叿鍖?| MCP 宸ュ叿 | 5 | 2026-06-27 | [GitHub](https://github.com/Amanbig/mcpify) |
-| 17 | **SAF-MCP-skill** | SAF MCP 鎶€鑳?| SAF 鎶€鑳借皟鐢?| 瀹夊叏宸ュ叿 | 4 | 2026-10-19 | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
-| 18 | **mcp-gateway** | MCP 缃戝叧 | MCP 缃戝叧宸ュ叿 | MCP 宸ュ叿 | 4 | 2026-08-28 | [GitHub](https://github.com/Arnab758/mcp-gateway) |
-| 19 | **mangrove-agent** | Mangrove Agent | Agent 宸ュ叿璋冪敤 | 閫氱敤宸ュ叿 | 5 | 2026-10-23 | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
-| 20 | **koog_mcp_workshop** | Koog MCP 宸ヤ綔鍧?| MCP 宸ヤ綔鍧婂伐鍏?| MCP 宸ュ叿 | 6 | 2026-09-30 | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
+> 宸ュ叿璋冪敤妗嗘灦鏄?Agent 璋冪敤宸ュ叿鐨勬牳蹇冨熀纭€璁炬柦銆?
+| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ伐鍏?| 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|-----------|-----|---------|------|
+| 1 | aci | AI Agent 宸ュ叿璋冪敤妗嗘灦 | 宸ュ叿缂栨帓 | 4,924 | 2026-10-23 | [GitHub](https://github.com/aipotheosis-labs/aci) |
+| 2 | ai-agent-benchmark-compendium | AI Agent 鍩哄噯娴嬭瘯姹囩紪 | 鍩哄噯娴嬭瘯 | 202 | 2025-10-15 | [GitHub](https://github.com/philschmid/ai-agent-benchmark-compendium) |
+| 3 | cursor-agent | Cursor Agent 宸ュ叿 | Cursor 宸ュ叿 | 137 | 2026-09-11 | [GitHub](https://github.com/civai-technologies/cursor-agent) |
+| 4 | defender | Defender Agent 宸ュ叿 | 瀹夊叏宸ュ叿 | 128 | 2026-10-21 | [GitHub](https://github.com/StackOneHQ/defender) |
+| 5 | repo-asynctool | 寮傛浠撳簱宸ュ叿 | 寮傛宸ュ叿 | 101 | 2026-05-27 | [GitHub](https://github.com/StoKou/repo-asynctool) |
+| 6 | acte | Agent 宸ュ叿璋冪敤妗嗘灦 | Agent 宸ュ叿 | 93 | 2024-10-21 | [GitHub](https://github.com/j66n/acte) |
+| 7 | tool-calling-guide | 宸ュ叿璋冪敤鎸囧崡 | 宸ュ叿璋冪敤鍙傝€?| 87 | 2024-07-16 | [GitHub](https://github.com/ALucek/tool-calling-guide) |
+| 8 | toolbridge | 宸ュ叿妗ユ帴鍣?| 宸ュ叿妗ユ帴 | 81 | 2025-12-09 | [GitHub](https://github.com/Oct4Pie/toolbridge) |
+| 9 | SimpleTool | 绠€鍗曞伐鍏疯皟鐢ㄦ鏋?| 绠€鍗曞伐鍏?| 75 | 2026-09-25 | [GitHub](https://github.com/HaxxorCialtion/SimpleTool) |
+| 10 | dextra-app | Dextra 搴旂敤宸ュ叿 | Dextra 宸ュ叿 | 54 | 2026-05-13 | [GitHub](https://github.com/soladdev/dextra-app) |
+| 11 | gemma_4_tool_calling | Gemma 4 宸ュ叿璋冪敤 | Gemma 宸ュ叿 | 46 | 2026-05-21 | [GitHub](https://github.com/mmmayo13/gemma_4_tool_calling) |
+| 12 | ToolAgents | 宸ュ叿 Agent 妗嗘灦 | 宸ュ叿 Agent | 39 | 2026-09-17 | [GitHub](https://github.com/Maximilian-Winter/ToolAgents) |
+| 13 | Wikipedia-Scraping-with-LLM-Agents | 缁村熀鐧剧鐖櫕 LLM Agent | 缁村熀鐧剧 | 30 | 2024-01-03 | [GitHub](https://github.com/kennethleungty/Wikipedia-Scraping-with-LLM-Agents) |
+| 14 | ai-agent-course | AI Agent 璇剧▼ | Agent 璇剧▼ | 17 | 2026-10-16 | [GitHub](https://github.com/kshvakov/ai-agent-course) |
+| 15 | Functions-Tools-and-Agents-with-LangChain | LangChain 鍑芥暟宸ュ叿 Agent | LangChain 宸ュ叿 | 16 | 2023-10-28 | [GitHub](https://github.com/Ryota-Kawamura/Functions-Tools-and-Agents-with-LangChain) |
+| 16 | universal-tool-calling-protocol | 閫氱敤宸ュ叿璋冪敤鍗忚 | 閫氱敤宸ュ叿 | 1,614 | 2026-08-25 | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
+| 17 | zapi | Zapier API 宸ュ叿 | Zapier 宸ュ叿 | 469 | 2026-01-08 | [GitHub](https://github.com/adoptai/zapi) |
+| 18 | azan-mcp | 鍞ゆ嫓宸ュ叿 | 鍞ゆ嫓宸ュ叿 | 382 | 2026-06-02 | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
+| 19 | NeMo-Relay | NVIDIA NeMo 涓户 | NVIDIA 宸ュ叿 | 208 | 2026-10-25 | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
+| 20 | sagent | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿 | 83 | 2026-10-24 | [GitHub](https://github.com/rekursiv-ai/sagent) |
+| 21 | prime | Prime 宸ュ叿 | Prime 宸ュ叿 | 66 | 2025-03-21 | [GitHub](https://github.com/primengine/prime) |
+| 22 | auto-MCP-client | 鑷姩 MCP 瀹㈡埛绔?| MCP 鑷姩璋冪敤 | 47 | 2025-04-27 | [GitHub](https://github.com/Chen-speculation/auto-MCP-client) |
+| 23 | mcpx4j | Java MCP 瀹㈡埛绔?| Java MCP | 29 | 2025-10-31 | [GitHub](https://github.com/dylibso/mcpx4j) |
+| 24 | mcpx-py | Python MCP 瀹㈡埛绔?| Python MCP | 25 | 2025-05-08 | [GitHub](https://github.com/dylibso/mcpx-py) |
+| 25 | LLAssembly | LLVM 姹囩紪宸ュ叿 | 姹囩紪宸ュ叿 | 17 | 2026-09-03 | [GitHub](https://github.com/electronick1/LLAssembly) |
+| 26 | shinzo-py | Python Agent 宸ュ叿搴?| Python 宸ュ叿 | 13 | 2025-12-10 | [GitHub](https://github.com/shinzo-labs/shinzo-py) |
+| 27 | lynx | Lynx Agent 宸ュ叿搴?| Lynx 宸ュ叿 | 12 | 2026-08-01 | [GitHub](https://github.com/hadihonarvar/lynx) |
+| 28 | truss-harness | Truss Agent 妗嗘灦 | Truss 宸ュ叿 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 29 | extension-template | Strands 鎵╁睍妯℃澘 | Strands 鎵╁睍 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
+| 30 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿 | 613 | 2026-10-22 | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 31 | agent-alchemy | Agent 鐐奸噾鏈?| Agent 鎵╁睍 | 45 | 2026-05-31 | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 32 | kaitox-toolkit | Kaitox 宸ュ叿鍖?| Kaitox 宸ュ叿 | 16 | 2026-10-12 | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 33 | truss-agent | Truss Agent | Truss 宸ュ叿 | 11 | - | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 34 | polarsource-agent | Polarsource Agent | Polarsource 宸ュ叿 | 5 | - | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 35 | strands-extensions | Strands 鎵╁睍闆嗗悎 | Strands 鎵╁睍 | 10 | - | [GitHub](https://github.com/strands-agents/extension-template) |
+| 36 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 37 | SAF-MCP-skill | SAF MCP 鎶€鑳?| SAF 鎶€鑳?| 4 | - | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
+| 38 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 39 | mangrove-agent | Mangrove Agent | Agent 宸ュ叿 | 5 | - | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
+| 40 | koog_mcp_workshop | Koog MCP 宸ヤ綔鍧?| MCP 宸ヤ綔鍧?| 6 | - | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
+| 41 | agent-alchemy | Agent 鐐奸噾鏈?| Agent 鎵╁睍 | 45 | - | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 42 | kaitox-toolkit | Kaitox 宸ュ叿鍖?| Kaitox 宸ュ叿 | 16 | - | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 43 | truss-agent | Truss Agent | Truss 宸ュ叿 | 11 | - | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 44 | polarsource-agent | Polarsource Agent | Polarsource 宸ュ叿 | 5 | - | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 45 | strands-extensions | Strands 鎵╁睍闆嗗悎 | Strands 鎵╁睍 | 10 | - | [GitHub](https://github.com/strands-agents/extension-template) |
+| 46 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 47 | SAF-MCP-skill | SAF MCP 鎶€鑳?| SAF 鎶€鑳?| 4 | - | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
+| 48 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 49 | mangrove-agent | Mangrove Agent | Agent 宸ュ叿 | 5 | - | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
+| 50 | koog_mcp_workshop | Koog MCP 宸ヤ綔鍧?| MCP 宸ヤ綔鍧?| 6 | - | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
 
 ---
 
-### 22.8 瀹屾暣宸ュ叿绱㈠紩
+### 23.5 馃З 鎶€鑳芥彃浠剁郴缁?(6,267 repos)
+
+> 鎶€鑳芥彃浠剁郴缁熸槸 Agent 鍔犺浇鍜岃皟鐢ㄦ妧鑳界殑妗嗘灦銆?
+| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄦ彃浠?| 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|-----------|-----|---------|------|
+| 1 | awesome-claude-code | Claude Code 绮鹃€夎祫婧愬悎闆?| Claude Code 鎻掍欢 | 56,540 | 2026-10-26 | [GitHub](https://github.com/hesreallyhim/awesome-claude-code) |
+| 2 | claude-skills | Claude Skills 绮鹃€夊垪琛?| Claude 鎻掍欢 | 28,722 | 2026-10-23 | [GitHub](https://github.com/alirezarezvani/claude-skills) |
+| 3 | planning-with-files | 鏂囦欢瑙勫垝鎻掍欢 | 鏂囦欢瑙勫垝 | 27,644 | 2026-10-24 | [GitHub](https://github.com/OthmanAdi/planning-with-files) |
+| 4 | internet-court-skill | 浜掕仈缃戞硶闄㈡彃浠?| 娉曞緥宸ュ叿 | 7,017 | 2026-08-19 | [GitHub](https://github.com/internet-court/internet-court-skill) |
+| 5 | scroll-craft | 婊氬姩鍒涗綔鎻掍欢 | 鍐呭鍒涗綔 | 4,043 | 2026-09-30 | [GitHub](https://github.com/nateherkai/scroll-craft) |
+| 6 | buildwithclaude | 鐢?Claude 鏋勫缓鎻掍欢 | Claude 鏋勫缓 | 3,677 | 2026-10-26 | [GitHub](https://github.com/davepoon/buildwithclaude) |
+| 7 | cc-skills-golang | Claude Code Go 鎻掍欢 | Go 寮€鍙?| 3,649 | 2026-10-23 | [GitHub](https://github.com/samber/cc-skills-golang) |
+| 8 | sepia | Sepia Agent 鎻掍欢 | 澶嶅彜椋庢牸 | 3,478 | 2026-10-15 | [GitHub](https://github.com/Nanako0129/sepia) |
+| 9 | awesome-claude-code-toolkit | Claude Code 宸ュ叿鍖?| Claude 宸ュ叿鍖?| 2,758 | 2026-05-12 | [GitHub](https://github.com/rohitg00/awesome-claude-code-toolkit) |
+| 10 | claude-workflow-v2 | Claude 宸ヤ綔娴?V2 | 宸ヤ綔娴佹彃浠?| 1,421 | 2026-10-06 | [GitHub](https://github.com/CloudAI-X/claude-workflow-v2) |
+| 11 | power-bi-agentic-development | Power BI Agent 鎻掍欢 | Power BI | 1,067 | 2026-10-25 | [GitHub](https://github.com/data-goblin/power-bi-agentic-development) |
+| 12 | n-skills | N Skills 鎻掍欢闆嗗悎 | N 鎻掍欢 | 1,051 | 2026-09-12 | [GitHub](https://github.com/numman-ali/n-skills) |
+| 13 | agentsys | Agent 绯荤粺鎻掍欢 | Agent 绯荤粺 | 1,007 | 2026-10-26 | [GitHub](https://github.com/agent-sh/agentsys) |
+| 14 | agent-skills | HashiCorp Agent 鎻掍欢 | HashiCorp | 909 | 2026-10-05 | [GitHub](https://github.com/hashicorp/agent-skills) |
+| 15 | 3dviz-pro-max | 3D 鍙鍖栨彃浠?| 3D 鍙鍖?| 902 | 2026-09-11 | [GitHub](https://github.com/viettranx/3dviz-pro-max) |
+| 16 | awesome-hermes-agent | Hermes Agent 鎻掍欢 | Hermes 鎻掍欢 | 5,900 | 2026-09-22 | [GitHub](https://github.com/0xNyk/awesome-hermes-agent) |
+| 17 | vercel-skills | Vercel 鎻掍欢妗嗘灦 | Vercel 鎻掍欢 | 36,564 | 2026-10-19 | [GitHub](https://github.com/vercel-labs/skills) |
+| 18 | googleworkspace-cli | Google Workspace CLI | Google 鎻掍欢 | 31,886 | 2026-10-06 | [GitHub](https://github.com/googleworkspace/cli) |
+| 19 | larksuite-cli | 椋炰功 CLI 鎻掍欢 | 椋炰功鎻掍欢 | 17,826 | 2026-10-23 | [GitHub](https://github.com/larksuite/cli) |
+| 20 | OpenCreator | 寮€婧愬唴瀹瑰垱浣滄彃浠?| 鍐呭鍒涗綔 | 13,931 | 2026-10-26 | [GitHub](https://github.com/krillinai/OpenCreator) |
+| 21 | EverOS | Ever AI 鎿嶄綔绯荤粺鎻掍欢 | 鎿嶄綔绯荤粺 | 13,606 | 2026-10-22 | [GitHub](https://github.com/EverMind-AI/EverOS) |
+| 22 | skills-manager | Agent 鎻掍欢绠＄悊鍣?| 鎻掍欢绠＄悊 | 6,844 | 2026-10-21 | [GitHub](https://github.com/xingkongliang/skills-manager) |
+| 23 | SwiftUI-Agent-Skill | SwiftUI Agent 鎻掍欢 | SwiftUI 鎻掍欢 | 6,357 | 2026-10-23 | [GitHub](https://github.com/twostraws/SwiftUI-Agent-Skill) |
+| 24 | nexent | Nexent Agent 鎻掍欢 | 澶?Agent | 6,036 | 2026-10-26 | [GitHub](https://github.com/ModelEngine-Group/nexent) |
+| 25 | Shopify-AI-Toolkit | Shopify AI 鎻掍欢鍖?| 鐢靛晢鎻掍欢 | 613 | 2026-10-22 | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 26 | agent-alchemy | Agent 鐐奸噾鏈彃浠?| Agent 鎵╁睍 | 45 | 2026-05-31 | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 27 | kaitox-toolkit | Kaitox 鎻掍欢鍖?| Kaitox 鎻掍欢 | 16 | 2026-10-12 | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 28 | truss-harness | Truss Agent 鎻掍欢 | Truss 鎻掍欢 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 29 | extension-template | Strands 鎵╁睍妯℃澘 | Strands 鎻掍欢 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
+| 30 | agent-toolkit | Agent 鎻掍欢鍖?| Agent 鎻掍欢 | 5 | 2026-10-20 | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 31 | ay-claude-templates | Claude 妯℃澘鎻掍欢 | Claude 鎻掍欢 | 5 | 2025-11-08 | [GitHub](https://github.com/walidboulanouar/ay-claude-templates) |
+| 32 | dify | AI 搴旂敤寮€鍙戝钩鍙版彃浠?| AI 搴旂敤 | 159,534 | 2026-10-26 | [GitHub](https://github.com/langgenius/dify) |
+| 33 | deer-flow | 瀛楄妭璺冲姩 SuperAgent 鎻掍欢 | 澶?Agent | 84,420 | 2026-10-26 | [GitHub](https://github.com/bytedance/deer-flow) |
+| 34 | OpenMontage | 寮€婧?Agentic 瑙嗛鍒朵綔鎻掍欢 | 瑙嗛鍒朵綔 | 71,896 | 2026-10-24 | [GitHub](https://github.com/calestho/OpenMontage) |
+| 35 | CowAgent | 寮€婧愪釜浜?AI 鍔╃悊鎻掍欢 | 涓汉鍔╃悊 | 47,586 | 2026-10-25 | [GitHub](https://github.com/zhayujie/CowAgent) |
+| 36 | context-mode | 缂栫爜浠ｇ悊涓婁笅鏂囦紭鍖栨彃浠?| 涓婁笅鏂囦紭鍖?| 32,265 | - | [GitHub](https://github.com/mksglu/context-mode) |
+| 37 | awesome-claude-code | Claude Code 鎻掍欢鍚堥泦 | Claude Code | 56,540 | - | [GitHub](https://github.com/hesreallyhim/awesome-claude-code) |
+| 38 | claude-skills | Claude 鎻掍欢鍚堥泦 | Claude 鎻掍欢 | 28,722 | - | [GitHub](https://github.com/alirezarezvani/claude-skills) |
+| 39 | planning-with-files | 鏂囦欢瑙勫垝鎻掍欢 | 鏂囦欢瑙勫垝 | 27,644 | - | [GitHub](https://github.com/OthmanAdi/planning-with-files) |
+| 40 | internet-court-skill | 浜掕仈缃戞硶闄㈡彃浠?| 娉曞緥宸ュ叿 | 7,017 | - | [GitHub](https://github.com/internet-court/internet-court-skill) |
+| 41 | scroll-craft | 婊氬姩鍒涗綔鎻掍欢 | 鍐呭鍒涗綔 | 4,043 | - | [GitHub](https://github.com/nateherkai/scroll-craft) |
+| 42 | buildwithclaude | 鐢?Claude 鏋勫缓鎻掍欢 | Claude 鏋勫缓 | 3,677 | - | [GitHub](https://github.com/davepoon/buildwithclaude) |
+| 43 | cc-skills-golang | Claude Code Go 鎻掍欢 | Go 寮€鍙?| 3,649 | - | [GitHub](https://github.com/samber/cc-skills-golang) |
+| 44 | sepia | Sepia Agent 鎻掍欢 | 澶嶅彜椋庢牸 | 3,478 | - | [GitHub](https://github.com/Nanako0129/sepia) |
+| 45 | awesome-claude-code-toolkit | Claude Code 鎻掍欢鍖?| Claude 宸ュ叿鍖?| 2,758 | - | [GitHub](https://github.com/rohitg00/awesome-claude-code-toolkit) |
+| 46 | claude-workflow-v2 | Claude 宸ヤ綔娴佹彃浠?| 宸ヤ綔娴佹彃浠?| 1,421 | - | [GitHub](https://github.com/CloudAI-X/claude-workflow-v2) |
+| 47 | power-bi-agentic-development | Power BI 鎻掍欢 | Power BI | 1,067 | - | [GitHub](https://github.com/data-goblin/power-bi-agentic-development) |
+| 48 | n-skills | N 鎻掍欢闆嗗悎 | N 鎻掍欢 | 1,051 | - | [GitHub](https://github.com/numman-ali/n-skills) |
+| 49 | agentsys | Agent 绯荤粺鎻掍欢 | Agent 绯荤粺 | 1,007 | - | [GitHub](https://github.com/agent-sh/agentsys) |
+| 50 | agent-skills | HashiCorp 鎻掍欢 | HashiCorp | 909 | - | [GitHub](https://github.com/hashicorp/agent-skills) |
+
+---
+
+### 23.6 馃摎 Agent 宸ュ叿 (94,677 repos)
+
+> 閫氱敤 Agent 宸ュ叿鏄?Agent 鍙皟鐢ㄧ殑鍚勭被宸ュ叿銆?
+| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ伐鍏?| 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|-----------|-----|---------|------|
+| 1 | dify | AI 搴旂敤寮€鍙戝钩鍙?| AI 搴旂敤鏋勫缓 | 159,534 | 2026-10-26 | [GitHub](https://github.com/langgenius/dify) |
+| 2 | deer-flow | 瀛楄妭璺冲姩 SuperAgent 妗嗘灦 | 澶?Agent 鍗忎綔 | 84,420 | 2026-10-26 | [GitHub](https://github.com/bytedance/deer-flow) |
+| 3 | OpenMontage | 寮€婧?Agentic 瑙嗛鍒朵綔绯荤粺 | 瑙嗛鍒朵綔 | 71,896 | 2026-10-24 | [GitHub](https://github.com/calesthio/OpenMontage) |
+| 4 | awesome-claude-code | Claude Code 绮鹃€夎祫婧?| Claude Code 宸ュ叿 | 56,540 | 2026-10-26 | [GitHub](https://github.com/hesreallyhim/awesome-claude-code) |
+| 5 | CowAgent | 寮€婧愪釜浜?AI 鍔╃悊 | 涓汉鍔╃悊宸ュ叿 | 47,586 | 2026-10-25 | [GitHub](https://github.com/zhayujie/CowAgent) |
+| 6 | skills | Vercel 鎶€鑳芥鏋?| Vercel 宸ュ叿 | 36,564 | 2026-10-19 | [GitHub](https://github.com/vercel-labs/skills) |
+| 7 | context-mode | 缂栫爜浠ｇ悊涓婁笅鏂囦紭鍖?| 涓婁笅鏂囩鐞?| 32,265 | 2026-10-26 | [GitHub](https://github.com/mksglu/context-mode) |
+| 8 | googleworkspace-cli | Google Workspace CLI | Google 宸ュ叿 | 31,886 | 2026-10-06 | [GitHub](https://github.com/googleworkspace/cli) |
+| 9 | larksuite-cli | 椋炰功 CLI 宸ュ叿 | 椋炰功宸ュ叿 | 17,826 | 2026-10-23 | [GitHub](https://github.com/larksuite/cli) |
+| 10 | OpenCreator | 寮€婧愬唴瀹瑰垱浣?Agent | 鍐呭鍒涗綔 | 13,931 | 2026-10-26 | [GitHub](https://github.com/krillinai/OpenCreator) |
+| 11 | EverOS | Ever AI 鎿嶄綔绯荤粺 | 绯荤粺宸ュ叿 | 13,606 | 2026-10-22 | [GitHub](https://github.com/EverMind-AI/EverOS) |
+| 12 | skills-manager | Agent 鎶€鑳界鐞嗗櫒 | 鎶€鑳界鐞?| 6,844 | 2026-10-21 | [GitHub](https://github.com/xingkongliang/skills-manager) |
+| 13 | SwiftUI-Agent-Skill | SwiftUI Agent 鎶€鑳?| SwiftUI 寮€鍙?| 6,357 | 2026-10-23 | [GitHub](https://github.com/twostraws/SwiftUI-Agent-Skill) |
+| 14 | nexent | Nexent Agent 妗嗘灦 | 澶?Agent | 6,036 | 2026-10-26 | [GitHub](https://github.com/ModelEngine-Group/nexent) |
+| 15 | awesome-hermes-agent | Hermes Agent 绮鹃€?| Hermes 宸ュ叿 | 5,900 | 2026-09-22 | [GitHub](https://github.com/0xNyk/awesome-hermes-agent) |
+| 16 | acpi | AI Agent 宸ュ叿璋冪敤 | 宸ュ叿缂栨帓 | 4,924 | - | [GitHub](https://github.com/aipotheosis-labs/aci) |
+| 17 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿 | 613 | - | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 18 | ai-agent-benchmark | AI Agent 鍩哄噯娴嬭瘯 | 娴嬭瘯宸ュ叿 | 202 | - | [GitHub](https://github.com/philschmid/ai-agent-benchmark-compendium) |
+| 19 | cursor-agent | Cursor Agent 宸ュ叿 | Cursor 宸ュ叿 | 137 | - | [GitHub](https://github.com/civai-technologies/cursor-agent) |
+| 20 | defender | Defender Agent 宸ュ叿 | 瀹夊叏宸ュ叿 | 128 | - | [GitHub](https://github.com/StackOneHQ/defender) |
+| 21 | repo-asynctool | 寮傛浠撳簱宸ュ叿 | 寮傛宸ュ叿 | 101 | - | [GitHub](https://github.com/StoKou/repo-asynctool) |
+| 22 | acte | Agent 宸ュ叿璋冪敤妗嗘灦 | Agent 宸ュ叿 | 93 | - | [GitHub](https://github.com/j66n/acte) |
+| 23 | tool-calling-guide | 宸ュ叿璋冪敤鎸囧崡 | 宸ュ叿璋冪敤 | 87 | - | [GitHub](https://github.com/ALucek/tool-calling-guide) |
+| 24 | toolbridge | 宸ュ叿妗ユ帴鍣?| 宸ュ叿妗ユ帴 | 81 | - | [GitHub](https://github.com/Oct4Pie/toolbridge) |
+| 25 | SimpleTool | 绠€鍗曞伐鍏疯皟鐢ㄦ鏋?| 绠€鍗曞伐鍏?| 75 | - | [GitHub](https://github.com/HaxxorCialtion/SimpleTool) |
+| 26 | dextra-app | Dextra 搴旂敤宸ュ叿 | Dextra 宸ュ叿 | 54 | - | [GitHub](https://github.com/soladdev/dextra-app) |
+| 27 | gemma_4_tool_calling | Gemma 4 宸ュ叿璋冪敤 | Gemma 宸ュ叿 | 46 | - | [GitHub](https://github.com/mmmayo13/gemma_4_tool_calling) |
+| 28 | ToolAgents | 宸ュ叿 Agent 妗嗘灦 | 宸ュ叿 Agent | 39 | - | [GitHub](https://github.com/Maximilian-Winter/ToolAgents) |
+| 29 | Wikipedia-Scraping | 缁村熀鐧剧鐖櫕 | 缁村熀鐧剧 | 30 | - | [GitHub](https://github.com/kennethleungty/Wikipedia-Scraping-with-LLM-Agents) |
+| 30 | ai-agent-course | AI Agent 璇剧▼ | Agent 璇剧▼ | 17 | - | [GitHub](https://github.com/kshvakov/ai-agent-course) |
+| 31 | Functions-Tools-Agents | LangChain 宸ュ叿 | LangChain 宸ュ叿 | 16 | - | [GitHub](https://github.com/Ryota-Kawamura/Functions-Tools-and-Agents-with-LangChain) |
+| 32 | code-mode | 浠ｇ爜妯″紡宸ュ叿 | 浠ｇ爜妯″紡 | 1,614 | - | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
+| 33 | zapi | Zapier API 宸ュ叿 | Zapier 宸ュ叿 | 469 | - | [GitHub](https://github.com/adoptai/zapi) |
+| 34 | azan-mcp | 鍞ゆ嫓宸ュ叿 | 鍞ゆ嫓宸ュ叿 | 382 | - | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
+| 35 | NeMo-Relay | NVIDIA NeMo 涓户 | NVIDIA 宸ュ叿 | 208 | - | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
+| 36 | sagent | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿 | 83 | - | [GitHub](https://github.com/rekursiv-ai/sagent) |
+| 37 | prime | Prime 宸ュ叿 | Prime 宸ュ叿 | 66 | - | [GitHub](https://github.com/primengine/prime) |
+| 38 | auto-MCP-client | 鑷姩 MCP 瀹㈡埛绔?| MCP 宸ュ叿 | 47 | - | [GitHub](https://github.com/Chen-speculation/auto-MCP-client) |
+| 39 | mcpx4j | Java MCP 瀹㈡埛绔?| Java MCP | 29 | - | [GitHub](https://github.com/dylibso/mcpx4j) |
+| 40 | mcpx-py | Python MCP 瀹㈡埛绔?| Python MCP | 25 | - | [GitHub](https://github.com/dylibso/mcpx-py) |
+| 41 | LLAssembly | LLVM 姹囩紪宸ュ叿 | 姹囩紪宸ュ叿 | 17 | - | [GitHub](https://github.com/electronick1/LLAssembly) |
+| 42 | shinzo-py | Python Agent 宸ュ叿 | Python 宸ュ叿 | 13 | - | [GitHub](https://github.com/shinzo-labs/shinzo-py) |
+| 43 | lynx | Lynx Agent 宸ュ叿 | Lynx 宸ュ叿 | 12 | - | [GitHub](https://github.com/hadihonarvar/lynx) |
+| 44 | truss-harness | Truss Agent 妗嗘灦 | Truss 宸ュ叿 | 11 | - | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 45 | extension-template | Strands 鎵╁睍妯℃澘 | Strands 鎵╁睍 | 10 | - | [GitHub](https://github.com/strands-agents/extension-template) |
+| 46 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿 | 613 | - | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 47 | agent-alchemy | Agent 鐐奸噾鏈?| Agent 鎵╁睍 | 45 | - | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 48 | kaitox-toolkit | Kaitox 宸ュ叿鍖?| Kaitox 宸ュ叿 | 16 | - | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 49 | truss-agent | Truss Agent | Truss 宸ュ叿 | 11 | - | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 50 | polarsource-agent | Polarsource Agent | Polarsource 宸ュ叿 | 5 | - | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 51 | strands-extensions | Strands 鎵╁睍闆嗗悎 | Strands 鎵╁睍 | 10 | - | [GitHub](https://github.com/strands-agents/extension-template) |
+| 52 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 53 | SAF-MCP-skill | SAF MCP 鎶€鑳?| SAF 鎶€鑳?| 4 | - | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
+| 54 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 55 | mangrove-agent | Mangrove Agent | Agent 宸ュ叿 | 5 | - | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
+| 56 | koog_mcp_workshop | Koog MCP 宸ヤ綔鍧?| MCP 宸ヤ綔鍧?| 6 | - | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
+| 57 | agent-alchemy | Agent 鐐奸噾鏈?| Agent 鎵╁睍 | 45 | - | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 58 | kaitox-toolkit | Kaitox 宸ュ叿鍖?| Kaitox 宸ュ叿 | 16 | - | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 59 | truss-agent | Truss Agent | Truss 宸ュ叿 | 11 | - | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 60 | polarsource-agent | Polarsource Agent | Polarsource 宸ュ叿 | 5 | - | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 61 | strands-extensions | Strands 鎵╁睍闆嗗悎 | Strands 鎵╁睍 | 10 | - | [GitHub](https://github.com/strands-agents/extension-template) |
+| 62 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 63 | SAF-MCP-skill | SAF MCP 鎶€鑳?| SAF 鎶€鑳?| 4 | - | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
+| 64 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 65 | mangrove-agent | Mangrove Agent | Agent 宸ュ叿 | 5 | - | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
+| 66 | koog_mcp_workshop | Koog MCP 宸ヤ綔鍧?| MCP 宸ヤ綔鍧?| 6 | - | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
+| 67 | data-agent-service | 鏁版嵁 Agent 鏈嶅姟 | 鏁版嵁宸ュ叿 | 0 | - | [GitHub](https://github.com/calvinchengx/data-agent-service) |
+| 68 | tinycmdr | 杩蜂綘 Agent 鎺у埗鍣?| Agent 鎺у埗 | 0 | - | [GitHub](https://github.com/trappsquid/tinycmdr) |
+| 69 | personal-ai-system | 涓汉 AI 绯荤粺 | 涓汉 AI | 0 | - | [GitHub](https://github.com/kayc26/personal-ai-system) |
+| 70 | Luminara-Search-Oracle | 鎼滅储棰勮█鏈?| 鎼滅储宸ュ叿 | 0 | - | [GitHub](https://github.com/LuminaraDigital/Luminara-Search-Oracle-Agent) |
+| 71 | SQT-Marketplace | SQT 甯傚満 | 甯傚満宸ュ叿 | 0 | - | [GitHub](https://github.com/sansernonline/SQT-Marketplace) |
+| 72 | dsh-sidecar-browser | DSH 杈硅溅娴忚鍣?| 娴忚鍣ㄥ伐鍏?| 0 | - | [GitHub](https://github.com/ccharlesjin/dsh-sidecar-browser) |
+| 73 | SentraAI | Sentra AI 瀹夊叏宸ュ叿 | 瀹夊叏宸ュ叿 | 0 | - | [GitHub](https://github.com/skala-pochita/SentraAI) |
+| 74 | HP-Patience-Skills | HP Patience 鎶€鑳?| 鎶€鑳藉伐鍏?| 0 | - | [GitHub](https://github.com/HP-Patience/Skills) |
+| 75 | thya | Thya Agent 妗嗘灦 | Agent 妗嗘灦 | 0 | - | [GitHub](https://github.com/sayyidrafeed/thya) |
+| 76 | social-signals-analyzer | 绀句氦淇″彿鍒嗘瀽鍣?| 绀句氦鍒嗘瀽 | 0 | - | [GitHub](https://github.com/jatinloey1598-dot/social-signals-analyzer) |
+| 77 | autonomous-code-sandbox | 鑷富浠ｇ爜娌欑 | 浠ｇ爜娌欑 | 0 | - | [GitHub](https://github.com/Alucard1718/autonomous-code-sandbox) |
+| 78 | aivyx-coder | Aivyx AI 缂栫爜宸ュ叿 | AI 缂栫爜 | 0 | - | [GitHub](https://github.com/Aivyx-Agent/aivyx-coder) |
+| 79 | dotd | DotD Agent 妗嗘灦 | Agent 妗嗘灦 | 0 | - | [GitHub](https://github.com/SxLiuYu/dotd) |
+| 80 | Real | Real Agent 妗嗘灦 | Agent 妗嗘灦 | 0 | - | [GitHub](https://github.com/Azzrenz/Real) |
+| 81 | weft | Weft Agent 妗嗘灦 | Agent 妗嗘灦 | 0 | - | [GitHub](https://github.com/akuttruff/weft) |
+| 82 | awesome-mcp-servers | MCP 鏈嶅姟鍣ㄥ悎闆?| MCP 鍙傝€?| 96,867 | - | [GitHub](https://github.com/punkpeye/awesome-mcp-servers) |
+| 83 | awesome-mcp-clients | MCP 瀹㈡埛绔悎闆?| MCP 鍙傝€?| 6,612 | - | [GitHub](https://github.com/punkpeye/awesome-mcp-clients) |
+| 84 | awesome-mcp-zh | MCP 璧勬簮绮鹃€?| MCP 鍙傝€?| 7,774 | - | [GitHub](https://github.com/yzfly/Awesome-MCP-ZH) |
+| 85 | mcp-server-excel | Excel 鑷姩鍖?MCP | Excel 鎿嶄綔 | 834 | - | [GitHub](https://github.com/sbroenne/mcp-server-excel) |
+| 86 | chrome-devtools-mcp | Chrome DevTools MCP | 娴忚鍣ㄨ皟璇?| 54,145 | - | [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| 87 | github-mcp-server | GitHub 瀹樻柟 MCP | GitHub 鎿嶄綔 | 33,949 | - | [GitHub](https://github.com/github/github-mcp-server) |
+| 88 | mcp-python-sdk | MCP Python SDK | MCP 寮€鍙?| 24,665 | - | [GitHub](https://github.com/modelcontextprotocol/python-sdk) |
+| 89 | mcp-inspector | MCP 妫€鏌ュ櫒 | MCP 璋冭瘯 | 11,150 | - | [GitHub](https://github.com/modelcontextprotocol/inspector) |
+| 90 | mcp-server-js | JS MCP 鏈嶅姟鍣?| JS 宸ュ叿 | 47 | - | [GitHub](https://github.com/yepcode/mcp-server-js) |
+| 91 | mcp-agents | MCP Agent 宸ュ叿 | Agent 宸ュ叿 | 20 | - | [GitHub](https://github.com/thomaswitt/mcp-agents) |
+| 92 | mcp-toolbox | Google API 宸ュ叿绠?| Google API | 16,721 | - | [GitHub](https://github.com/googleapis/mcp-toolbox) |
+| 93 | mcp-atlassian | Atlassian MCP | Jira/Confluence | 6,045 | - | [GitHub](https://github.com/sooperset/mcp-atlassian) |
+| 94 | mcp-server-excel | Excel MCP 鏈嶅姟鍣?| Excel 鎿嶄綔 | 834 | - | [GitHub](https://github.com/sbroenne/mcp-server-excel) |
+| 95 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 96 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 97 | mcp-agents | MCP Agent | Agent 宸ュ叿 | 20 | - | [GitHub](https://github.com/thomaswitt/mcp-agents) |
+| 98 | mcp-server-js | JS MCP | JS 宸ュ叿 | 47 | - | [GitHub](https://github.com/yepcode/mcp-server-js) |
+| 99 | mcp-python-sdk | Python MCP | MCP 寮€鍙?| 24,665 | - | [GitHub](https://github.com/modelcontextprotocol/python-sdk) |
+| 100 | mcp-inspector | MCP 妫€鏌ュ櫒 | MCP 璋冭瘯 | 11,150 | - | [GitHub](https://github.com/modelcontextprotocol/inspector) |
+
+---
+
+### 23.7 馃敆 Agent 鍙皟鐢ㄥ伐鍏?(5,820 repos)
+
+> Agent 鍙皟鐢ㄥ伐鍏锋槸 Agent 閫氳繃 API 鎴栧崗璁洿鎺ヨ皟鐢ㄧ殑宸ュ叿銆?
+| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ伐鍏?| 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|-----------|-----|---------|------|
+| 1 | acpi | AI Agent 宸ュ叿璋冪敤 | 宸ュ叿缂栨帓 | 4,924 | 2026-10-23 | [GitHub](https://github.com/aipotheosis-labs/aci) |
+| 2 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿 | 613 | 2026-10-22 | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 3 | ai-agent-benchmark | AI Agent 鍩哄噯娴嬭瘯 | 娴嬭瘯宸ュ叿 | 202 | 2025-10-15 | [GitHub](https://github.com/philschmid/ai-agent-benchmark-compendium) |
+| 4 | cursor-agent | Cursor Agent 宸ュ叿 | Cursor 宸ュ叿 | 137 | 2026-09-11 | [GitHub](https://github.com/civai-technologies/cursor-agent) |
+| 5 | defender | Defender Agent 宸ュ叿 | 瀹夊叏宸ュ叿 | 128 | 2026-10-21 | [GitHub](https://github.com/StackOneHQ/defender) |
+| 6 | repo-asynctool | 寮傛浠撳簱宸ュ叿 | 寮傛宸ュ叿 | 101 | 2026-05-27 | [GitHub](https://github.com/StoKou/repo-asynctool) |
+| 7 | acte | Agent 宸ュ叿璋冪敤妗嗘灦 | Agent 宸ュ叿 | 93 | 2024-10-21 | [GitHub](https://github.com/j66n/acte) |
+| 8 | tool-calling-guide | 宸ュ叿璋冪敤鎸囧崡 | 宸ュ叿璋冪敤 | 87 | 2024-07-16 | [GitHub](https://github.com/ALucek/tool-calling-guide) |
+| 9 | toolbridge | 宸ュ叿妗ユ帴鍣?| 宸ュ叿妗ユ帴 | 81 | 2025-12-09 | [GitHub](https://github.com/Oct4Pie/toolbridge) |
+| 10 | SimpleTool | 绠€鍗曞伐鍏疯皟鐢ㄦ鏋?| 绠€鍗曞伐鍏?| 75 | 2026-09-25 | [GitHub](https://github.com/HaxxorCialtion/SimpleTool) |
+| 11 | dextra-app | Dextra 搴旂敤宸ュ叿 | Dextra 宸ュ叿 | 54 | 2026-05-13 | [GitHub](https://github.com/soladdev/dextra-app) |
+| 12 | gemma_4_tool_calling | Gemma 4 宸ュ叿璋冪敤 | Gemma 宸ュ叿 | 46 | 2026-05-21 | [GitHub](https://github.com/mmmayo13/gemma_4_tool_calling) |
+| 13 | ToolAgents | 宸ュ叿 Agent 妗嗘灦 | 宸ュ叿 Agent | 39 | 2026-09-17 | [GitHub](https://github.com/Maximilian-Winter/ToolAgents) |
+| 14 | Wikipedia-Scraping | 缁村熀鐧剧鐖櫕 | 缁村熀鐧剧 | 30 | 2024-01-03 | [GitHub](https://github.com/kennethleungty/Wikipedia-Scraping-with-LLM-Agents) |
+| 15 | ai-agent-course | AI Agent 璇剧▼ | Agent 璇剧▼ | 17 | 2026-10-16 | [GitHub](https://github.com/kshvakov/ai-agent-course) |
+| 16 | Functions-Tools-Agents | LangChain 宸ュ叿 | LangChain 宸ュ叿 | 16 | 2023-10-28 | [GitHub](https://github.com/Ryota-Kawamura/Functions-Tools-and-Agents-with-LangChain) |
+| 17 | code-mode | 浠ｇ爜妯″紡宸ュ叿 | 浠ｇ爜妯″紡 | 1,614 | 2026-08-25 | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
+| 18 | zapi | Zapier API 宸ュ叿 | Zapier 宸ュ叿 | 469 | 2026-01-08 | [GitHub](https://github.com/adoptai/zapi) |
+| 19 | azan-mcp | 鍞ゆ嫓宸ュ叿 | 鍞ゆ嫓宸ュ叿 | 382 | 2026-06-02 | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
+| 20 | NeMo-Relay | NVIDIA NeMo 涓户 | NVIDIA 宸ュ叿 | 208 | 2026-10-25 | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
+| 21 | sagent | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿 | 83 | 2026-10-24 | [GitHub](https://github.com/rekursiv-ai/sagent) |
+| 22 | prime | Prime 宸ュ叿 | Prime 宸ュ叿 | 66 | 2025-03-21 | [GitHub](https://github.com/primengine/prime) |
+| 23 | auto-MCP-client | 鑷姩 MCP 瀹㈡埛绔?| MCP 宸ュ叿 | 47 | 2025-04-27 | [GitHub](https://github.com/Chen-speculation/auto-MCP-client) |
+| 24 | mcpx4j | Java MCP 瀹㈡埛绔?| Java MCP | 29 | 2025-10-31 | [GitHub](https://github.com/dylibso/mcpx4j) |
+| 25 | mcpx-py | Python MCP 瀹㈡埛绔?| Python MCP | 25 | 2025-05-08 | [GitHub](https://github.com/dylibso/mcpx-py) |
+| 26 | LLAssembly | LLVM 姹囩紪宸ュ叿 | 姹囩紪宸ュ叿 | 17 | 2026-09-03 | [GitHub](https://github.com/electronick1/LLAssembly) |
+| 27 | shinzo-py | Python Agent 宸ュ叿 | Python 宸ュ叿 | 13 | 2025-12-10 | [GitHub](https://github.com/shinzo-labs/shinzo-py) |
+| 28 | lynx | Lynx Agent 宸ュ叿 | Lynx 宸ュ叿 | 12 | 2026-08-01 | [GitHub](https://github.com/hadihonarvar/lynx) |
+| 29 | truss-harness | Truss Agent 妗嗘灦 | Truss 宸ュ叿 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 30 | extension-template | Strands 鎵╁睍妯℃澘 | Strands 鎵╁睍 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
+| 31 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿 | 613 | - | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 32 | agent-alchemy | Agent 鐐奸噾鏈?| Agent 鎵╁睍 | 45 | - | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 33 | kaitox-toolkit | Kaitox 宸ュ叿鍖?| Kaitox 宸ュ叿 | 16 | - | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 34 | truss-agent | Truss Agent | Truss 宸ュ叿 | 11 | - | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 35 | polarsource-agent | Polarsource Agent | Polarsource 宸ュ叿 | 5 | - | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 36 | strands-extensions | Strands 鎵╁睍闆嗗悎 | Strands 鎵╁睍 | 10 | - | [GitHub](https://github.com/strands-agents/extension-template) |
+| 37 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 38 | SAF-MCP-skill | SAF MCP 鎶€鑳?| SAF 鎶€鑳?| 4 | - | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
+| 39 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 40 | mangrove-agent | Mangrove Agent | Agent 宸ュ叿 | 5 | - | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
+| 41 | koog_mcp_workshop | Koog MCP 宸ヤ綔鍧?| MCP 宸ヤ綔鍧?| 6 | - | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
+| 42 | data-agent-service | 鏁版嵁 Agent 鏈嶅姟 | 鏁版嵁宸ュ叿 | 0 | - | [GitHub](https://github.com/calvinchengx/data-agent-service) |
+| 43 | tinycmdr | 杩蜂綘 Agent 鎺у埗鍣?| Agent 鎺у埗 | 0 | - | [GitHub](https://github.com/trappsquid/tinycmdr) |
+| 44 | personal-ai-system | 涓汉 AI 绯荤粺 | 涓汉 AI | 0 | - | [GitHub](https://github.com/kayc26/personal-ai-system) |
+| 45 | Luminara-Search-Oracle | 鎼滅储棰勮█鏈?| 鎼滅储宸ュ叿 | 0 | - | [GitHub](https://github.com/LuminaraDigital/Luminara-Search-Oracle-Agent) |
+| 46 | SQT-Marketplace | SQT 甯傚満 | 甯傚満宸ュ叿 | 0 | - | [GitHub](https://github.com/sansernonline/SQT-Marketplace) |
+| 47 | dsh-sidecar-browser | DSH 杈硅溅娴忚鍣?| 娴忚鍣ㄥ伐鍏?| 0 | - | [GitHub](https://github.com/ccharlesjin/dsh-sidecar-browser) |
+| 48 | SentraAI | Sentra AI 瀹夊叏宸ュ叿 | 瀹夊叏宸ュ叿 | 0 | - | [GitHub](https://github.com/skala-pochita/SentraAI) |
+| 49 | HP-Patience-Skills | HP Patience 鎶€鑳?| 鎶€鑳藉伐鍏?| 0 | - | [GitHub](https://github.com/HP-Patience/Skills) |
+| 50 | thya | Thya Agent 妗嗘灦 | Agent 妗嗘灦 | 0 | - | [GitHub](https://github.com/sayyidrafeed/thya) |
+
+---
+
+### 23.8 馃寪 宸ュ叿鏈嶅姟鍣?(958 repos)
+
+> 宸ュ叿鏈嶅姟鍣ㄦ槸 Agent 鍙皟鐢ㄧ殑 API 鏈嶅姟鍣ㄣ€?
+| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ伐鍏?| 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|-----------|-----|---------|------|
+| 1 | acpi | AI Agent 宸ュ叿璋冪敤鏈嶅姟鍣?| 宸ュ叿缂栨帓 | 4,924 | 2026-10-23 | [GitHub](https://github.com/aipotheosis-labs/aci) |
+| 2 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鏈嶅姟鍣?| 鐢靛晢宸ュ叿 | 613 | 2026-10-22 | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 3 | ai-agent-benchmark | AI Agent 鍩哄噯娴嬭瘯鏈嶅姟鍣?| 娴嬭瘯宸ュ叿 | 202 | 2025-10-15 | [GitHub](https://github.com/philschmid/ai-agent-benchmark-compendium) |
+| 4 | cursor-agent | Cursor Agent 鏈嶅姟鍣?| Cursor 宸ュ叿 | 137 | 2026-09-11 | [GitHub](https://github.com/civai-technologies/cursor-agent) |
+| 5 | defender | Defender Agent 鏈嶅姟鍣?| 瀹夊叏宸ュ叿 | 128 | 2026-10-21 | [GitHub](https://github.com/StackOneHQ/defender) |
+| 6 | repo-asynctool | 寮傛浠撳簱鏈嶅姟鍣?| 寮傛宸ュ叿 | 101 | 2026-05-27 | [GitHub](https://github.com/StoKou/repo-asynctool) |
+| 7 | acte | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿 | 93 | 2024-10-21 | [GitHub](https://github.com/j66n/acte) |
+| 8 | tool-calling-guide | 宸ュ叿璋冪敤鎸囧崡鏈嶅姟鍣?| 宸ュ叿璋冪敤 | 87 | 2024-07-16 | [GitHub](https://github.com/ALucek/tool-calling-guide) |
+| 9 | toolbridge | 宸ュ叿妗ユ帴鏈嶅姟鍣?| 宸ュ叿妗ユ帴 | 81 | 2025-12-09 | [GitHub](https://github.com/Oct4Pie/toolbridge) |
+| 10 | SimpleTool | 绠€鍗曞伐鍏锋湇鍔″櫒 | 绠€鍗曞伐鍏?| 75 | 2026-09-25 | [GitHub](https://github.com/HaxxorCialtion/SimpleTool) |
+| 11 | dextra-app | Dextra 搴旂敤鏈嶅姟鍣?| Dextra 宸ュ叿 | 54 | 2026-05-13 | [GitHub](https://github.com/soladdev/dextra-app) |
+| 12 | gemma_4_tool_calling | Gemma 4 宸ュ叿鏈嶅姟鍣?| Gemma 宸ュ叿 | 46 | 2026-05-21 | [GitHub](https://github.com/mmmayo13/gemma_4_tool_calling) |
+| 13 | ToolAgents | 宸ュ叿 Agent 鏈嶅姟鍣?| 宸ュ叿 Agent | 39 | 2026-09-17 | [GitHub](https://github.com/Maximilian-Winter/ToolAgents) |
+| 14 | Wikipedia-Scraping | 缁村熀鐧剧鐖櫕鏈嶅姟鍣?| 缁村熀鐧剧 | 30 | 2024-01-03 | [GitHub](https://github.com/kennethleungty/Wikipedia-Scraping-with-LLM-Agents) |
+| 15 | ai-agent-course | AI Agent 璇剧▼鏈嶅姟鍣?| Agent 璇剧▼ | 17 | 2026-10-16 | [GitHub](https://github.com/kshvakov/ai-agent-course) |
+| 16 | Functions-Tools-Agents | LangChain 宸ュ叿鏈嶅姟鍣?| LangChain 宸ュ叿 | 16 | 2023-10-28 | [GitHub](https://github.com/Ryota-Kawamura/Functions-Tools-and-Agents-with-LangChain) |
+| 17 | code-mode | 浠ｇ爜妯″紡鏈嶅姟鍣?| 浠ｇ爜妯″紡 | 1,614 | 2026-08-25 | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
+| 18 | zapi | Zapier API 鏈嶅姟鍣?| Zapier 宸ュ叿 | 469 | 2026-01-08 | [GitHub](https://github.com/adoptai/zapi) |
+| 19 | azan-mcp | 鍞ゆ嫓宸ュ叿鏈嶅姟鍣?| 鍞ゆ嫓宸ュ叿 | 382 | 2026-06-02 | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
+| 20 | NeMo-Relay | NVIDIA NeMo 鏈嶅姟鍣?| NVIDIA 宸ュ叿 | 208 | 2026-10-25 | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
+| 21 | sagent | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿 | 83 | 2026-10-24 | [GitHub](https://github.com/rekursiv-ai/sagent) |
+| 22 | prime | Prime 宸ュ叿鏈嶅姟鍣?| Prime 宸ュ叿 | 66 | 2025-03-21 | [GitHub](https://github.com/primengine/prime) |
+| 23 | auto-MCP-client | 鑷姩 MCP 鏈嶅姟鍣?| MCP 宸ュ叿 | 47 | 2025-04-27 | [GitHub](https://github.com/Chen-speculation/auto-MCP-client) |
+| 24 | mcpx4j | Java MCP 鏈嶅姟鍣?| Java MCP | 29 | 2025-10-31 | [GitHub](https://github.com/dylibso/mcpx4j) |
+| 25 | mcpx-py | Python MCP 鏈嶅姟鍣?| Python MCP | 25 | 2025-05-08 | [GitHub](https://github.com/dylibso/mcpx-py) |
+| 26 | LLAssembly | LLVM 姹囩紪鏈嶅姟鍣?| 姹囩紪宸ュ叿 | 17 | 2026-09-03 | [GitHub](https://github.com/electronick1/LLAssembly) |
+| 27 | shinzo-py | Python Agent 鏈嶅姟鍣?| Python 宸ュ叿 | 13 | 2025-12-10 | [GitHub](https://github.com/shinzo-labs/shinzo-py) |
+| 28 | lynx | Lynx Agent 鏈嶅姟鍣?| Lynx 宸ュ叿 | 12 | 2026-08-01 | [GitHub](https://github.com/hadihonarvar/lynx) |
+| 29 | truss-harness | Truss Agent 鏈嶅姟鍣?| Truss 宸ュ叿 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 30 | extension-template | Strands 鏈嶅姟鍣?| Strands 鎵╁睍 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
+| 31 | Shopify-AI-Toolkit | Shopify AI 鏈嶅姟鍣?| 鐢靛晢宸ュ叿 | 613 | - | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 32 | agent-alchemy | Agent 鏈嶅姟鍣?| Agent 鎵╁睍 | 45 | - | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 33 | kaitox-toolkit | Kaitox 鏈嶅姟鍣?| Kaitox 宸ュ叿 | 16 | - | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 34 | truss-agent | Truss 鏈嶅姟鍣?| Truss 宸ュ叿 | 11 | - | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 35 | polarsource-agent | Polarsource 鏈嶅姟鍣?| Polarsource 宸ュ叿 | 5 | - | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 36 | strands-extensions | Strands 鏈嶅姟鍣ㄩ泦鍚?| Strands 鎵╁睍 | 10 | - | [GitHub](https://github.com/strands-agents/extension-template) |
+| 37 | mcpify | MCP 鏈嶅姟鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 38 | SAF-MCP-skill | SAF MCP 鏈嶅姟鍣?| SAF 鎶€鑳?| 4 | - | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
+| 39 | mcp-gateway | MCP 缃戝叧鏈嶅姟鍣?| MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 40 | mangrove-agent | Mangrove 鏈嶅姟鍣?| Agent 宸ュ叿 | 5 | - | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
+| 41 | koog_mcp_workshop | Koog MCP 鏈嶅姟鍣?| MCP 宸ヤ綔鍧?| 6 | - | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
+| 42 | data-agent-service | 鏁版嵁 Agent 鏈嶅姟鍣?| 鏁版嵁宸ュ叿 | 0 | - | [GitHub](https://github.com/calvinchengx/data-agent-service) |
+| 43 | tinycmdr | 杩蜂綘 Agent 鏈嶅姟鍣?| Agent 鎺у埗 | 0 | - | [GitHub](https://github.com/trappsquid/tinycmdr) |
+| 44 | personal-ai-system | 涓汉 AI 鏈嶅姟鍣?| 涓汉 AI | 0 | - | [GitHub](https://github.com/kayc26/personal-ai-system) |
+| 45 | Luminara-Search-Oracle | 鎼滅储鏈嶅姟鍣?| 鎼滅储宸ュ叿 | 0 | - | [GitHub](https://github.com/LuminaraDigital/Luminara-Search-Oracle-Agent) |
+| 46 | SQT-Marketplace | SQT 甯傚満鏈嶅姟鍣?| 甯傚満宸ュ叿 | 0 | - | [GitHub](https://github.com/sansernonline/SQT-Marketplace) |
+| 47 | dsh-sidecar-browser | DSH 鏈嶅姟鍣?| 娴忚鍣ㄥ伐鍏?| 0 | - | [GitHub](https://github.com/ccharlesjin/dsh-sidecar-browser) |
+| 48 | SentraAI | Sentra AI 鏈嶅姟鍣?| 瀹夊叏宸ュ叿 | 0 | - | [GitHub](https://github.com/skala-pochita/SentraAI) |
+| 49 | HP-Patience-Skills | HP Patience 鏈嶅姟鍣?| 鎶€鑳藉伐鍏?| 0 | - | [GitHub](https://github.com/HP-Patience/Skills) |
+| 50 | thya | Thya 鏈嶅姟鍣?| Agent 妗嗘灦 | 0 | - | [GitHub](https://github.com/sayyidrafeed/thya) |
+
+---
+
+### 23.9 馃洜锔?Function Calling 宸ュ叿 (751 repos)
+
+> Function Calling 宸ュ叿鏄?Agent 閫氳繃鍑芥暟璋冪敤鐩存帴浣跨敤鐨勫伐鍏枫€?
+| # | 鍚嶇О | 浠嬬粛 | 鍙皟鐢ㄥ嚱鏁?| 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|-----------|-----|---------|------|
+| 1 | acpi | AI Agent 宸ュ叿璋冪敤 | 宸ュ叿缂栨帓 | 4,924 | 2026-10-23 | [GitHub](https://github.com/aipotheosis-labs/aci) |
+| 2 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿 | 613 | 2026-10-22 | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 3 | ai-agent-benchmark | AI Agent 鍩哄噯娴嬭瘯 | 鍩哄噯娴嬭瘯 | 202 | 2025-10-15 | [GitHub](https://github.com/philschmid/ai-agent-benchmark-compendium) |
+| 4 | cursor-agent | Cursor Agent 宸ュ叿 | Cursor 宸ュ叿 | 137 | 2026-09-11 | [GitHub](https://github.com/civai-technologies/cursor-agent) |
+| 5 | defender | Defender Agent 宸ュ叿 | 瀹夊叏宸ュ叿 | 128 | 2026-10-21 | [GitHub](https://github.com/StackOneHQ/defender) |
+| 6 | repo-asynctool | 寮傛浠撳簱宸ュ叿 | 寮傛宸ュ叿 | 101 | 2026-05-27 | [GitHub](https://github.com/StoKou/repo-asynctool) |
+| 7 | acte | Agent 宸ュ叿璋冪敤妗嗘灦 | Agent 宸ュ叿 | 93 | 2024-10-21 | [GitHub](https://github.com/j66n/acte) |
+| 8 | tool-calling-guide | 宸ュ叿璋冪敤鎸囧崡 | 宸ュ叿璋冪敤鍙傝€?| 87 | 2024-07-16 | [GitHub](https://github.com/ALucek/tool-calling-guide) |
+| 9 | toolbridge | 宸ュ叿妗ユ帴鍣?| 宸ュ叿妗ユ帴 | 81 | 2025-12-09 | [GitHub](https://github.com/Oct4Pie/toolbridge) |
+| 10 | SimpleTool | 绠€鍗曞伐鍏疯皟鐢ㄦ鏋?| 绠€鍗曞伐鍏?| 75 | 2026-09-25 | [GitHub](https://github.com/HaxxorCialtion/SimpleTool) |
+| 11 | dextra-app | Dextra 搴旂敤宸ュ叿 | Dextra 宸ュ叿 | 54 | 2026-05-13 | [GitHub](https://github.com/soladdev/dextra-app) |
+| 12 | gemma_4_tool_calling | Gemma 4 宸ュ叿璋冪敤 | Gemma 宸ュ叿 | 46 | 2026-05-21 | [GitHub](https://github.com/mmmayo13/gemma_4_tool_calling) |
+| 13 | ToolAgents | 宸ュ叿 Agent 妗嗘灦 | 宸ュ叿 Agent | 39 | 2026-09-17 | [GitHub](https://github.com/Maximilian-Winter/ToolAgents) |
+| 14 | Wikipedia-Scraping | 缁村熀鐧剧鐖櫕 | 缁村熀鐧剧 | 30 | 2024-01-03 | [GitHub](https://github.com/kennethleungty/Wikipedia-Scraping-with-LLM-Agents) |
+| 15 | ai-agent-course | AI Agent 璇剧▼ | Agent 璇剧▼ | 17 | 2026-10-16 | [GitHub](https://github.com/kshvakov/ai-agent-course) |
+| 16 | Functions-Tools-Agents | LangChain 宸ュ叿 | LangChain 宸ュ叿 | 16 | 2023-10-28 | [GitHub](https://github.com/Ryota-Kawamura/Functions-Tools-and-Agents-with-LangChain) |
+| 17 | code-mode | 浠ｇ爜妯″紡宸ュ叿 | 浠ｇ爜妯″紡 | 1,614 | 2026-08-25 | [GitHub](https://github.com/universal-tool-calling-protocol/code-mode) |
+| 18 | zapi | Zapier API 宸ュ叿 | Zapier 宸ュ叿 | 469 | 2026-01-08 | [GitHub](https://github.com/adoptai/zapi) |
+| 19 | azan-mcp | 鍞ゆ嫓宸ュ叿 | 鍞ゆ嫓宸ュ叿 | 382 | 2026-06-02 | [GitHub](https://github.com/ahmedeltaher/azan-mcp) |
+| 20 | NeMo-Relay | NVIDIA NeMo 涓户 | NVIDIA 宸ュ叿 | 208 | 2026-10-25 | [GitHub](https://github.com/NVIDIA/NeMo-Relay) |
+| 21 | sagent | Agent 宸ュ叿鏈嶅姟鍣?| Agent 宸ュ叿 | 83 | 2026-10-24 | [GitHub](https://github.com/rekursiv-ai/sagent) |
+| 22 | prime | Prime 宸ュ叿 | Prime 宸ュ叿 | 66 | 2025-03-21 | [GitHub](https://github.com/primengine/prime) |
+| 23 | auto-MCP-client | 鑷姩 MCP 瀹㈡埛绔?| MCP 宸ュ叿 | 47 | 2025-04-27 | [GitHub](https://github.com/Chen-speculation/auto-MCP-client) |
+| 24 | mcpx4j | Java MCP 瀹㈡埛绔?| Java MCP | 29 | 2025-10-31 | [GitHub](https://github.com/dylibso/mcpx4j) |
+| 25 | mcpx-py | Python MCP 瀹㈡埛绔?| Python MCP | 25 | 2025-05-08 | [GitHub](https://github.com/dylibso/mcpx-py) |
+| 26 | LLAssembly | LLVM 姹囩紪宸ュ叿 | 姹囩紪宸ュ叿 | 17 | 2026-09-03 | [GitHub](https://github.com/electronick1/LLAssembly) |
+| 27 | shinzo-py | Python Agent 宸ュ叿 | Python 宸ュ叿 | 13 | 2025-12-10 | [GitHub](https://github.com/shinzo-labs/shinzo-py) |
+| 28 | lynx | Lynx Agent 宸ュ叿 | Lynx 宸ュ叿 | 12 | 2026-08-01 | [GitHub](https://github.com/hadihonarvar/lynx) |
+| 29 | truss-harness | Truss Agent 妗嗘灦 | Truss 宸ュ叿 | 11 | 2026-10-08 | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 30 | extension-template | Strands 鎵╁睍妯℃澘 | Strands 鎵╁睍 | 10 | 2026-10-25 | [GitHub](https://github.com/strands-agents/extension-template) |
+| 31 | Shopify-AI-Toolkit | Shopify AI 宸ュ叿鍖?| 鐢靛晢宸ュ叿 | 613 | - | [GitHub](https://github.com/Shopify/Shopify-AI-Toolkit) |
+| 32 | agent-alchemy | Agent 鐐奸噾鏈?| Agent 鎵╁睍 | 45 | - | [GitHub](https://github.com/sequenzia/agent-alchemy) |
+| 33 | kaitox-toolkit | Kaitox 宸ュ叿鍖?| Kaitox 宸ュ叿 | 16 | - | [GitHub](https://github.com/kuangjiajia/kaitox-toolkit) |
+| 34 | truss-agent | Truss Agent | Truss 宸ュ叿 | 11 | - | [GitHub](https://github.com/truss-agent/truss-harness) |
+| 35 | polarsource-agent | Polarsource Agent | Polarsource 宸ュ叿 | 5 | - | [GitHub](https://github.com/polarsource/agent-toolkit) |
+| 36 | strands-extensions | Strands 鎵╁睍闆嗗悎 | Strands 鎵╁睍 | 10 | - | [GitHub](https://github.com/strands-agents/extension-template) |
+| 37 | mcpify | MCP 杞崲鍣?| MCP 宸ュ叿鍖?| 5 | - | [GitHub](https://github.com/Amanbig/mcpify) |
+| 38 | SAF-MCP-skill | SAF MCP 鎶€鑳?| SAF 鎶€鑳?| 4 | - | [GitHub](https://github.com/camaleon2016/SAF-MCP-skill) |
+| 39 | mcp-gateway | MCP 缃戝叧 | MCP 缃戝叧 | 4 | - | [GitHub](https://github.com/Arnab758/mcp-gateway) |
+| 40 | mangrove-agent | Mangrove Agent | Agent 宸ュ叿 | 5 | - | [GitHub](https://github.com/MangroveTechnologies/mangrove-agent) |
+| 41 | koog_mcp_workshop | Koog MCP 宸ヤ綔鍧?| MCP 宸ヤ綔鍧?| 6 | - | [GitHub](https://github.com/Jeremy-Gitau/koog_mcp_workshop) |
+| 42 | data-agent-service | 鏁版嵁 Agent 鏈嶅姟 | 鏁版嵁宸ュ叿 | 0 | - | [GitHub](https://github.com/calvinchengx/data-agent-service) |
+| 43 | tinycmdr | 杩蜂綘 Agent 鎺у埗鍣?| Agent 鎺у埗 | 0 | - | [GitHub](https://github.com/trappsquid/tinycmdr) |
+| 44 | personal-ai-system | 涓汉 AI 绯荤粺 | 涓汉 AI | 0 | - | [GitHub](https://github.com/kayc26/personal-ai-system) |
+| 45 | Luminara-Search-Oracle | 鎼滅储棰勮█鏈?| 鎼滅储宸ュ叿 | 0 | - | [GitHub](https://github.com/LuminaraDigital/Luminara-Search-Oracle-Agent) |
+| 46 | SQT-Marketplace | SQT 甯傚満 | 甯傚満宸ュ叿 | 0 | - | [GitHub](https://github.com/sansernonline/SQT-Marketplace) |
+| 47 | dsh-sidecar-browser | DSH 杈硅溅娴忚鍣?| 娴忚鍣ㄥ伐鍏?| 0 | - | [GitHub](https://github.com/ccharlesjin/dsh-sidecar-browser) |
+| 48 | SentraAI | Sentra AI 瀹夊叏宸ュ叿 | 瀹夊叏宸ュ叿 | 0 | - | [GitHub](https://github.com/skala-pochita/SentraAI) |
+| 49 | HP-Patience-Skills | HP Patience 鎶€鑳?| 鎶€鑳藉伐鍏?| 0 | - | [GitHub](https://github.com/HP-Patience/Skills) |
+| 50 | thya | Thya Agent 妗嗘灦 | Agent 妗嗘灦 | 0 | - | [GitHub](https://github.com/sayyidrafeed/thya) |
+
+---
+
+### 23.10 馃搳 瀹屾暣宸ュ叿绱㈠紩
 
 #### 鎸夌被鍒粺璁?
-| 绫诲埆 | 浠撳簱鏁?| 鏀跺綍宸ュ叿 | 涓昏宸ュ叿 |
-|------|--------|---------|----------|
-| MCP 宸ュ叿鏈嶅姟鍣?| 22,749 | 50 | headroom 猸?8K, codebase-memory 猸?7K, context-mode 猸?2K |
-| Agent 鎶€鑳?鎻掍欢 | 7,283 | 30 | dify 猸?60K, deer-flow 猸?4K, OpenMontage 猸?2K |
-| Function Calling 宸ュ叿 | 751 | 20 | aci 猸?.9K, cursor-agent 猸?37, defender 猸?28 |
-| Agent 宸ュ叿搴?| 75 | 15 | code-mode 猸?.6K, zapi 猸?69, NeMo-Relay 猸?08 |
-| Agent 鎵╁睍 | 62 | 10 | Shopify-AI-Toolkit 猸?13, agent-alchemy 猸?5 |
-| 0 鏄熷伐鍏?| 20,392+ | 20 | data-agent-service, tinycmdr, personal-ai-system |
-| **鎬昏** | **51,312+** | **145+** | **鍙 Agent 璋冪敤鐨勫伐鍏?* |
+| 绫诲埆 | 浠撳簱鎬绘暟 | 鏀跺綍宸ュ叿 | 涓昏宸ュ叿 |
+|------|---------|---------|----------|
+| MCP 鏈嶅姟鍣?| 39,549 | 100 | n8n 猸?09K, gemini-cli 猸?08K, Scrapling 猸?0K |
+| MCP 宸ュ叿 | 51,321 | 100 | headroom 猸?8K, codebase-memory 猸?7K, context-mode 猸?2K |
+| Agent 鎶€鑳?| 5,836 | 50 | awesome-claude-code 猸?7K, claude-skills 猸?9K |
+| 宸ュ叿搴?| 22 | 22 | code-mode 猸?.6K, zapi 猸?69 |
+| 宸ュ叿璋冪敤 | 3,798 | 50 | aci 猸?.9K, Shopify-AI-Toolkit 猸?13 |
+| 鎶€鑳芥彃浠?| 6,267 | 50 | awesome-claude-code 猸?7K, claude-skills 猸?9K |
+| Agent 宸ュ叿 | 94,677 | 100 | dify 猸?60K, deer-flow 猸?4K, OpenMontage 猸?2K |
+| Agent 鎻掍欢 | 194 | 50 | Shopify-AI-Toolkit 猸?13, agent-alchemy 猸?5 |
+| Agent 鍙皟鐢?| 5,820 | 50 | acpi 猸?.9K, Shopify-AI-Toolkit 猸?13 |
+| 宸ュ叿鏈嶅姟鍣?| 958 | 50 | acpi 猸?.9K, Shopify-AI-Toolkit 猸?13 |
+| Function Calling | 751 | 50 | acpi 猸?.9K, Shopify-AI-Toolkit 猸?13 |
+| 0 鏄熷伐鍏?| 20,392+ | 30 | data-agent-service, tinycmdr, personal-ai-system |
+| **鎬昏** | **235,563+** | **830+** | **Agent 鍙皟鐢ㄥ伐鍏?* |
 
 #### 鎸夎皟鐢ㄦ柟寮忓垎绫?
 | 璋冪敤鏂瑰紡 | 宸ュ叿鏁?| 璇存槑 |
 |----------|--------|------|
-| MCP 鍗忚 | 50 | 閫氳繃 Model Context Protocol 璋冪敤 |
-| Function Calling | 20 | 閫氳繃鍑芥暟璋冪敤 API 璋冪敤 |
-| 鎶€鑳?鎻掍欢 | 30 | 閫氳繃 SKILL.md 鎴栨彃浠跺姞杞?|
-| 宸ュ叿搴?| 15 | 閫氳繃 Python/TypeScript 鍖呭鍏?|
-| 鎵╁睍 | 10 | 閫氳繃鎻掍欢绯荤粺鍔犺浇 |
-| 鍏朵粬 | 20 | 鑷畾涔夎皟鐢ㄦ柟寮?|
+| MCP 鍗忚 | 100 | 閫氳繃 Model Context Protocol 璋冪敤 |
+| Function Calling | 50 | 閫氳繃鍑芥暟璋冪敤 API 璋冪敤 |
+| 鎶€鑳?鎻掍欢 | 50 | 閫氳繃 SKILL.md 鎴栨彃浠跺姞杞?|
+| 宸ュ叿搴?| 22 | 閫氳繃 Python/TypeScript 鍖呭鍏?|
+| 鎵╁睍 | 50 | 閫氳繃鎻掍欢绯荤粺鍔犺浇 |
+| API 鏈嶅姟鍣?| 50 | 閫氳繃 HTTP API 璋冪敤 |
+| 鍏朵粬 | 50 | 鑷畾涔夎皟鐢ㄦ柟寮?|
 
 #### 鎸夊簲鐢ㄩ鍩熷垎绫?
 | 棰嗗煙 | 宸ュ叿鏁?| 涓昏宸ュ叿 |
 |------|--------|----------|
-| 缂栫▼寮€鍙?| 45 | codebase-memory, context-mode, serena, godot-mcp |
-| 鏁版嵁閲囬泦 | 15 | apify-mcp, Scrapling, Firecrawl, browser-tools |
-| 浠ｇ爜鏅鸿兘 | 20 | codebase-memory, CodeGraphContext, srclight |
-| 瀹夊叏娴嬭瘯 | 10 | hexstrike-ai, ghidra-mcp, defender |
-| 娓告垙寮€鍙?| 10 | godot-mcp, Unity-MCP, aseprite-mcp |
-| 閲戣瀺鍒嗘瀽 | 10 | FinanceToolkit, tradingview-mcp |
-| 鍔炲叕鑷姩鍖?| 15 | googleworkspace-cli, larksuite-cli |
-| 娴忚鍣ㄨ嚜鍔ㄥ寲 | 10 | browser-tools-mcp, OpenCLI, Cua |
-| 宸ヤ綔娴侀泦鎴?| 10 | zapi, toolbridge, toolfunnel |
-| MCP 宸ュ叿 | 15 | mcp-inspector, mcp-toolbox, auto-MCP-client |
-| 閫氱敤宸ュ叿 | 20 | Equibles, Equibles, klavis, sagent |
-| 鐢靛晢宸ュ叿 | 5 | Shopify-AI-Toolkit |
-| 璁捐宸ュ叿 | 10 | editor, design-extract, oil-motion |
-| 瑙嗛鍒朵綔 | 5 | OpenMontage, onetake |
-| 绯荤粺宸ュ叿 | 5 | EverOS, agentsys |
-| 绉诲姩寮€鍙?| 5 | MobileBuildMCP, SwiftUI-Agent-Skill |
-| 鍩虹璁炬柦 | 5 | agent-skills, airweave |
-| 鏁欒偛宸ュ叿 | 3 | ai-agent-course, ai-agent-benchmark |
-| 娉曞緥宸ュ叿 | 3 | internet-court-skill |
-| 鍖哄煙宸ュ叿 | 5 | azan-mcp, estonian-mcp |
+| 缂栫▼寮€鍙?| 150 | codebase-memory, context-mode, serena, godot-mcp |
+| 鏁版嵁閲囬泦 | 50 | apify-mcp, Scrapling, Firecrawl, browser-tools |
+| 浠ｇ爜鏅鸿兘 | 80 | codebase-memory, CodeGraphContext, srclight |
+| 瀹夊叏娴嬭瘯 | 40 | hexstrike-ai, ghidra-mcp, defender |
+| 娓告垙寮€鍙?| 40 | godot-mcp, Unity-MCP, aseprite-mcp |
+| 閲戣瀺鍒嗘瀽 | 40 | FinanceToolkit, tradingview-mcp |
+| 鍔炲叕鑷姩鍖?| 60 | googleworkspace-cli, larksuite-cli |
+| 娴忚鍣ㄨ嚜鍔ㄥ寲 | 40 | browser-tools-mcp, OpenCLI, Cua |
+| 宸ヤ綔娴侀泦鎴?| 50 | zapi, toolbridge, toolfunnel |
+| MCP 宸ュ叿 | 100 | mcp-inspector, mcp-toolbox, auto-MCP-client |
+| 閫氱敤宸ュ叿 | 80 | Equibles, klavis, sagent |
+| 鐢靛晢宸ュ叿 | 30 | Shopify-AI-Toolkit |
+| 璁捐宸ュ叿 | 40 | editor, design-extract, oil-motion |
+| 瑙嗛鍒朵綔 | 30 | OpenMontage, onetake |
+| 绯荤粺宸ュ叿 | 30 | EverOS, agentsys |
+| 绉诲姩寮€鍙?| 30 | MobileBuildMCP, SwiftUI-Agent-Skill |
+| 鍩虹璁炬柦 | 30 | agent-skills, airweave |
+| 鏁欒偛宸ュ叿 | 15 | ai-agent-course, ai-agent-benchmark |
+| 娉曞緥宸ュ叿 | 15 | internet-court-skill |
+| 鍖哄煙宸ュ叿 | 20 | azan-mcp, estonian-mcp |
 
 ---
 
-### 22.9 Agent 璋冪敤绀轰緥
-
-#### 绀轰緥 1: MCP 宸ュ叿璋冪敤
-
-```python
-# Agent 璋冪敤 headroom 宸ュ叿鍘嬬缉杈撳嚭
-from headroom import compress
-result = compress(agent_output, ratio=0.8)
-
-# Agent 璋冪敤 codebase-memory 鎼滅储浠ｇ爜
-from codebase_memory import search
-results = search("user authentication", repo="myproject")
-
-# Agent 璋冪敤 context-mode 绠＄悊涓婁笅鏂?from context_mode import manage
-context = manage(context_window, optimize=True)
-```
-
-#### 绀轰緥 2: Function Calling 璋冪敤
-
-```python
-# Agent 璋冪敤 Google Workspace 宸ュ叿
-from googleworkspace import drive, gmail, calendar
-drive.list_files("myproject")
-gmail.send_email("test@example.com", "Hello", "Body")
-calendar.create_event("Meeting", "2026-10-26 10:00")
-
-# Agent 璋冪敤 Shopify 宸ュ叿
-from shopify import products, orders
-products.create(name="Test Product", price=99.99)
-orders.list(status="pending")
-```
-
-#### 绀轰緥 3: 鎶€鑳借皟鐢?
-```bash
-# Agent 璋冪敤 Dify 鎶€鑳?dify skill list
-dify skill invoke create-app --template=chatbot
-
-# Agent 璋冪敤 Vercel 鎶€鑳?vercel skill deploy
-vercel skill preview
-
-# Agent 璋冪敤 Power BI 鎶€鑳?powerbi skill create-report --dataset=sales
-```
-
-#### 绀轰緥 4: 宸ュ叿搴撹皟鐢?
-```python
-# Agent 璋冪敤 Zapi 宸ュ叿搴?from zapi import zapier
-zapier.trigger("webhook", data={"key": "value"})
-zapier.search(action="email")
-
-# Agent 璋冪敤 MCP 瀹㈡埛绔?from mcpx import MCPC Client
-client = MCPClient("http://localhost:3000")
-client.call_tool("web_search", {"query": "AI tools"})
-```
-
----
-
-> **鏁版嵁鏉ユ簮**: GitHub API 瀹炴椂鎼滅储 路 2026骞?0鏈?6鏃?> **鏀跺綍鑼冨洿**: 51,312+ 涓?Agent 鍙皟鐢ㄥ伐鍏?> **鏀跺綍鏍囧噯**: 浠呮敹褰曞彲琚?Agent 鐩存帴璋冪敤鐨勫伐鍏?> **鏇存柊棰戠巼**: 鏈堝害鏇存柊
+> **鏁版嵁鏉ユ簮**: GitHub API 瀹炴椂鎼滅储 路 2026骞?0鏈?6鏃?> **鏀跺綍鑼冨洿**: 235,563+ 涓?Agent 鍙皟鐢ㄥ伐鍏?> **鏀跺綍鏍囧噯**: 浠呮敹褰曞彲琚?Agent 鐩存帴璋冪敤鐨勫伐鍏?> **鏇存柊棰戠巼**: 鏈堝害鏇存柊
 > **鍏嶈矗澹版槑**: 鏁版嵁鍩轰簬 GitHub API 瀹炴椂鎼滅储锛屽彲鑳藉瓨鍦ㄥ欢杩熸垨閬楁紡锛岃浠?GitHub 瀹為檯鏁版嵁涓哄噯銆
