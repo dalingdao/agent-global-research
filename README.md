@@ -510,494 +510,475 @@ cat README.md
 
 ---
 
-## 浜屽崄銆侌煂?鍏ㄧ悆 1000+ 宀椾綅 AI 鏇夸唬鐜囧ぇ鍏?(Expanded Edition)
+## 浜屽崄涓€銆侌煍?GitHub AI Agent 宸ュ叿涓庢妧鑳芥敹褰曞ぇ鍏?(Complete Catalog)
 
-> 瑕嗙洊鍏ㄧ悆 **1000+ 宀椾綅**锛屾寜 35 澶ц涓氬垎绫伙紝姣忎釜宀椾綅閰嶅 **瀹屾暣宸ュ叿濂楄**锛屽疄鐜?AI Agent 瀹屽叏鏇夸唬銆?> 鍩轰簬 2026 骞?10 鏈?GitHub 寮€婧愮敓鎬佹暟鎹瘎浼般€?
----
-
-### 20.1 鏇夸唬鐜囧垎绾ф爣鍑?
-| 绛夌骇 | 鏇夸唬鐜?| 棰滆壊 | 鏃堕棿绾?| 鐗瑰緛 |
-|------|--------|------|--------|------|
-| **鏋侀珮** | 90-100% | 馃敶 | 1-2骞?| 绾噸澶嶆€с€佽鍒欐槑纭€佹暟瀛楀鐞?|
-| **楂?* | 70-89% | 馃煚 | 2-4骞?| 澶ч儴鍒嗗彲鑷姩鍖栵紝灏戦儴鍒嗛渶浜哄伐 |
-| **涓?* | 50-69% | 馃煛 | 3-5骞?| 浜烘満鍗忎綔锛屽垎宸ユ槑纭?|
-| **浣?* | 30-49% | 馃煝 | 5+骞?| 浠呴噸澶嶄换鍔¤嚜鍔ㄥ寲 |
-| **鏋佷綆** | 10-29% | 馃數 | 10+骞?| 浠呰緟鍔╁寮?|
-| **闅炬浛浠?* | 0-9% | 鈿?| 姘镐笉 | 浜虹被涓撳睘鑳藉姏 |
+> 鍩轰簬 GitHub API 瀹炴椂鎼滅储锛屾敹褰曟墍鏈?AI Agent 宸ュ叿銆佹妧鑳姐€佹鏋跺拰骞冲彴銆?> 鏀跺綍鏍囧噯锛?*鏃犳敹钘忔暟闄愬埗**锛? 鏀惰棌鐨勫伐鍏峰悓鏍锋敹褰曘€?> 鏁版嵁鏃堕棿: 2026-10-26
 
 ---
 
-### 20.2 琛屼笟鎬昏
+### 21.1 鏀跺綍缁熻鎬昏
 
-| # | 琛屼笟 | 宀椾綅鏁?| 馃敶鏋侀珮 | 馃煚楂?| 馃煛涓?| 馃煝浣?| 馃數鏋佷綆 | 鈿毦鏇夸唬 |
-|---|------|--------|--------|------|------|------|--------|---------|
-| 1 | 馃彚 琛屾斂涓庡姙鍏?| 80 | 22 | 32 | 18 | 6 | 2 | 0 |
-| 2 | 馃摓 瀹㈡埛鏈嶅姟 | 50 | 18 | 22 | 7 | 3 | 0 | 0 |
-| 3 | 馃捇 绉戞妧涓嶪T | 100 | 5 | 25 | 35 | 28 | 7 | 0 |
-| 4 | 馃挵 閲戣瀺涓庝細璁?| 70 | 12 | 28 | 18 | 9 | 3 | 0 |
-| 5 | 馃搳 鏁版嵁鍒嗘瀽 | 40 | 10 | 15 | 9 | 5 | 1 | 0 |
-| 6 | 馃摑 濯掍綋涓庡唴瀹?| 60 | 22 | 24 | 9 | 3 | 2 | 0 |
-| 7 | 馃摚 钀ラ攢涓庨攢鍞?| 75 | 12 | 32 | 22 | 7 | 2 | 0 |
-| 8 | 馃帹 鍒涙剰涓庤璁?| 45 | 2 | 12 | 18 | 9 | 4 | 0 |
-| 9 | 馃彞 鍖荤枟鍋ュ悍 | 80 | 8 | 12 | 22 | 22 | 14 | 2 |
-| 10 | 馃摎 鏁欒偛涓庡煿璁?| 45 | 3 | 10 | 16 | 13 | 3 | 0 |
-| 11 | 鈿栵笍 娉曞緥涓庡悎瑙?| 40 | 3 | 8 | 13 | 10 | 6 | 0 |
-| 12 | 馃彈锔?宸ョ▼涓庡缓绛?| 55 | 2 | 8 | 15 | 22 | 8 | 0 |
-| 13 | 馃彮 鍒堕€犱笌宸ヤ笟 | 60 | 12 | 18 | 15 | 12 | 3 | 0 |
-| 14 | 馃殮 鐗╂祦涓庤繍杈?| 50 | 22 | 18 | 4 | 5 | 1 | 0 |
-| 15 | 馃尵 鍐滀笟涓庨鍝?| 40 | 12 | 15 | 6 | 5 | 2 | 0 |
-| 16 | 馃彧 闆跺敭涓庣數鍟?| 55 | 15 | 22 | 8 | 9 | 1 | 0 |
-| 17 | 馃彣 閰掑簵涓庢梾娓?| 45 | 18 | 8 | 9 | 6 | 4 | 0 |
-| 18 | 馃摗 閫氫俊涓庣綉缁?| 30 | 2 | 5 | 8 | 12 | 3 | 0 |
-| 19 | 馃敩 绉戝涓庣爺绌?| 35 | 2 | 6 | 10 | 12 | 5 | 0 |
-| 20 | 馃幁 鑹烘湳涓庡ū涔?| 45 | 2 | 6 | 12 | 15 | 10 | 0 |
-| 21 | 馃弸锔?浣撹偛涓庡仴韬?| 25 | 2 | 4 | 8 | 7 | 4 | 0 |
-| 22 | 馃 绀句細鏈嶅姟 | 35 | 5 | 10 | 6 | 9 | 5 | 0 |
-| 23 | 馃尶 鐜涓庤嚜鐒?| 30 | 2 | 4 | 8 | 10 | 6 | 0 |
-| 24 | 鈿?鑳芥簮涓庡叕鐢ㄤ簨涓?| 30 | 2 | 10 | 5 | 9 | 4 | 0 |
-| 25 | 馃彌锔?鏀垮簻涓庡叕鍏?| 40 | 2 | 12 | 8 | 10 | 8 | 0 |
-| 26 | 馃洝锔?鍐涗簨涓庡畨鍏?| 30 | 1 | 6 | 8 | 8 | 7 | 0 |
-| 27 | 馃彟 浜哄姏璧勬簮 | 35 | 3 | 12 | 9 | 9 | 2 | 0 |
-| 28 | 馃搵 椤圭洰绠＄悊 | 25 | 1 | 5 | 6 | 11 | 2 | 0 |
-| 29 | 馃捈 鑷敱鑱屼笟 | 35 | 3 | 12 | 12 | 5 | 3 | 0 |
-| 30 | 馃幃 娓告垙涓庡ū涔?| 30 | 2 | 8 | 10 | 5 | 5 | 0 |
-| 31 | 馃敀 瀹夊叏涓庡悎瑙?| 25 | 1 | 4 | 7 | 8 | 5 | 0 |
-| 32 | 馃摫 绉诲姩绔紑鍙?| 20 | 1 | 4 | 6 | 7 | 2 | 0 |
-| 33 | 鈽侊笍 浜戣绠?| 20 | 1 | 3 | 6 | 7 | 3 | 0 |
-| 34 | 馃 AI/ML 鐮旂┒ | 25 | 1 | 4 | 7 | 9 | 4 | 0 |
-| 35 | 馃幆 閿€鍞笌鍟嗗姟 | 25 | 3 | 10 | 8 | 2 | 2 | 0 |
-| | **鎬昏** | **1,070+** | **218** | **454** | **356** | **246** | **123** | **2** |
+| 鍒嗙被 | 浠撳簱鎬绘暟 | 鏀跺綍鏁伴噺 |
+|------|---------|---------|
+| 馃彈锔?Agent 妗嗘灦 | 1,015 | 30 |
+| 鈿?Agent 鎶€鑳?| 5,834 | 30 |
+| 馃攲 MCP 鏈嶅姟鍣?| 39,547 | 30 |
+| 馃幆 Agent 缂栨帓 | 4,512 | 20 |
+| 馃洜锔?AI 缂栫爜宸ュ叿 | 8,125 | 20 |
+| 馃殌 AI 鑷姩鍖?| 2,625 | 15 |
+| 馃摝 AI 鍩虹璁炬柦 | 1,869 | 15 |
+| 馃 Agent 璁板繂 | 4,942 | 15 |
+| 馃寪 Agent 閫氫俊 | 370 | 10 |
+| 馃摫 Agent 搴旂敤 | 523 | 15 |
+| 馃摎 Awesome 鍒楄〃 | 590 | 15 |
+| 馃彚 Agent 骞冲彴 | 1,431 | 15 |
+| 馃 澶?Agent | 20,756 | 15 |
+| 馃弸锔?Agent Harness | 1,722 | 15 |
+| 馃З LLM Agent | 3,310 | 15 |
+| 馃啌 0 鏄熷伐鍏?| 20,392 | 15 |
+| **鎬昏** | **153,438+** | **250+** |
 
 ---
 
-### 20.3 瀹屾暣宀椾綅鍒楄〃 (鎸夎涓氾紝姣忎釜宀椾綅閰嶅宸ュ叿濂楄)
+### 21.2 馃彈锔?AI Agent 妗嗘灦 (1,015 repos)
+
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **nanobot** | 瓒呰交閲忕骇寮€婧愯嚜鎵樼涓汉 AI Agent 妗嗘灦 | Python 蹇€熼儴缃?| 涓汉鍔╃悊銆佽嚜鍔ㄥ寲 | 49,348 | 2026-10-25 | [GitHub](https://github.com/HKUDS/nanobot) |
+| 2 | **TencentDB-Agent-Memory** | 鑵捐 Agent 璁板繂涓績锛? 绉嶅彲澶嶇敤璁板繂璧勪骇 | 闆嗘垚鍒?Agent 璁板繂绯荤粺 | 浼佷笟绾ц蹇嗙鐞?| 29,922 | 2026-10-21 | [GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory) |
+| 3 | **ai-berkshire** | AI Berkshire 妗嗘灦锛屾姇璧勫垎鏋愪笓鐢?Agent | 鎶曡祫鐮旂┒鑷姩鍖?| 閲戣瀺鍒嗘瀽 | 16,882 | 2026-10-24 | [GitHub](https://github.com/xbtlin/ai-berkshire) |
+| 4 | **omnigent** | 寮€婧?AI Agent 妗嗘灦鍜屽厓妗嗘灦锛岀紪鎺掑绉?Agent | 澶?Agent 缂栨帓 | 澶嶆潅浠诲姟鍒嗚В | 11,046 | 2026-10-26 | [GitHub](https://github.com/omnigent-ai/omnigent) |
+| 5 | **LazyLLM** | 鏈€绠€ Python 缂栨帓澶ц瑷€妯″瀷 | 蹇€熷師鍨嬪紑鍙?| LLM 搴旂敤 | 3,887 | 2026-10-23 | [GitHub](https://github.com/LazyAGI/LazyLLM) |
+| 6 | **TradingAgents-astock** | 澶?Agent 閲戣瀺浜ゆ槗妗嗘灦锛屾敮鎸?A 鑲?| 浜ゆ槗绛栫暐鑷姩鍖?| 閲戣瀺浜ゆ槗 | 3,789 | 2026-10-25 | [GitHub](https://github.com/simonlin1212/TradingAgents-astock) |
+| 7 | **beeai-framework** | BeeAI 寮€婧?Agent 妗嗘灦锛屼紒涓氱骇 | 浼佷笟搴旂敤闆嗘垚 | 浼佷笟鑷姩鍖?| 3,443 | 2026-10-23 | [GitHub](https://github.com/i-am-bee/beeai-framework) |
+| 8 | **ii-agent** | 鏅鸿兘浜掕仈缃?Agent 妗嗘灦 | 淇℃伅妫€绱㈣嚜鍔ㄥ寲 | 鐭ヨ瘑绠＄悊 | 3,392 | 2026-08-16 | [GitHub](https://github.com/Intelligent-Internet/ii-agent) |
+| 9 | **BotSharp** | 寮€婧?AI Bot 骞冲彴锛屾敮鎸佸骞冲彴 | 鑱婂ぉ鏈哄櫒浜哄紑鍙?| 瀹㈡湇銆佽惀閿€ | 3,116 | 2026-10-23 | [GitHub](https://github.com/SciSharp/BotSharp) |
+| 10 | **Cradle** | BAAI 寮€婧?Agent 妗嗘灦锛屾敮鎸佸伐鍏疯皟鐢?| 浠诲姟鑷姩鍖?| 閫氱敤 Agent | 2,596 | 2024-11-07 | [GitHub](https://github.com/BAAI-Agents/Cradle) |
+| 11 | **OpenGUI** | 寮€婧?GUI 鑷姩鍖?Agent | 妗岄潰鑷姩鍖?| 鍔炲叕鑷姩鍖?| 1,802 | 2026-10-18 | [GitHub](https://github.com/Core-Mate/OpenGUI) |
+| 12 | **agent-protocol** | Agent 閫氫俊鍗忚锛屾敮鎸佸 Agent 鍗忎綔 | Agent 闂撮€氫俊 | 澶?Agent 绯荤粺 | 1,460 | 2025-04-08 | [GitHub](https://github.com/agi-inc/agent-protocol) |
+| 13 | **LightAgent** | 杞婚噺绾?Agent 妗嗘灦锛屽揩閫熶笂鎵?| 蹇€熷師鍨嬪紑鍙?| 涓汉椤圭洰 | 1,238 | 2026-09-30 | [GitHub](https://github.com/wanxingai/LightAgent) |
+| 14 | **Cybermes** | 寮€婧?Agent 妗嗘灦锛屾敮鎸佸伐鍏疯皟鐢?| 浠诲姟鑷姩鍖?| 閫氱敤 Agent | 973 | 2026-10-24 | [GitHub](https://github.com/Zyrexnn/Cybermes) |
+| 15 | **OpenJudge** | Agent 璇勪及妗嗘灦锛岀敤浜?Agent 璐ㄩ噺璇勪及 | Agent 娴嬭瘯璇勪及 | Agent 寮€鍙?| 889 | 2026-10-20 | [GitHub](https://github.com/agentscope-ai/OpenJudge) |
+| 16 | **swapper-toolkit** | 閲忓寲浜ゆ槗 Agent 宸ュ叿鍖?| 浜ゆ槗绛栫暐鑷姩鍖?| 閲忓寲浜ゆ槗 | 850 | 2026-04-07 | [GitHub](https://github.com/swapperfinance/swapper-toolkit) |
+| 17 | **golf** | Golf MCP 妗嗘灦锛孧CP 鍗忚瀹炵幇 | MCP 宸ュ叿寮€鍙?| MCP 鐢熸€?| 841 | 2026-09-09 | [GitHub](https://github.com/golf-mcp/golf) |
+| 18 | **vulcan-sql** | AI SQL Agent锛岃嚜鐒惰瑷€鐢熸垚 SQL | 鏁版嵁搴撴煡璇?| 鏁版嵁鍒嗘瀽 | 792 | 2024-07-01 | [GitHub](https://github.com/Canner/vulcan-sql) |
+| 19 | **frontman** | 寮€婧?Agent 骞冲彴锛屾敮鎸佸妯″瀷 | 澶氭ā鍨?Agent | 閫氱敤 Agent | 719 | 2026-10-25 | [GitHub](https://github.com/frontman-ai/frontman) |
+| 20 | **Stirrup** | AI 鐮旂┒ Agent 妗嗘灦 | 鐮旂┒鑷姩鍖?| AI 鐮旂┒ | 667 | 2026-10-22 | [GitHub](https://github.com/ArtificialAnalysis/Stirrup) |
+| 21 | **goclaw** | Go 璇█ Agent 妗嗘灦 | Go 鐢熸€侀泦鎴?| 鍚庣鑷姩鍖?| 598 | 2026-03-27 | [GitHub](https://github.com/smallnest/goclaw) |
+| 22 | **n8n-claw** | n8n 闆嗘垚鐨?Agent 妗嗘灦 | n8n 宸ヤ綔娴侀泦鎴?| 宸ヤ綔娴佽嚜鍔ㄥ寲 | 560 | 2026-10-25 | [GitHub](https://github.com/freddy-schuetz/n8n-claw) |
+| 23 | **LoongFlow** | 鐧惧害寮€婧?Agent 妗嗘灦 | 蹇€熼儴缃?| 閫氱敤 Agent | 481 | 2026-04-09 | [GitHub](https://github.com/baidu-baige/LoongFlow) |
+| 24 | **agentsilex** | 寮€婧?Agent 妗嗘灦锛屾敮鎸佸 Agent | 澶?Agent 鍗忎綔 | 澶嶆潅浠诲姟 | 458 | 2026-01-02 | [GitHub](https://github.com/howl-anderson/agentsilex) |
+| 25 | **aigne-framework** | AIGNE 寮€婧?Agent 妗嗘灦 | 蹇€熼儴缃?| 閫氱敤 Agent | 369 | 2026-01-25 | [GitHub](https://github.com/AIGNE-io/aigne-framework) |
+| 26 | **vue-tui** | Vue.js Agent UI 妗嗘灦 | 鍓嶇 Agent 鐣岄潰 | Agent 鍓嶇 | 366 | 2026-09-07 | [GitHub](https://github.com/vuejs-ai/vue-tui) |
+| 27 | **modelstudioai/cli** | Model Studio AI CLI 宸ュ叿 | 鍛戒护琛?Agent 鎿嶄綔 | Agent 寮€鍙?| 364 | 2026-10-23 | [GitHub](https://github.com/modelstudioai/cli) |
+| 28 | **tinystruct** | 杞婚噺绾?Agent 妗嗘灦 | 蹇€熷師鍨?| 涓汉椤圭洰 | 363 | 2026-10-25 | [GitHub](https://github.com/tinystruct/tinystruct) |
+| 29 | **agent-design-patterns** | Agent 璁捐妯″紡闆嗗悎 | 璁捐鍙傝€?| Agent 寮€鍙?| 319 | 2026-10-11 | [GitHub](https://github.com/huangjia2019/agent-design-patterns) |
+| 30 | **claude-code-android** | Claude Code Android 瀹㈡埛绔?| Android 绉诲姩 Agent | 绉诲姩 Agent | 297 | 2026-07-27 | [GitHub](https://github.com/ferrumclaudepilgrim/claude-code-android) |
 
 ---
 
-#### 馃彚 涓€銆佽鏀夸笌鍔炲叕 (Admin & Office) 鈥?80 涓矖浣?
-| # | 宀椾綅 | 鏇夸唬鐜?| 鏃堕棿 | Agent 鏇夸唬鏂规 | 宸ュ叿濂楄 |
-|---|------|--------|------|--------------|----------|
-| 1 | 鏁版嵁褰曞叆鍛?| 馃敶 95% | 1-2骞?| **瀹屽叏鏇夸唬**: Firecrawl 閲囬泦鏁版嵁 鈫?n8n 鑷姩鍖栧綍鍏?鈫?MCP Server Excel 鍐欏叆 鈫?鑷姩鏍￠獙 鈫?褰掓。 | Firecrawl, n8n, MCP Server Excel, Blurr, Dify |
-| 2 | 閫熻鍛?| 馃敶 88% | 1-2骞?| **瀹屽叏鏇夸唬**: Cherry Studio 璇煶璇嗗埆 鈫?Whisper 妯″瀷杞枃瀛?鈫?鑷姩鍒嗘 鈫?鐢熸垚绾 鈫?鍙戦€侀偖浠?| Cherry Studio, Dify, LangChain, n8n, OpenClaw |
-| 3 | 鎵撳瓧鍛?| 馃敶 92% | 1-2骞?| **瀹屽叏鏇夸唬**: OCR 鎵弿 鈫?AI 鏍煎紡璇嗗埆 鈫?鑷姩鎺掔増 鈫?鐢熸垚鏂囨。 鈫?褰掓。 | Dify, n8n, Firecrawl, MCP Server Excel |
-| 4 | 妗ｆ绠＄悊鍛?| 馃敶 85% | 2-3骞?| **瀹屽叏鏇夸唬**: 鏁板瓧鍖栨壂鎻?鈫?AI 鍒嗙被 鈫?鑷姩绱㈠紩 鈫?鍏ㄦ枃妫€绱?鈫?鏉冮檺绠＄悊 | SiYuan, n8n, LangChain, OpenViking |
-| 5 | 鏂囦欢缂栧埗鍛?| 馃煚 78% | 2-3骞?| **瀹屽叏鏇夸唬**: 妯℃澘濉厖 鈫?鏁版嵁鏍￠獙 鈫?鑷姩鐢熸垚 鈫?瀹℃壒娴佺▼ | Dify, n8n, MCP Server Excel, Agenta |
-| 6 | 琛屾斂鍔╃悊 | 馃煚 60% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏃ョ▼绠＄悊 鈫?閭欢澶勭悊 鈫?鏂囨。鐢熸垚 鈫?浼氳璁板綍 | Cherry Studio, n8n, Dify, Prompt Optimizer |
-| 7 | 鍔炲叕瀹ゅ姪鐞?| 馃煚 65% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鐢佃瘽杞帴 鈫?鏉ヨ鐧昏 鈫?淇℃伅浼犺揪 | Cherry Studio, n8n, Activepieces |
-| 8 | 绉樹功 | 馃煚 70% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 浼氳璁板綍 鈫?鏃ョ▼瀹夋帓 鈫?鏂囦欢鏁寸悊 | Dify, n8n, Cherry Studio |
-| 9 | 琛屾斂缁忕悊 | 馃煛 50% | 3-5骞?| **AI 杈呭姪**: 鎶ュ憡鐢熸垚 鈫?娴佺▼浼樺寲 鈫?鏁版嵁鍒嗘瀽 | Dify, n8n, GPT Researcher |
-| 10 | 琛屾斂鎬荤洃 | 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | LangChain, GPT Researcher, Dify |
-| 11 | 鏂囧憳 | 馃敶 90% | 1-2骞?| **瀹屽叏鏇夸唬**: 鏂囨。澶勭悊 鈫?鏁版嵁褰曞叆 鈫?鏍煎紡杞崲 | n8n, Dify, MCP Server Excel |
-| 12 | 鎺掔彮鍛?| 馃煚 72% | 2-3骞?| **瀹屽叏鏇夸唬**: 鎺掔彮绠楁硶 鈫?鍐茬獊妫€娴?鈫?鑷姩鍙戝竷 | n8n, Dify, Activepieces |
-| 13 | 鎺ュ緟鍛?| 馃煚 68% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鑷姩搴旂瓟 鈫?鏉ヨ鐧昏 鈫?淇℃伅浼犺揪 | Cherry Studio, n8n |
-| 14 | 浼氳鍗忚皟鍛?| 馃煚 70% | 2-3骞?| **瀹屽叏鏇夸唬**: 鏃ョ▼瀹夋帓 鈫?鏉愭枡鍑嗗 鈫?绾鐢熸垚 | Dify, n8n, Cherry Studio |
-| 15 | 閲囪喘鍔╃悊 | 馃煚 65% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 璁㈠崟澶勭悊 鈫?渚涘簲鍟嗙鐞?鈫?鏁版嵁褰曞叆 | n8n, Dify, Activepieces |
-| 16 | 浠撳簱鏂囧憳 | 馃煚 70% | 2-3骞?| **瀹屽叏鏇夸唬**: 搴撳瓨璁板綍 鈫?鍑哄叆搴撶鐞?鈫?鎶ヨ〃鐢熸垚 | n8n, Dify, MCP Server Excel |
-| 17 | 璐㈠姟鍔╃悊 | 馃煚 65% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏁版嵁褰曞叆 鈫?瀵硅处 鈫?鎶ヨ〃鐢熸垚 | n8n, Dify, MCP Server Excel |
-| 18 | 鍑虹撼 | 馃煛 55% | 3-5骞?| **AI 杈呭姪**: 鏀朵粯娆捐褰?鈫?鍑瘉鐢熸垚 鈫?瀵硅处 | Dify, n8n, MCP Server Excel |
-| 19 | 绋庡姟鏂囧憳 | 馃煛 50% | 3-5骞?| **AI 杈呭姪**: 鎶ヨ〃鐢熸垚 鈫?绋庡姟璁＄畻 鈫?鐢虫姤杈呭姪 | Dify, n8n, LangChain |
-| 20 | 缁熻鏂囧憳 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 鏁版嵁姹囨€?鈫?缁熻鍒嗘瀽 鈫?鎶ュ憡鐢熸垚 | LangChain, Dify, n8n |
-| 21 | 妗ｆ绠＄悊鍛?| 馃煚 72% | 2-3骞?| **瀹屽叏鏇夸唬**: 鏁板瓧鍖栧綊妗?鈫?鍏ㄦ枃妫€绱?鈫?鏉冮檺绠＄悊 | SiYuan, LangChain, OpenViking |
-| 22 | 鏂囨帶绠＄悊鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 鐗堟湰鎺у埗 鈫?鏂囨。绠＄悊 鈫?瀹℃壒娴佺▼ | n8n, Dify |
-| 23 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 鈫?淇℃伅浼犺揪 鈫?鍗忚皟娌熼€?| Cherry Studio, n8n |
-| 24 | 琛屾斂缁忕悊 | 馃煝 30% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?娴佺▼浼樺寲 鈫?鏁版嵁鍒嗘瀽 | Dify, GPT Researcher, n8n |
-| 25 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | LangChain, GPT Researcher |
-| 26 | 鎬荤粡鐞嗗姪鐞?| 馃煛 50% | 3-5骞?| **AI 杈呭姪**: 淇℃伅姹囨€?鈫?鏁版嵁鍒嗘瀽 鈫?鏂规鐢熸垚 | LangChain, GPT Researcher, Dify |
-| 27 | 鎬昏鍔╃悊 | 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | LangChain, GPT Researcher |
-| 28 | 鐢佃瘽鎺ョ嚎鍛?| 馃敶 85% | 1-2骞?| **瀹屽叏鏇夸唬**: 鑷姩搴旂瓟 鈫?杞帴 鈫?淇℃伅璁板綍 | Cherry Studio, Activepieces, n8n |
-| 29 | 鍓嶅彴鎺ュ緟 | 馃煚 68% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏉ヨ鐧昏 鈫?鑷姩搴旂瓟 鈫?淇℃伅浼犺揪 | Cherry Studio, n8n |
-| 30 | 鍊肩彮绠＄悊鍛?| 馃煚 65% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鎺掔彮 鈫?宸℃煡璁板綍 鈫?鎶ュ憡鐢熸垚 | n8n, Dify |
-| 31 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?鈫?淇℃伅浼犺揪 鈫?娴佺▼绠＄悊 | Cherry Studio, n8n |
-| 32 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain |
-| 33 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?娴佺▼浼樺寲 | Dify, n8n |
-| 34 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 35 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 | Cherry Studio, n8n |
-| 36 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 37 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
-| 38 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 | Dify, n8n |
-| 39 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 40 | 鍔炲叕瀹ゆ枃鍛?| 馃煚 65% | 2-3骞?| **瀹屽叏鏇夸唬**: 鏂囨。澶勭悊 鈫?鏁版嵁褰曞叆 | n8n, Dify |
-| 41 | 鐢佃瘽鎺ョ嚎鍛?| 馃敶 85% | 1-2骞?| **瀹屽叏鏇夸唬**: 鑷姩搴旂瓟 鈫?杞帴 | Cherry Studio, Activepieces |
-| 42 | 鍓嶅彴鎺ュ緟 | 馃煚 68% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏉ヨ鐧昏 鈫?鑷姩搴旂瓟 | Cherry Studio, n8n |
-| 43 | 鍊肩彮绠＄悊鍛?| 馃煚 65% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鎺掔彮 鈫?宸℃煡璁板綍 | n8n, Dify |
-| 44 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 45 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
-| 46 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 | Dify, n8n |
-| 47 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 48 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 | Cherry Studio, n8n |
-| 49 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 50 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
-| 51 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 | Dify, n8n |
-| 52 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 53 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 | Cherry Studio, n8n |
-| 54 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 55 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
-| 56 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 | Dify, n8n |
-| 57 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 58 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 | Cherry Studio, n8n |
-| 59 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 60 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
-| 61 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 | Dify, n8n |
-| 62 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 63 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 | Cherry Studio, n8n |
-| 64 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 65 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
-| 66 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 | Dify, n8n |
-| 67 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 68 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 | Cherry Studio, n8n |
-| 69 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 70 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
-| 71 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 | Dify, n8n |
-| 72 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 73 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 | Cherry Studio, n8n |
-| 74 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 75 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
-| 76 | 琛屾斂缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 | Dify, n8n |
-| 77 | 琛屾斂鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 | LangChain, GPT Researcher |
-| 78 | 琛屾斂涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父浜嬪姟 | Cherry Studio, n8n |
-| 79 | 琛屾斂鍗忚皟鍛?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 璺ㄩ儴闂ㄥ崗璋?| Cherry Studio, n8n |
-| 80 | 琛屾斂瑙勫垝鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 瑙勫垝鍒嗘瀽 | GPT Researcher, LangChain |
+### 21.3 鈿?Agent 鎶€鑳?(5,834 repos)
 
-**琛屼笟宸ュ叿濂楄**: [馃搵 椤圭洰缁忕悊宸ュ叿濂楄](#1419--椤圭洰缁忕悊-project-manager)
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **watermarks-remover** | 闅愮浼樺厛鐨?AI 姘村嵃绉婚櫎搴旂敤 | 鍥剧墖/瑙嗛鍘绘按鍗?| 鍥惧儚澶勭悊 | 24,899 | 2026-10-25 | [GitHub](https://github.com/guillaumemeyer/watermarks-remover) |
+| 2 | **anatomy** | 鍒涘缓璇︾粏浜や簰寮忕瓑璺濇彃鍥撅紝SVG + WebGL 鐫€鑹插櫒 | 绛夎窛鎻掑浘鐢熸垚 | 璁捐/鏁欒偛 | 20,622 | 2026-10-18 | [GitHub](https://github.com/wheresryan22/anatomy) |
+| 3 | **dashi-ppt-skill** | 浠庡绉嶈瑙変富棰樼敓鎴愭祻瑙堝櫒鍙紪杈戞紨绀烘枃绋?| PPT 鑷姩鐢熸垚 | 婕旂ず鏂囩 | 9,993 | 2026-09-12 | [GitHub](https://github.com/chuspeeism/dashi-ppt-skill) |
+| 4 | **guizang-social-card** | 鐢熸垚灏忕孩涔﹁疆鎾浘 + 鍏紬鍙峰皝闈紝28 甯冨眬 10 涓婚 | 绀句氦濯掍綋鍗＄墖 | 绀句氦濯掍綋 | 7,730 | 2026-07-01 | [GitHub](https://github.com/op7418/guizang-social-card-skill) |
+| 5 | **remove-ai-watermarks** | 绉婚櫎鍙鍜屼笉鍙 AI 姘村嵃锛孭ython 搴?+ CLI + Agent 鎶€鑳?| 鍘?AI 姘村嵃 | 鍥惧儚/瑙嗛 | 6,126 | 2026-10-25 | [GitHub](https://github.com/wiltodelta/remove-ai-watermarks) |
+| 6 | **linkedin-skills** | Claude 鎶€鑳戒负 LinkedIn 鍒涗綔甯栧瓙銆佽瘎璁恒€佸垎鏋?| LinkedIn 鍐呭鍒涗綔 | 绀句氦濯掍綋 | 5,187 | 2026-10-22 | [GitHub](https://github.com/sergebulaev/linkedin-skills) |
+| 7 | **council-of-high-intelligence** | 缁撴瀯鍖栧瑙嗚鍐崇瓥锛孋ouncil/Triads/Duo 杈╄ | 澶氳瑙掑喅绛?| 鍐崇瓥鍒嗘瀽 | 4,705 | 2026-10-19 | [GitHub](https://github.com/0xNyk/council-of-high-intelligence) |
+| 8 | **answer-me-with-html** | AI Agent 鐢ㄤ竴椤?HTML 鍥炵瓟澶嶆潅闂 | HTML 鏍煎紡鍖栧洖绛?| 闂瓟绯荤粺 | 4,436 | 2026-10-26 | [GitHub](https://github.com/QingYunA/answer-me-with-html) |
+| 9 | **design-extract** | 涓€閿彁鍙栫綉绔欒璁＄郴缁燂紝DTCG tokens + MCP Server | 璁捐绯荤粺鎻愬彇 | 璁捐/寮€鍙?| 4,371 | 2026-10-23 | [GitHub](https://github.com/Manavarya09/design-extract) |
+| 10 | **gzh-design-skill** | Markdown 涓€閿帓鐗堟垚鍏紬鍙风簿鑷?HTML锛? 濂椾富棰?| 鍏紬鍙锋帓鐗?| 鍐呭鍒涗綔 | 4,156 | 2026-10-21 | [GitHub](https://github.com/isjiamu/gzh-design-skill) |
+| 11 | **Easel** | 寮€婧?AI 绀句氦濯掍綋 Agent锛屽彂鐜扮儹鐐广€佸垱浣溿€佸彂甯?| 绀句氦濯掍綋鑷姩鍖?| 绀句氦濯掍綋 | 4,077 | 2026-10-25 | [GitHub](https://github.com/ZJU-REAL/Easel) |
+| 12 | **nihaixia** | 鍊捣鍘﹁瑙掔殑涓尰 Agent 鎶€鑳斤紝2452 椤佃涔?| 涓尰鐭ヨ瘑闂瓟 | 鍖荤枟鍋ュ悍 | 3,821 | 2026-10-15 | [GitHub](https://github.com/jangviktor-web/nihaixia) |
+| 13 | **qwen21-nsfw-pose** | Qwen-Image 2.1 NSFW 濮垮娍鍑哄浘鎶€鑳?| AI 鍑哄浘 | 鍥惧儚鐢熸垚 | 3,725 | 2026-10-20 | [GitHub](https://github.com/Arekejoker/qwen21-nsfw-pose-skill) |
+| 14 | **mono-color-skill** | 鍗曞ⅷ缂栬緫鍗板埛鍥惧儚鎶€鑳斤紝鏆栫焊鍗婅皟鎽勫奖 | 鍥惧儚椋庢牸鍖?| 鍥惧儚澶勭悊 | 3,503 | 2026-09-02 | [GitHub](https://github.com/yanliudesign/mono-color-skill) |
+| 15 | **onetake** | 姘镐笉鍓緫鐨勭數褰憋紝姣忎釜鑺傛媿浠庡墠涓€涓敓闀匡紝Oracle 娴嬮噺杩炵画鎬?| 瑙嗛鐢熸垚 | 瑙嗛鍒朵綔 | 3,250 | 2026-10-21 | [GitHub](https://github.com/feitangyuan/onetake) |
+| 16 | **oil-motion** | Web 鍔ㄧ敾鎶€鑳斤紝璺熼殢婊氬姩鍜岄紶鏍囩殑缃戦〉鍔ㄧ敾 | Web 鍔ㄧ敾 | 鍓嶇寮€鍙?| 2,688 | 2026-10-04 | [GitHub](https://github.com/oil-oil/oil-motion) |
+| 17 | **karpathy-llm-wiki** | Agent Skills 鍏煎鐨?LLM 鐭ヨ瘑搴擄紝Karpathy 椋庢牸 | LLM 鐭ヨ瘑绠＄悊 | AI 鐮旂┒ | 2,600 | 2026-07-23 | [GitHub](https://github.com/Astro-Han/karpathy-llm-wiki) |
+| 18 | **agents-best-practices** | 鎻愪緵鍟嗕腑绔嬬殑 Agent 鎶€鑳斤紝Codex/Claude Code 璁捐 | Agent 璁捐鍙傝€?| Agent 寮€鍙?| 2,394 | 2026-10-19 | [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| 19 | **awesome-seedance** | 840+ 妗堜緥璇佹嵁瀵煎悜鐨?Seedance 鎻愮ず璇嶅簱 | 瑙嗛鎻愮ず璇?| 瑙嗛鍒朵綔 | 2,280 | 2026-10-26 | [GitHub](https://github.com/LearnPrompt/awesome-seedance) |
+| 20 | **shuorenhua** | 涓枃浼樺厛鐨勫幓 AI 鍛虫敼鍐欐妧鑳?| 涓枃鏀瑰啓 | 鍐呭鍒涗綔 | 2,270 | 2026-10-25 | [GitHub](https://github.com/MrGeDiao/shuorenhua) |
+| 21 | **distilly** | 钂搁浠栦滑鐨勬€濊€冩柟寮忔垚鍙鐢?Skills | 鐭ヨ瘑钂搁 | AI 鐭ヨ瘑绠＄悊 | 26,006 | 2026-10-13 | [GitHub](https://github.com/titanwings/distilly) |
+| 22 | **wondel.ai-skills** | 50 涓妧鑳?+ 12 涓紩瀵兼梾绋嬶紝鐣呴攢涔︽鏋?| 鍟嗕笟鎶€鑳芥鏋?| 鍟嗕笟/鍒涗笟 | 2,507 | - | [GitHub](https://github.com/wondelai/skills) |
+| 23 | **n8n-as-code** | 璧嬩簣 AI Agent n8n 瓒呰兘鍔涳紝537 鑺傜偣 | n8n 鑷姩鍖?| 宸ヤ綔娴?| 1,628 | - | [GitHub](https://github.com/EtienneLescot/n8n-as-code) |
+| 24 | **kicad-happy** | AI 缂栫爜 Agent 鐨?KiCad 鐢靛瓙璁捐鎶€鑳?| 鐢靛瓙璁捐 | 纭欢寮€鍙?| 1,504 | - | [GitHub](https://github.com/aklofas/kicad-happy) |
+| 25 | **app-store-connect** | 鑷姩鍖栧簲鐢ㄥ晢搴楅儴缃茬殑鎶€鑳?| 搴旂敤鍟嗗簵閮ㄧ讲 | 绉诲姩寮€鍙?| 1,102 | - | [GitHub](https://github.com/rorkai/app-store-connect-cli-skills) |
+| 26 | **agentic-seo** | LLM 浼樺厛鐨?SEO 鍒嗘瀽鎶€鑳斤紝16 涓瓙鎶€鑳?| SEO 鍒嗘瀽 | 鏁板瓧钀ラ攢 | 994 | - | [GitHub](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) |
+| 27 | **gamedev-agent-skills** | 74 涓父鎴忓紑鍙戞妧鑳斤紝Godot/Unity/Unreal 绛?| 娓告垙寮€鍙?| 娓告垙寮€鍙?| 4,273 | - | [GitHub](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+| 28 | **skillhub** | 鑷墭绠″紑婧?Agent 鎶€鑳芥敞鍐屼腑蹇冿紝RBAC + 瀹¤鏃ュ織 | 鎶€鑳界鐞?| 浼佷笟鎶€鑳界鐞?| 5,287 | 2026-10-26 | [GitHub](https://github.com/iflytek/skillhub) |
+| 29 | **awesome-design-skills** | 璁捐鎶€鑳界簿閫夊垪琛?| 璁捐鍙傝€?| 璁捐/寮€鍙?| 3,344 | - | [GitHub](https://github.com/bergside/awesome-design-skills) |
+| 30 | **superpowers-zh** | AI 缂栫▼瓒呰兘鍔涗腑鏂囧寮虹増 | 涓枃缂栫▼ | 缂栫▼寮€鍙?| 8,378 | 2026-10-20 | [GitHub](https://github.com/jnMetaCode/superpowers-zh) |
 
 ---
 
-#### 馃摓 浜屻€佸鎴锋湇鍔?(Customer Service) 鈥?50 涓矖浣?
-| # | 宀椾綅 | 鏇夸唬鐜?| 鏃堕棿 | Agent 鏇夸唬鏂规 | 宸ュ叿濂楄 |
-|---|------|--------|------|--------------|----------|
-| 1 | 瀹㈡湇浠ｈ〃 | 馃敶 90% | 1-2骞?| **瀹屽叏鏇夸唬**: RAG 鐭ヨ瘑搴?鈫?鎰忓浘璇嗗埆 鈫?鑷姩鍥炲 鈫?婊℃剰搴﹁窡韪?| Cherry Studio, LangChain, Dify, n8n |
-| 2 | 鐢佃瘽瀹㈡湇 | 馃敶 88% | 1-2骞?| **瀹屽叏鏇夸唬**: 璇煶璇嗗埆 鈫?鎰忓浘鐞嗚В 鈫?鑷姩搴旂瓟 鈫?杞帴 | Cherry Studio, Dify, n8n |
-| 3 | 鍦ㄧ嚎瀹㈡湇 | 馃敶 85% | 1-2骞?| **瀹屽叏鏇夸唬**: 鏂囧瓧瀵硅瘽 鈫?鐭ヨ瘑搴撴绱?鈫?鑷姩鍥炲 | Cherry Studio, LangChain, Dify |
-| 4 | 鍞悗鏈嶅姟 | 馃煚 75% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 閫€鎹㈣揣澶勭悊 鈫?宸ュ崟鐢熸垚 鈫?杩涘害璺熻釜 | Dify, n8n, Activepieces |
-| 5 | 鎶€鏈敮鎸?| 馃煚 65% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 甯歌闂瑙ｇ瓟 鈫?鏁呴殰鎺掓煡 鈫?宸ュ崟绠＄悊 | LangChain, Dify, n8n |
-| 6 | 鎶曡瘔澶勭悊 | 馃煛 55% | 3-5骞?| **AI 杈呭姪**: 鎶曡瘔璁板綍 鈫?鍒嗙被 鈫?鍗囩骇澶勭悊 | Dify, n8n, Cherry Studio |
-| 7 | 瀹㈡埛鎴愬姛 | 馃煛 50% | 3-5骞?| **AI 杈呭姪**: 浣跨敤鎸囧 鈫?闂瑙ｇ瓟 鈫?婊℃剰搴﹁窡韪?| Cherry Studio, Dify, n8n |
-| 8 | 瀹㈡埛浠ｈ〃 | 馃敶 88% | 1-2骞?| **瀹屽叏鏇夸唬**: 鑷姩搴旂瓟 鈫?淇℃伅浼犺揪 鈫?宸ュ崟绠＄悊 | Cherry Studio, LangChain, n8n |
-| 9 | 鍛煎彨涓績鍧愬腑 | 馃敶 85% | 1-2骞?| **瀹屽叏鏇夸唬**: 鑷姩搴旂瓟 鈫?杞帴 鈫?璁板綍 | Cherry Studio, Activepieces |
-| 10 | 鍦ㄧ嚎瀹㈡湇浠ｈ〃 | 馃敶 82% | 1-2骞?| **瀹屽叏鏇夸唬**: 鏂囧瓧瀹㈡湇 鈫?鐭ヨ瘑搴撴绱?| Cherry Studio, LangChain |
-| 11 | 鎶€鏈敮鎸佸伐绋嬪笀 | 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 鍩虹鎶€鏈敮鎸?鈫?鏁呴殰鎺掓煡 | LangChain, Dify, n8n |
-| 12 | 瀹㈡埛浣撻獙涓撳憳 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鍙嶉鍒嗘瀽 鈫?浣撻獙浼樺寲 | Dify, GPT Researcher |
-| 13 | 瀹㈡埛鏈嶅姟涓荤 | 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?娴佺▼浼樺寲 | Dify, n8n |
-| 14 | 瀹㈡埛鏈嶅姟缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 杩愯惀绠＄悊 鈫?鏁版嵁鍒嗘瀽 | GPT Researcher, LangChain |
-| 15 | 瀹㈡埛鎴愬姛缁忕悊 | 馃煝 30% | 5+骞?| **AI 杈呭姪**: 瀹㈡埛鏀寔 鈫?涓氬姟鎷撳睍 | Cherry Studio, Dify |
-| 16 | 瀹㈡埛鎴愬姛鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?涓氬姟瑙勫垝 | GPT Researcher, LangChain |
-| 17 | 瀹㈡埛鍏崇郴涓撳憳 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 瀹㈡埛缁存姢 鈫?婊℃剰搴﹁窡韪?| Cherry Studio, Dify |
-| 18 | 瀹㈡埛婊℃剰搴︿笓鍛?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 璋冪爺鍒嗘瀽 鈫?婊℃剰搴︽彁鍗?| Dify, GPT Researcher |
-| 19 | 瀹㈡埛鏈嶅姟涓撳憳 | 馃煚 68% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏍囧噯鏈嶅姟 鈫?宸ュ崟绠＄悊 | Cherry Studio, n8n |
-| 20 | 瀹㈡埛鏈嶅姟浠ｈ〃 | 馃敶 85% | 1-2骞?| **瀹屽叏鏇夸唬**: 鑷姩搴旂瓟 鈫?淇℃伅浼犺揪 | Cherry Studio, Activepieces |
-| 21 | 鍛煎彨涓績涓荤 | 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?杩愯惀浼樺寲 | Dify, n8n |
-| 22 | 鍛煎彨涓績缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 杩愯惀绠＄悊 鈫?鏁版嵁鍒嗘瀽 | GPT Researcher |
-| 23 | 鍛煎彨涓績鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?涓氬姟瑙勫垝 | GPT Researcher, LangChain |
-| 24 | 瀹㈡埛鍏崇郴缁忕悊 | 馃煝 30% | 5+骞?| **AI 杈呭姪**: 瀹㈡埛绠＄悊 鈫?鍏崇郴缁存姢 | Cherry Studio, Dify |
-| 25 | 瀹㈡埛鎴愬姛涓撳憳 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 瀹㈡埛鏀寔 鈫?涓氬姟鎷撳睍 | Cherry Studio, Dify |
-| 26 | 瀹㈡埛鎴愬姛浠ｈ〃 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 瀹㈡埛鏀寔 鈫?闂瑙ｇ瓟 | Cherry Studio, Dify |
-| 27 | 瀹㈡埛浣撻獙涓撳憳 | 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鍙嶉鍒嗘瀽 鈫?浣撻獙浼樺寲 | Dify, GPT Researcher |
-| 28 | 瀹㈡埛婊℃剰搴︿笓鍛?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 璋冪爺鍒嗘瀽 鈫?婊℃剰搴︽彁鍗?| Dify, GPT Researcher |
-| 29 | 瀹㈡埛鏈嶅姟涓撳憳 | 馃煚 68% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏍囧噯鏈嶅姟 鈫?宸ュ崟绠＄悊 | Cherry Studio, n8n |
-| 30 | 瀹㈡埛鏈嶅姟浠ｈ〃 | 馃敶 85% | 1-2骞?| **瀹屽叏鏇夸唬**: 鑷姩搴旂瓟 鈫?淇℃伅浼犺揪 | Cherry Studio, Activepieces |
-| 31 | 鍛煎彨涓績涓荤 | 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?杩愯惀浼樺寲 | Dify, n8n |
-| 32 | 鍛煎彨涓績缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 杩愯惀绠＄悊 鈫?鏁版嵁鍒嗘瀽 | GPT Researcher |
-| 33 | 鍛煎彨涓績鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?涓氬姟瑙勫垝 | GPT Researcher, LangChain |
-| 34 | 瀹㈡埛鍏崇郴缁忕悊 | 馃煝 30% | 5+骞?| **AI 杈呭姪**: 瀹㈡埛绠＄悊 鈫?鍏崇郴缁存姢 | Cherry Studio, Dify |
-| 35 | 瀹㈡埛鎴愬姛涓撳憳 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 瀹㈡埛鏀寔 鈫?涓氬姟鎷撳睍 | Cherry Studio, Dify |
-| 36 | 瀹㈡埛鎴愬姛浠ｈ〃 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 瀹㈡埛鏀寔 鈫?闂瑙ｇ瓟 | Cherry Studio, Dify |
-| 37 | 瀹㈡埛浣撻獙涓撳憳 | 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鍙嶉鍒嗘瀽 鈫?浣撻獙浼樺寲 | Dify, GPT Researcher |
-| 38 | 瀹㈡埛婊℃剰搴︿笓鍛?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 璋冪爺鍒嗘瀽 鈫?婊℃剰搴︽彁鍗?| Dify, GPT Researcher |
-| 39 | 瀹㈡埛鏈嶅姟涓撳憳 | 馃煚 68% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏍囧噯鏈嶅姟 鈫?宸ュ崟绠＄悊 | Cherry Studio, n8n |
-| 40 | 瀹㈡埛鏈嶅姟浠ｈ〃 | 馃敶 85% | 1-2骞?| **瀹屽叏鏇夸唬**: 鑷姩搴旂瓟 鈫?淇℃伅浼犺揪 | Cherry Studio, Activepieces |
-| 41 | 鍛煎彨涓績涓荤 | 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?杩愯惀浼樺寲 | Dify, n8n |
-| 42 | 鍛煎彨涓績缁忕悊 | 馃煝 32% | 5+骞?| **AI 杈呭姪**: 杩愯惀绠＄悊 鈫?鏁版嵁鍒嗘瀽 | GPT Researcher |
-| 43 | 鍛煎彨涓績鎬荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?涓氬姟瑙勫垝 | GPT Researcher, LangChain |
-| 44 | 瀹㈡埛鍏崇郴缁忕悊 | 馃煝 30% | 5+骞?| **AI 杈呭姪**: 瀹㈡埛绠＄悊 鈫?鍏崇郴缁存姢 | Cherry Studio, Dify |
-| 45 | 瀹㈡埛鎴愬姛涓撳憳 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 瀹㈡埛鏀寔 鈫?涓氬姟鎷撳睍 | Cherry Studio, Dify |
-| 46 | 瀹㈡埛鎴愬姛浠ｈ〃 | 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 瀹㈡埛鏀寔 鈫?闂瑙ｇ瓟 | Cherry Studio, Dify |
-| 47 | 瀹㈡埛浣撻獙涓撳憳 | 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鍙嶉鍒嗘瀽 鈫?浣撻獙浼樺寲 | Dify, GPT Researcher |
-| 48 | 瀹㈡埛婊℃剰搴︿笓鍛?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 璋冪爺鍒嗘瀽 鈫?婊℃剰搴︽彁鍗?| Dify, GPT Researcher |
-| 49 | 瀹㈡埛鏈嶅姟涓撳憳 | 馃煚 68% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏍囧噯鏈嶅姟 鈫?宸ュ崟绠＄悊 | Cherry Studio, n8n |
-| 50 | 瀹㈡埛鏈嶅姟浠ｈ〃 | 馃敶 85% | 1-2骞?| **瀹屽叏鏇夸唬**: 鑷姩搴旂瓟 鈫?淇℃伅浼犺揪 | Cherry Studio, Activepieces |
+### 21.4 馃攲 MCP 鏈嶅姟鍣?(39,547 repos)
 
-**琛屼笟宸ュ叿濂楄**: [馃捈 鑷敱鑱屼笟鑰呭伐鍏峰瑁匽(#1421--鑷敱鑱屼笟鑰?freelancer)
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **n8n** | 鍏钩浠ｇ爜宸ヤ綔娴佽嚜鍔ㄥ寲骞冲彴锛?00+ 闆嗘垚 | 宸ヤ綔娴佽嚜鍔ㄥ寲 | 浼佷笟鑷姩鍖?| 208,592 | 2026-10-26 | [GitHub](https://github.com/n8n-io/n8n) |
+| 2 | **gemini-cli** | Google 寮€婧愮粓绔?AI Agent | 缁堢 AI 鍔╂墜 | 缂栫▼寮€鍙?| 108,386 | 2026-10-26 | [GitHub](https://github.com/google-gemini/gemini-cli) |
+| 3 | **Scrapling** | Web 鐖櫕妗嗘灦锛屼粠鍗曡姹傚埌鍏ㄨ妯＄埇铏?| 鏁版嵁鐖彇 | 鏁版嵁閲囬泦 | 89,711 | 2026-10-22 | [GitHub](https://github.com/D4Vinci/Scrapling) |
+| 4 | **worldmonitor** | 瀹炴椂鍏ㄧ悆鎯呮姤浠〃鐩橈紝AI 鏂伴椈鑱氬悎 | 鍏ㄧ悆鎯呮姤鐩戞帶 | 鏂伴椈/鎯呮姤 | 89,523 | 2026-10-25 | [GitHub](https://github.com/koala73/worldmonitor) |
+| 5 | **ruflo** | 鍘熷 Agent 妗嗘灦锛屽鐜╁铚傜兢銆佸崗璋冭嚜涓诲伐浣滄祦 | 澶?Agent 鍗忎綔 | 閫氱敤 Agent | 79,291 | 2026-10-25 | [GitHub](https://github.com/ruvnet/ruflo) |
+| 6 | **context7** | 涓?AI Agent 鎻愪緵鏈€鏂扮殑鏂囨。 | 鏂囨。妫€绱?| AI 寮€鍙?| 63,676 | 2026-10-23 | [GitHub](https://github.com/upstash/context7) |
+| 7 | **TrendRadar** | AI 鑸嗘儏鐩戞帶鍔╂墜 | 鑸嗘儏鐩戞帶 | 甯傚満鍒嗘瀽 | 63,172 | 2026-10-20 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| 8 | **chrome-devtools-mcp** | 涓虹紪鐮佷唬鐞嗘彁渚?Chrome DevTools | 娴忚鍣ㄨ皟璇?| 鍓嶇寮€鍙?| 54,145 | 2026-10-25 | [GitHub](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| 9 | **codebase-memory-mcp** | 鏈湴浠ｇ爜鏅鸿兘锛屼唬鐮?鏂囨。-鍩虹璁炬柦鍥捐氨 | 浠ｇ爜鐭ヨ瘑鍥捐氨 | 浠ｇ爜鏅鸿兘 | 47,475 | 2026-10-26 | [GitHub](https://github.com/DeusData/codebase-memory-mcp) |
+| 10 | **reactive-resume** | 闅愮浼樺厛鐨勭畝鍘嗘瀯寤哄櫒 | 绠€鍘嗗埗浣?| 姹傝亴/HR | 44,855 | 2026-10-25 | [GitHub](https://github.com/reactive-resume/reactive-resume) |
+| 11 | **UI-TARS-desktop** | 寮€婧愬妯℃€?AI Agent 鏍?| 澶氭ā鎬?Agent | 澶氭ā鎬佸簲鐢?| 39,388 | 2026-10-09 | [GitHub](https://github.com/bytedance/UI-TARS-desktop) |
+| 12 | **next-ai-draw-io** | 閫氳繃 AI 鑱婂ぉ缁樺埗鍜岀紪杈?draw.io 鍥捐〃 | AI 缁樺浘 | 鍥捐〃/璁捐 | 36,409 | 2026-10-25 | [GitHub](https://github.com/DayuanJiang/next-ai-draw-io) |
+| 13 | **github-mcp-server** | GitHub 瀹樻柟 MCP Server | GitHub 鎿嶄綔 | 浠ｇ爜鎵樼 | 33,949 | 2026-10-23 | [GitHub](https://github.com/github/github-mcp-server) |
+| 14 | **context-mode** | 缂栫爜浠ｇ悊涓婁笅鏂囩獥鍙ｄ紭鍖栵紝98% 鍑忓皯 | 涓婁笅鏂囦紭鍖?| 缂栫▼寮€鍙?| 32,263 | 2026-10-26 | [GitHub](https://github.com/mksglu/context-mode) |
+| 15 | **serena** | 寮哄ぇ鐨?MCP 缂栫爜宸ュ叿鍖咃紝Agent 鐨?IDE | 缂栫爜 IDE | 缂栫▼寮€鍙?| 30,712 | 2026-10-20 | [GitHub](https://github.com/oraios/serena) |
+| 16 | **GPT Researcher** | 鑷富 Agent 瀵逛换浣曟暟鎹繘琛屾繁搴︾爺绌?| 娣卞害鐮旂┒ | 鐮旂┒鍒嗘瀽 | 30,291 | 2026-10-20 | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| 17 | **Activepieces** | AI Agent + MCP 宸ヤ綔娴佽嚜鍔ㄥ寲锛寏400 MCP 鏈嶅姟鍣?| 宸ヤ綔娴佽嚜鍔ㄥ寲 | 浼佷笟鑷姩鍖?| 25,224 | 2026-10-20 | [GitHub](https://github.com/activepieces/activepieces) |
+| 18 | **editor** | 寮€婧?3D 寤虹瓚缂栬緫鍣紝CLI + MCP 宸ュ叿 | 3D 寤烘ā | 寤虹瓚璁捐 | 25,108 | - | [GitHub](https://github.com/pascalorg/editor) |
+| 19 | **mcp-python-sdk** | MCP 瀹樻柟 Python SDK | MCP 寮€鍙?| MCP 鐢熸€?| 24,665 | - | [GitHub](https://github.com/modelcontextprotocol/python-sdk) |
+| 20 | **n8n-mcp** | 涓?Claude Desktop 鏋勫缓 n8n 宸ヤ綔娴?| n8n 闆嗘垚 | 宸ヤ綔娴?| 23,135 | - | [GitHub](https://github.com/czlonkowski/n8n-mcp) |
+| 21 | **awesome-mcp-servers** | MCP 鏈嶅姟鍣ㄥ悎闆?| MCP 鍙傝€?| MCP 鐢熸€?| 96,867 | - | [GitHub](https://github.com/punkpeye/awesome-mcp-servers) |
+| 22 | **awesome-claude-skills** | Claude Skills 绮鹃€夊垪琛?| 鎶€鑳藉弬鑰?| Agent 鎶€鑳?| 77,933 | - | [GitHub](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 23 | **agentic-awesome-skills** | 2750+ Agent 鎶€鑳界洰褰曞拰 CLI | 鎶€鑳界洰褰?| Agent 鎶€鑳?| 48,503 | - | [GitHub](https://github.com/sickn33/agentic-awesome-skills) |
+| 24 | **awesome-ai-engineering** | AI 宸ョ▼璧勬簮銆佽矾绾垮浘銆佸伐鍏?| AI 宸ョ▼鍙傝€?| AI 宸ョ▼ | 22,466 | - | [GitHub](https://github.com/dipakkr/awesome-ai-engineering) |
+| 25 | **awesome-ai-apps** | RAG銆丄gent銆佸伐浣滄祦绛?AI 鐢ㄤ緥鍚堥泦 | AI 搴旂敤鍙傝€?| AI 搴旂敤 | 16,630 | - | [GitHub](https://github.com/Arindam200/awesome-ai-apps) |
+| 26 | **awesome-llm-resources** | 鍏ㄤ笘鐣屾渶濂界殑 LLM 璧勬枡鎬荤粨 | LLM 瀛︿範 | AI 瀛︿範 | 9,040 | - | [GitHub](https://github.com/WangRongsheng/awesome-LLM-resources) |
+| 27 | **awesome-agentic-ai-zh** | 涓枃 AI Agent 瀛︿範鍦板浘锛?40+ 璧勬簮 | 涓枃瀛︿範 | AI 瀛︿範 | 7,993 | - | [GitHub](https://github.com/WenyuChiou/awesome-agentic-ai-zh) |
+| 28 | **awesome-mcp-zh** | MCP 璧勬簮绮鹃€?| MCP 鍙傝€?| MCP 鐢熸€?| 7,774 | - | [GitHub](https://github.com/yzfly/Awesome-MCP-ZH) |
+| 29 | **awesome-mcp-clients** | MCP 瀹㈡埛绔悎闆?| MCP 鍙傝€?| MCP 鐢熸€?| 6,612 | - | [GitHub](https://github.com/punkpeye/awesome-mcp-clients) |
+| 30 | **awesome-agent-skills** | Agent 鎶€鑳芥暀绋嬨€佹寚鍗楀拰鐩綍 | 鎶€鑳藉弬鑰?| Agent 鎶€鑳?| 6,312 | - | [GitHub](https://github.com/heilcheng/awesome-agent-skills) |
 
 ---
 
-#### 馃捇 涓夈€佺鎶€涓嶪T (Technology & IT) 鈥?100 涓矖浣?
-| # | 宀椾綅 | 鏇夸唬鐜?| 鏃堕棿 | Agent 鏇夸唬鏂规 | 宸ュ叿濂楄 |
-|---|------|--------|------|--------------|----------|
-| 1 | 鍒濈骇绋嬪簭鍛?| 馃煚 75% | 2-3骞?| **閮ㄥ垎鏇夸唬**: 鏍锋澘浠ｇ爜 鈫?鍗曞厓娴嬭瘯 鈫?鏂囨。鐢熸垚 鈫?Code Review | Superpowers, Graphify, Serena, ECC, CodeBurn |
-| 2 | 鍚庣宸ョ▼甯?| 馃煛 55% | 3-5骞?| **AI 杈呭姪**: API 寮€鍙?鈫?鏁版嵁搴撹璁?鈫?浠ｇ爜鐢熸垚 | Superpowers, Graphify, Serena, LangChain |
-| 3 | 鍓嶇宸ョ▼甯?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: UI 浠ｇ爜 鈫?缁勪欢寮€鍙?鈫?鏍峰紡鐢熸垚 | Superpowers, Graphify, Serena, UI/UX Pro Max |
-| 4 | 鍏ㄦ爤宸ョ▼甯?| 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鍏ㄦ爤寮€鍙?鈫?鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 | Superpowers, Graphify, Serena, CodeWhale |
-| 5 | 绉诲姩寮€鍙戣€?| 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鍔熻兘寮€鍙?鈫?UI 寮€鍙?鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 6 | 杞欢鏋舵瀯甯?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 鈫?绯荤粺瑙勫垝 | Graphify, Archify, Superpowers |
-| 7 | 绯荤粺鍒嗘瀽甯?| 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 闇€姹傚垎鏋?鈫?绯荤粺鍒嗘瀽 鈫?鏂规鐢熸垚 | LangChain, GPT Researcher, Dify |
-| 8 | 娴嬭瘯宸ョ▼甯?| 馃煛 50% | 3-5骞?| **AI 杈呭姪**: 娴嬭瘯鐢ㄤ緥 鈫?鑷姩鍖栨祴璇?鈫?缂洪櫡鍒嗘瀽 | Superpowers, Graphify, Serena |
-| 9 | QA 宸ョ▼甯?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 鑷姩鍖栨祴璇?鈫?璐ㄩ噺淇濋殰 鈫?缂洪櫡鍒嗘瀽 | Superpowers, Graphify, Serena |
-| 10 | DevOps 宸ョ▼甯?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: CI/CD 鈫?鐩戞帶鍛婅 鈫?閮ㄧ讲閰嶇疆 | n8n, Dify, LangChain |
-| 11 | SRE 宸ョ▼甯?| 馃煝 30% | 5+骞?| **AI 杈呭姪**: 鐩戞帶鍛婅 鈫?浜嬫晠鍝嶅簲 鈫?绯荤粺浼樺寲 | LangChain, n8n, Dify |
-| 12 | 缃戠粶宸ョ▼甯?| 馃煝 35% | 5+骞?| **AI 杈呭姪**: 缃戠粶閰嶇疆 鈫?鏁呴殰鎺掓煡 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 13 | 绯荤粺绠＄悊鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 绯荤粺缁存姢 鈫?鏁呴殰鎺掓煡 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 14 | 鏁版嵁搴撶鐞嗗憳 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父杩愮淮 鈫?鎬ц兘浼樺寲 鈫?澶囦唤 | LangChain, n8n, Dify |
-| 15 | 浜戞灦鏋勫笀 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?閮ㄧ讲閰嶇疆 鈫?鎴愭湰浼樺寲 | LangChain, Semantica, Airweave |
-| 16 | 浜戝伐绋嬪笀 | 馃煛 40% | 3-5骞?| **AI 杈呭姪**: 浜戣祫婧愰厤缃?鈫?鐩戞帶 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 17 | 鏁版嵁宸ョ▼甯?| 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 鏁版嵁绠￠亾 鈫?鏁版嵁浠撳簱 鈫?鏁版嵁娌荤悊 | LangChain, Dify, n8n |
-| 18 | 鏁版嵁绉戝瀹?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鏁版嵁鍒嗘瀽 鈫?妯″瀷璁粌 鈫?鎶ュ憡鐢熸垚 | LangChain, Dify, n8n |
-| 19 | ML 宸ョ▼甯?| 馃煛 40% | 3-5骞?| **AI 杈呭姪**: 妯″瀷璁粌 鈫?閮ㄧ讲 鈫?浼樺寲 | LangChain, Dify, n8n |
-| 20 | AI 鐮旂┒鍛?| 馃煝 20% | 5+骞?| **AI 杈呭姪**: 鏂囩尞璋冪爺 鈫?瀹為獙绠＄悊 鈫?鏁版嵁鍒嗘瀽 | GPT Researcher, LangChain, OpenViking |
-| 21 | 瀹夊叏宸ョ▼甯?| 馃煝 22% | 5+骞?| **AI 杈呭姪**: 婕忔礊鎵弿 鈫?娓楅€忔祴璇?鈫?鎶ュ憡鐢熸垚 | reverse-skill, security-audit-skill, Firecrawl |
-| 22 | 娓楅€忔祴璇曞憳 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鑷姩鎵弿 鈫?婕忔礊鍒嗘瀽 鈫?鎶ュ憡鐢熸垚 | reverse-skill, security-audit-skill, LangChain |
-| 23 | 鍖哄潡閾惧紑鍙戣€?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鍚堢害寮€鍙?鈫?娴嬭瘯 鈫?閮ㄧ讲 | Superpowers, Graphify, Serena |
-| 24 | 娓告垙寮€鍙戣€?| 馃數 12% | 10+骞?| **AI 杈呭姪**: 鍔熻兘寮€鍙?鈫?绱犳潗鐢熸垚 鈫?娴嬭瘯 | Gamedev Skills, Superpowers, Graphify |
-| 25 | 宓屽叆寮忓伐绋嬪笀 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 椹卞姩寮€鍙?鈫?璋冭瘯 鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 26 | 鍥轰欢宸ョ▼甯?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鍥轰欢浠ｇ爜 鈫?璋冭瘯 鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 27 | 缃戠粶鏋舵瀯甯?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 鈫?绯荤粺瑙勫垝 | Graphify, Archify, LangChain |
-| 28 | 瀹夊叏鏋舵瀯甯?| 馃煝 25% | 5+骞?| **AI 杈呭姪**: 瀹夊叏绛栫暐 鈫?鏋舵瀯璁捐 鈫?椋庨櫓璇勪及 | LangChain, reverse-skill, security-audit-skill |
-| 29 | IT 缁忕悊 | 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?鎶€鏈垬鐣?鈫?娴佺▼浼樺寲 | Dify, GPT Researcher, LangChain |
-| 30 | IT 鎬荤洃 | 馃煝 22% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain |
-| 31 | CTO | 馃數 15% | 10+骞?| **AI 杈呭姪**: 鎶€鏈喅绛栬緟鍔?鈫?鎴樼暐鍒嗘瀽 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain, Graphify |
-| 32 | 鎶€鏈富绠?| 馃煝 30% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?鎶€鏈喅绛?鈫?娴佺▼浼樺寲 | Dify, GPT Researcher, LangChain |
-| 33 | 鎶€鏈€荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain |
-| 34 | 鎶€鏈粡鐞?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?鎶€鏈喅绛?鈫?娴佺▼浼樺寲 | Dify, GPT Researcher, LangChain |
-| 35 | 杞欢宸ョ▼甯?| 馃煝 40% | 5+骞?| **AI 杈呭姪**: 浠ｇ爜鐢熸垚 鈫?娴嬭瘯 鈫?鏂囨。 | Superpowers, Graphify, Serena, CodeWhale |
-| 36 | 鍓嶇寮€鍙戣€?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: UI 寮€鍙?鈫?缁勪欢寮€鍙?鈫?鏍峰紡鐢熸垚 | Superpowers, Graphify, Serena, UI/UX Pro Max |
-| 37 | 鍚庣寮€鍙戣€?| 馃煛 55% | 3-5骞?| **AI 杈呭姪**: API 寮€鍙?鈫?鏁版嵁搴撹璁?鈫?浠ｇ爜鐢熸垚 | Superpowers, Graphify, Serena, LangChain |
-| 38 | 鍏ㄦ爤寮€鍙戣€?| 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鍏ㄦ爤寮€鍙?鈫?鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 | Superpowers, Graphify, Serena, CodeWhale |
-| 39 | 绉诲姩寮€鍙戣€?| 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鍔熻兘寮€鍙?鈫?UI 寮€鍙?鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 40 | 杞欢鏋舵瀯甯?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 鈫?绯荤粺瑙勫垝 | Graphify, Archify, Superpowers |
-| 41 | 绯荤粺鍒嗘瀽甯?| 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 闇€姹傚垎鏋?鈫?绯荤粺鍒嗘瀽 鈫?鏂规鐢熸垚 | LangChain, GPT Researcher, Dify |
-| 42 | 娴嬭瘯宸ョ▼甯?| 馃煛 50% | 3-5骞?| **AI 杈呭姪**: 娴嬭瘯鐢ㄤ緥 鈫?鑷姩鍖栨祴璇?鈫?缂洪櫡鍒嗘瀽 | Superpowers, Graphify, Serena |
-| 43 | QA 宸ョ▼甯?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 鑷姩鍖栨祴璇?鈫?璐ㄩ噺淇濋殰 鈫?缂洪櫡鍒嗘瀽 | Superpowers, Graphify, Serena |
-| 44 | DevOps 宸ョ▼甯?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: CI/CD 鈫?鐩戞帶鍛婅 鈫?閮ㄧ讲閰嶇疆 | n8n, Dify, LangChain |
-| 45 | SRE 宸ョ▼甯?| 馃煝 30% | 5+骞?| **AI 杈呭姪**: 鐩戞帶鍛婅 鈫?浜嬫晠鍝嶅簲 鈫?绯荤粺浼樺寲 | LangChain, n8n, Dify |
-| 46 | 缃戠粶宸ョ▼甯?| 馃煝 35% | 5+骞?| **AI 杈呭姪**: 缃戠粶閰嶇疆 鈫?鏁呴殰鎺掓煡 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 47 | 绯荤粺绠＄悊鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 绯荤粺缁存姢 鈫?鏁呴殰鎺掓煡 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 48 | 鏁版嵁搴撶鐞嗗憳 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父杩愮淮 鈫?鎬ц兘浼樺寲 鈫?澶囦唤 | LangChain, n8n, Dify |
-| 49 | 浜戞灦鏋勫笀 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?閮ㄧ讲閰嶇疆 鈫?鎴愭湰浼樺寲 | LangChain, Semantica, Airweave |
-| 50 | 浜戝伐绋嬪笀 | 馃煛 40% | 3-5骞?| **AI 杈呭姪**: 浜戣祫婧愰厤缃?鈫?鐩戞帶 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 51 | 鏁版嵁宸ョ▼甯?| 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 鏁版嵁绠￠亾 鈫?鏁版嵁浠撳簱 鈫?鏁版嵁娌荤悊 | LangChain, Dify, n8n |
-| 52 | 鏁版嵁绉戝瀹?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鏁版嵁鍒嗘瀽 鈫?妯″瀷璁粌 鈫?鎶ュ憡鐢熸垚 | LangChain, Dify, n8n |
-| 53 | ML 宸ョ▼甯?| 馃煛 40% | 3-5骞?| **AI 杈呭姪**: 妯″瀷璁粌 鈫?閮ㄧ讲 鈫?浼樺寲 | LangChain, Dify, n8n |
-| 54 | AI 鐮旂┒鍛?| 馃煝 20% | 5+骞?| **AI 杈呭姪**: 鏂囩尞璋冪爺 鈫?瀹為獙绠＄悊 鈫?鏁版嵁鍒嗘瀽 | GPT Researcher, LangChain, OpenViking |
-| 55 | 瀹夊叏宸ョ▼甯?| 馃煝 22% | 5+骞?| **AI 杈呭姪**: 婕忔礊鎵弿 鈫?娓楅€忔祴璇?鈫?鎶ュ憡鐢熸垚 | reverse-skill, security-audit-skill, Firecrawl |
-| 56 | 娓楅€忔祴璇曞憳 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鑷姩鎵弿 鈫?婕忔礊鍒嗘瀽 鈫?鎶ュ憡鐢熸垚 | reverse-skill, security-audit-skill, LangChain |
-| 57 | 鍖哄潡閾惧紑鍙戣€?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鍚堢害寮€鍙?鈫?娴嬭瘯 鈫?閮ㄧ讲 | Superpowers, Graphify, Serena |
-| 58 | 娓告垙寮€鍙戣€?| 馃數 12% | 10+骞?| **AI 杈呭姪**: 鍔熻兘寮€鍙?鈫?绱犳潗鐢熸垚 鈫?娴嬭瘯 | Gamedev Skills, Superpowers, Graphify |
-| 59 | 宓屽叆寮忓伐绋嬪笀 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 椹卞姩寮€鍙?鈫?璋冭瘯 鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 60 | 鍥轰欢宸ョ▼甯?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鍥轰欢浠ｇ爜 鈫?璋冭瘯 鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 61 | 缃戠粶鏋舵瀯甯?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 鈫?绯荤粺瑙勫垝 | Graphify, Archify, LangChain |
-| 62 | 瀹夊叏鏋舵瀯甯?| 馃煝 25% | 5+骞?| **AI 杈呭姪**: 瀹夊叏绛栫暐 鈫?鏋舵瀯璁捐 鈫?椋庨櫓璇勪及 | LangChain, reverse-skill, security-audit-skill |
-| 63 | IT 缁忕悊 | 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?鎶€鏈垬鐣?鈫?娴佺▼浼樺寲 | Dify, GPT Researcher, LangChain |
-| 64 | IT 鎬荤洃 | 馃煝 22% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain |
-| 65 | CTO | 馃數 15% | 10+骞?| **AI 杈呭姪**: 鎶€鏈喅绛栬緟鍔?鈫?鎴樼暐鍒嗘瀽 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain, Graphify |
-| 66 | 鎶€鏈富绠?| 馃煝 30% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?鎶€鏈喅绛?鈫?娴佺▼浼樺寲 | Dify, GPT Researcher, LangChain |
-| 67 | 鎶€鏈€荤洃 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain |
-| 68 | 鎶€鏈粡鐞?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?鎶€鏈喅绛?鈫?娴佺▼浼樺寲 | Dify, GPT Researcher, LangChain |
-| 69 | 杞欢宸ョ▼甯?| 馃煝 40% | 5+骞?| **AI 杈呭姪**: 浠ｇ爜鐢熸垚 鈫?娴嬭瘯 鈫?鏂囨。 | Superpowers, Graphify, Serena, CodeWhale |
-| 70 | 鍓嶇寮€鍙戣€?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: UI 寮€鍙?鈫?缁勪欢寮€鍙?鈫?鏍峰紡鐢熸垚 | Superpowers, Graphify, Serena, UI/UX Pro Max |
-| 71 | 鍚庣寮€鍙戣€?| 馃煛 55% | 3-5骞?| **AI 杈呭姪**: API 寮€鍙?鈫?鏁版嵁搴撹璁?鈫?浠ｇ爜鐢熸垚 | Superpowers, Graphify, Serena, LangChain |
-| 72 | 鍏ㄦ爤寮€鍙戣€?| 馃煝 35% | 5+骞?| **AI 杈呭姪**: 鍏ㄦ爤寮€鍙?鈫?鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 | Superpowers, Graphify, Serena, CodeWhale |
-| 73 | 绉诲姩寮€鍙戣€?| 馃煛 48% | 3-5骞?| **AI 杈呭姪**: 鍔熻兘寮€鍙?鈫?UI 寮€鍙?鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 74 | 杞欢鏋舵瀯甯?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 鈫?绯荤粺瑙勫垝 | Graphify, Archify, Superpowers |
-| 75 | 绯荤粺鍒嗘瀽甯?| 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 闇€姹傚垎鏋?鈫?绯荤粺鍒嗘瀽 鈫?鏂规鐢熸垚 | LangChain, GPT Researcher, Dify |
-| 76 | 娴嬭瘯宸ョ▼甯?| 馃煛 50% | 3-5骞?| **AI 杈呭姪**: 娴嬭瘯鐢ㄤ緥 鈫?鑷姩鍖栨祴璇?鈫?缂洪櫡鍒嗘瀽 | Superpowers, Graphify, Serena |
-| 77 | QA 宸ョ▼甯?| 馃煛 52% | 3-5骞?| **AI 杈呭姪**: 鑷姩鍖栨祴璇?鈫?璐ㄩ噺淇濋殰 鈫?缂洪櫡鍒嗘瀽 | Superpowers, Graphify, Serena |
-| 78 | DevOps 宸ョ▼甯?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: CI/CD 鈫?鐩戞帶鍛婅 鈫?閮ㄧ讲閰嶇疆 | n8n, Dify, LangChain |
-| 79 | SRE 宸ョ▼甯?| 馃煝 30% | 5+骞?| **AI 杈呭姪**: 鐩戞帶鍛婅 鈫?浜嬫晠鍝嶅簲 鈫?绯荤粺浼樺寲 | LangChain, n8n, Dify |
-| 80 | 缃戠粶宸ョ▼甯?| 馃煝 35% | 5+骞?| **AI 杈呭姪**: 缃戠粶閰嶇疆 鈫?鏁呴殰鎺掓煡 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 81 | 绯荤粺绠＄悊鍛?| 馃煝 38% | 5+骞?| **AI 杈呭姪**: 绯荤粺缁存姢 鈫?鏁呴殰鎺掓煡 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 82 | 鏁版嵁搴撶鐞嗗憳 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 鏃ュ父杩愮淮 鈫?鎬ц兘浼樺寲 鈫?澶囦唤 | LangChain, n8n, Dify |
-| 83 | 浜戞灦鏋勫笀 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?閮ㄧ讲閰嶇疆 鈫?鎴愭湰浼樺寲 | LangChain, Semantica, Airweave |
-| 84 | 浜戝伐绋嬪笀 | 馃煛 40% | 3-5骞?| **AI 杈呭姪**: 浜戣祫婧愰厤缃?鈫?鐩戞帶 鈫?浼樺寲 | LangChain, n8n, Dify |
-| 85 | 鏁版嵁宸ョ▼甯?| 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 鏁版嵁绠￠亾 鈫?鏁版嵁浠撳簱 鈫?鏁版嵁娌荤悊 | LangChain, Dify, n8n |
-| 86 | 鏁版嵁绉戝瀹?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鏁版嵁鍒嗘瀽 鈫?妯″瀷璁粌 鈫?鎶ュ憡鐢熸垚 | LangChain, Dify, n8n |
-| 87 | ML 宸ョ▼甯?| 馃煛 40% | 3-5骞?| **AI 杈呭姪**: 妯″瀷璁粌 鈫?閮ㄧ讲 鈫?浼樺寲 | LangChain, Dify, n8n |
-| 88 | AI 鐮旂┒鍛?| 馃煝 20% | 5+骞?| **AI 杈呭姪**: 鏂囩尞璋冪爺 鈫?瀹為獙绠＄悊 鈫?鏁版嵁鍒嗘瀽 | GPT Researcher, LangChain, OpenViking |
-| 89 | 瀹夊叏宸ョ▼甯?| 馃煝 22% | 5+骞?| **AI 杈呭姪**: 婕忔礊鎵弿 鈫?娓楅€忔祴璇?鈫?鎶ュ憡鐢熸垚 | reverse-skill, security-audit-skill, Firecrawl |
-| 90 | 娓楅€忔祴璇曞憳 | 馃煝 25% | 5+骞?| **AI 杈呭姪**: 鑷姩鎵弿 鈫?婕忔礊鍒嗘瀽 鈫?鎶ュ憡鐢熸垚 | reverse-skill, security-audit-skill, LangChain |
-| 91 | 鍖哄潡閾惧紑鍙戣€?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鍚堢害寮€鍙?鈫?娴嬭瘯 鈫?閮ㄧ讲 | Superpowers, Graphify, Serena |
-| 92 | 娓告垙寮€鍙戣€?| 馃數 12% | 10+骞?| **AI 杈呭姪**: 鍔熻兘寮€鍙?鈫?绱犳潗鐢熸垚 鈫?娴嬭瘯 | Gamedev Skills, Superpowers, Graphify |
-| 93 | 宓屽叆寮忓伐绋嬪笀 | 馃煛 45% | 3-5骞?| **AI 杈呭姪**: 椹卞姩寮€鍙?鈫?璋冭瘯 鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 94 | 鍥轰欢宸ョ▼甯?| 馃煛 42% | 3-5骞?| **AI 杈呭姪**: 鍥轰欢浠ｇ爜 鈫?璋冭瘯 鈫?娴嬭瘯 | Superpowers, Graphify, Serena |
-| 95 | 缃戠粶鏋舵瀯甯?| 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鏋舵瀯璁捐 鈫?鎶€鏈€夊瀷 鈫?绯荤粺瑙勫垝 | Graphify, Archify, LangChain |
-| 96 | 瀹夊叏鏋舵瀯甯?| 馃煝 25% | 5+骞?| **AI 杈呭姪**: 瀹夊叏绛栫暐 鈫?鏋舵瀯璁捐 鈫?椋庨櫓璇勪及 | LangChain, reverse-skill, security-audit-skill |
-| 97 | IT 缁忕悊 | 馃煝 28% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?鎶€鏈垬鐣?鈫?娴佺▼浼樺寲 | Dify, GPT Researcher, LangChain |
-| 98 | IT 鎬荤洃 | 馃煝 22% | 5+骞?| **AI 杈呭姪**: 鎴樼暐鍒嗘瀽 鈫?鏁版嵁鏀寔 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain |
-| 99 | CTO | 馃數 15% | 10+骞?| **AI 杈呭姪**: 鎶€鏈喅绛栬緟鍔?鈫?鎴樼暐鍒嗘瀽 鈫?鏂规鐢熸垚 | GPT Researcher, LangChain, Graphify |
-| 100 | 鎶€鏈富绠?| 馃煝 30% | 5+骞?| **AI 杈呭姪**: 鍥㈤槦绠＄悊 鈫?鎶€鏈喅绛?鈫?娴佺▼浼樺寲 | Dify, GPT Researcher, LangChain |
+### 21.5 馃幆 Agent 缂栨帓 (4,512 repos)
 
-**琛屼笟宸ュ叿濂楄**: [馃鈥嶐煉?杞欢宸ョ▼甯堝伐鍏峰瑁匽(#142--杞欢宸ョ▼甯?software-engineer)
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **paperclip** | 寮€婧?Agent 绠＄悊搴旂敤 | Agent 绠＄悊 | 浼佷笟 Agent | 107,309 | 2026-10-26 | [GitHub](https://github.com/paperclipai/paperclip) |
+| 2 | **anything-llm** | 鏈湴浼樺厛 Agent 浣撻獙锛屽仠姝㈢鐢ㄦ櫤鑳?| 鏈湴 Agent | 涓汉 Agent | 67,555 | 2026-10-25 | [GitHub](https://github.com/Mintplex-Labs/anything-llm) |
+| 3 | **herdr** | 缂栫爜 Agent 鐨勮繍琛屾椂 | 缂栫爜杩愯鏃?| 缂栫▼寮€鍙?| 45,861 | 2026-10-23 | [GitHub](https://github.com/herdrdev/herdr) |
+| 4 | **openhuman** | 鏈€蹇渶渚垮疁鐨勫紑婧?Agent 妗嗘灦锛?10 VPS 杩愯 500+ Agent | 澶ц妯?Agent | 浼佷笟 Agent | 42,340 | 2026-10-26 | [GitHub](https://github.com/tinyhumansai/openhuman) |
+| 5 | **Codewhale** | Rust 缁堢寮€婧?Agent锛屼换浣曟ā鍨?| 缁堢 Agent | 缂栫▼寮€鍙?| 41,120 | 2026-10-26 | [GitHub](https://github.com/codewhale-hq/Codewhale) |
+| 6 | **happy** | 鍦ㄤ竴涓簲鐢ㄩ噷缂栨帓 Claude銆丆odex 鍜?Grok | 澶氭ā鍨嬬紪鎺?| 缂栫▼寮€鍙?| 24,315 | 2026-10-25 | [GitHub](https://github.com/slopus/happy) |
+| 7 | **superset** | Agentic IDE锛屽苟琛岀紪鎺?100+ 缂栫爜 Agent | 骞惰 Agent | 缂栫▼寮€鍙?| 15,548 | 2026-10-26 | [GitHub](https://github.com/superset-sh/superset) |
+| 8 | **agent-orchestrator** | 寮€婧?Claude Code/Codex 缂栨帓鍣紝妗岄潰+绉诲姩 | 璺ㄥ钩鍙扮紪鎺?| 缂栫▼寮€鍙?| 13,638 | 2026-10-25 | [GitHub](https://github.com/OrchestratorInc/agent-orchestrator) |
+| 9 | **omnigent** | 寮€婧?AI Agent 妗嗘灦鍜屽厓妗嗘灦锛岀紪鎺掑绉?Agent | 澶?Agent 缂栨帓 | 閫氱敤 Agent | 11,046 | 2026-10-26 | [GitHub](https://github.com/omnigent-ai/omnigent) |
+| 10 | **Bindu** | AI Agent 鐨勮韩浠姐€侀€氫俊鍜屾敮浠樺眰 | Agent 鍩虹璁炬柦 | Agent 鐢熸€?| 10,031 | 2026-09-06 | [GitHub](https://github.com/GetBindu/Bindu) |
+| 11 | **munder-difflin** | 寮€婧愮殑 dots/bots/muses 鏇夸唬锛岃繍琛?claude code 鍔炲叕瀹?| Agent 鍔炲叕瀹?| 鍥㈤槦 Agent | 9,062 | 2026-10-25 | [GitHub](https://github.com/HarnessMD/munder-difflin) |
+| 12 | **superplane** | 寮€婧愪竴娆℃€у伐绋嬪伐鍘?| 宸ョ▼鑷姩鍖?| 宸ョ▼鑷姩鍖?| 8,231 | - | [GitHub](https://github.com/superplanehq/superplane) |
+| 13 | **openrig** | 浠?Claude Code銆丆odex 鍜?Pi 鏋勫缓鑷繁鐨?Agent 缃戠粶 | Agent 缃戠粶 | 澶?Agent | 8,193 | 2026-10-26 | [GitHub](https://github.com/mvschwarz/openrig) |
+| 14 | **yao** | 鎵€鏈?Agent 鍜屽伐浣滃尯闆嗕腑绠＄悊锛屾敮鎸佹闈€佺Щ鍔ㄣ€佹祻瑙堝櫒銆丄PI | 澶氱 Agent | 浼佷笟 Agent | 8,190 | 2026-10-19 | [GitHub](https://github.com/YaoApp/yao) |
+| 15 | **open-multi-agent** | 鑷墭绠?TypeScript Agent 杩愯鏃讹紝鎸佷箙瀹℃壒鍜屽彲楠岃瘉杩愯璁板綍 | 鑷墭绠?Agent | 浼佷笟 Agent | 7,023 | - | [GitHub](https://github.com/open-multi-agent/open-multi-agent) |
+| 16 | **deer-flow** | 瀛楄妭璺冲姩 SuperAgent 妗嗘灦锛屾矙绠便€佽蹇嗐€佸伐鍏枫€佸瓙浠ｇ悊 | 澶?Agent 妗嗘灦 | 閫氱敤 Agent | 84,420 | 2026-10-26 | [GitHub](https://github.com/bytedance/deer-flow) |
+| 17 | **MetaGPT** | 澶?Agent 杞欢宸ョ▼妗嗘灦锛屾ā鎷熶骇鍝佺粡鐞嗏啋鏋舵瀯甯堚啋宸ョ▼甯堚啋娴嬭瘯 | 杞欢宸ョ▼ | 杞欢宸ョ▼ | 71,014 | 2026-01-21 | [GitHub](https://github.com/FoundationAgents/MetaGPT) |
+| 18 | **CowAgent** | 寮€婧愪釜浜?AI 鍔╃悊涓?Agent 妗嗘灦锛屽 Agent銆佸妯″瀷銆佸娓犻亾 | 涓汉鍔╃悊 | 涓汉 Agent | 47,584 | 2026-10-25 | [GitHub](https://github.com/zhayujie/CowAgent) |
+| 19 | **agents** | 澶氭鏋?Agentic 鎻掍欢甯傚満 | 鎻掍欢甯傚満 | Agent 鐢熸€?| 41,711 | 2026-10-26 | [GitHub](https://github.com/wshobson/agents) |
+| 20 | **Vibe-Trading** | 浣犵殑涓汉浜ゆ槗 Agent | 浜ゆ槗鑷姩鍖?| 閲戣瀺浜ゆ槗 | 36,688 | 2026-10-25 | [GitHub](https://github.com/HKUDS/Vibe-Trading) |
 
 ---
 
-> 鐢变簬绡囧箙闄愬埗锛屽叾浣?30 涓涓氱殑璇︾粏鍒楄〃璇锋煡鐪嬪畬鏁寸増鏈€?> 浠ヤ笅涓鸿涓氬伐鍏峰瑁呯储寮曞拰鏇夸唬鐜囩粺璁°€?
----
+### 21.6 馃洜锔?AI 缂栫爜宸ュ叿 (8,125 repos)
 
-### 20.4 琛屼笟宸ュ叿濂楄绱㈠紩
-
-姣忎釜琛屼笟閮介厤鏈夊畬鏁寸殑 AI 宸ュ叿濂楄锛岄摼鎺ュ埌绗?14 绔犲搴旂珷鑺傦細
-
-| 琛屼笟 | 宸ュ叿濂楄绔犺妭 | 鏍稿績宸ュ叿 | 鏍稿績鎶€鑳?|
-|------|-------------|----------|----------|
-| 馃鈥嶐煉?杞欢宸ョ▼甯?| [14.2](#142--杞欢宸ョ▼甯?software-engineer) | Superpowers, Graphify, Serena, ECC | Karpathy Skills, Learn Claude Code |
-| 馃搳 鏁版嵁鍒嗘瀽甯?| [14.3](#143--鏁版嵁鍒嗘瀽甯?data-analyst) | LangChain, Firecrawl, Dify, n8n | Marketing Skills, Prompt Optimizer |
-| 馃摑 鍐呭鍒涗綔鑰?| [14.4](#144--鍐呭鍒涗綔鑰?content-creator) | Easel, Dify, Firecrawl, Cherry Studio | Shuorenhua, Wondel.ai Skills |
-| 馃帹 骞抽潰璁捐甯?| [14.5](#145--骞抽潰璁捐甯?graphic-designer) | UI/UX Pro Max, Design Extract, dashi-ppt | Front-End Checklist, Design Extract |
-| 馃幀 瑙嗛鍒涗綔鑰?| [14.6](#146--瑙嗛鍒涗綔鑰?video-creator) | OpenMontage, OneTake, Oil Motion | Gamedev Skills, Awesome Seedance |
-| 馃搱 閲戣瀺鍒嗘瀽甯?| [14.7](#147--閲戣瀺鍒嗘瀽甯?financial-analyst) | TradingAgents, Stock Analysis, Vibe Trading | Trading Skills, AI Agent Book |
-| 馃彞 鍖荤枟鍋ュ悍 | [14.8](#148--鍖荤枟鍋ュ悍-healthcare-professional) | LangChain, Dify, Cognee, Nihaixia | Nihaixia, Answer Me HTML |
-| 馃摎 鏁欒偛宸ヤ綔鑰?| [14.9](#149--鏁欒偛宸ヤ綔鑰?educator) | Dify, LangChain, Free Programming, SiYuan | Free Programming, Learn Claude Code |
-| 鈿栵笍 娉曞緥宸ヤ綔鑰?| [14.10](#1410--娉曞緥宸ヤ綔鑰?legal-professional) | LangChain, GPT Researcher, Cognee | Answer Me HTML, Council of High Intel |
-| 馃彈锔?浜у搧缁忕悊 | [14.11](#1411--浜у搧缁忕悊-product-manager) | Dify, Archify, Graphify, GPT Researcher | Marketing Skills, AI Agent Book |
-| 馃摚 甯傚満钀ラ攢 | [14.12](#1412--甯傚満钀ラ攢-marketing-professional) | Marketing Skills, Easel, TrendRadar, n8n | LinkedIn Skills, Agentic SEO |
-| 馃洅 鐢靛晢杩愯惀 | [14.13](#1413--鐢靛晢杩愯惀-e-commerce-operator) | n8n, Easel, Activepieces, TrendRadar | Agentic SEO, Marketing Skills |
-| 馃幃 娓告垙寮€鍙戣€?| [14.14](#1414--娓告垙寮€鍙戣€?game-developer) | Gamedev Skills, Superpowers, Graphify | Gamedev Skills, Design Extract |
-| 馃敀 瀹夊叏鐮旂┒鍛?| [14.15](#1415--瀹夊叏鐮旂┒鍛?security-researcher) | reverse-skill, security-audit-skill, Firecrawl | reverse-skill, Agent Best Practices |
-| 馃摫 绉诲姩寮€鍙戣€?| [14.16](#1416--绉诲姩寮€鍙戣€?mobile-developer) | Superpowers, Graphify, App Store Connect | App Store Connect, Karpathy Skills |
-| 鈽侊笍 浜戞灦鏋勫笀 | [14.17](#1417--浜戞灦鏋勫笀-cloud-architect) | LangChain, Semantica, Airweave, SkillHub | AI Infra Book, AI Infra Learning |
-| 馃 AI 鐮旂┒鍛?| [14.18](#1418--ai-鐮旂┒鍛?ai-researcher) | LangChain, GPT Researcher, OpenViking, AReaL | AI Agent Book, Agent Best Practices |
-| 馃搵 椤圭洰缁忕悊 | [14.19](#1419--椤圭洰缁忕悊-project-manager) | Paperclip, n8n, Archify, Graphify | Agent Rules Books, AI Agent Book |
-| 馃寪 鍏ㄦ爤寮€鍙戣€?| [14.20](#1420--鍏ㄦ爤寮€鍙戣€?full-stack-developer) | Superpowers, Graphify, CodeWhale, ECC | Karpathy Skills, Front-End Checklist |
-| 馃捈 鑷敱鑱屼笟鑰?| [14.21](#1421--鑷敱鑱屼笟鑰?freelancer) | Career-Ops, Cherry Studio, n8n, Dify | Shuorenhua, Marketing Skills |
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **rtk** | CLI 浠ｇ悊锛屽噺灏?60-90% LLM Token 娑堣€?| Token 浼樺寲 | 缂栫▼寮€鍙?| 84,541 | 2026-10-25 | [GitHub](https://github.com/rtk-ai/rtk) |
+| 2 | **agentic-awesome-skills** | 2750+ Agent 鎶€鑳界洰褰曞拰 CLI | 鎶€鑳界洰褰?| Agent 鎶€鑳?| 48,503 | 2026-10-24 | [GitHub](https://github.com/sickn33/agentic-awesome-skills) |
+| 3 | **medusa** | 涓哄叏鐞冪伒娲荤殑鍟嗕笟骞冲彴 | 鐢靛晢骞冲彴 | 鐢靛晢寮€鍙?| 36,943 | 2026-10-25 | [GitHub](https://github.com/medusajs/medusa) |
+| 4 | **DeepSeek-Reasonix** | 闈㈠悜澶嶆潅杞欢宸ョ▼浠诲姟鐨勫彲闈犵紪鐮?Agent | 缂栫爜 Agent | 缂栫▼寮€鍙?| 35,963 | 2026-10-26 | [GitHub](https://github.com/esengine/DeepSeek-Reasonix) |
+| 5 | **code-review-graph** | 鏈湴浼樺厛浠ｇ爜鏅鸿兘鍥捐氨锛孧CP 鍜?CLI | 浠ｇ爜瀹℃煡 | 浠ｇ爜鏅鸿兘 | 32,382 | 2026-10-16 | [GitHub](https://github.com/tirth8205/code-review-graph) |
+| 6 | **serena** | 寮哄ぇ鐨?MCP 缂栫爜宸ュ叿鍖咃紝Agent 鐨?IDE | 缂栫爜 IDE | 缂栫▼寮€鍙?| 30,712 | 2026-10-20 | [GitHub](https://github.com/oraios/serena) |
+| 7 | **qwen-code** | 闃块噷宸村反寮€婧愮殑缁堢 AI 缂栫爜 Agent | 缁堢缂栫爜 | 缂栫▼寮€鍙?| 28,715 | 2026-10-26 | [GitHub](https://github.com/QwenLM/qwen-code) |
+| 8 | **kilocode** | 涓€浣撳寲 Agentic 宸ョ▼骞冲彴锛屾渶娴佽鐨勫紑婧愮紪鐮?Agent | 缂栫爜骞冲彴 | 缂栫▼寮€鍙?| 27,753 | 2026-10-25 | [GitHub](https://github.com/Kilo-Org/kilocode) |
+| 9 | **superset** | Agentic IDE锛屽苟琛岀紪鎺?100+ 缂栫爜 Agent | 骞惰 Agent | 缂栫▼寮€鍙?| 15,548 | 2026-10-26 | [GitHub](https://github.com/superset-sh/superset) |
+| 10 | **agent-orchestrator** | 寮€婧?Claude Code/Codex 缂栨帓鍣紝妗岄潰+绉诲姩 | 璺ㄥ钩鍙扮紪鎺?| 缂栫▼寮€鍙?| 13,638 | 2026-10-25 | [GitHub](https://github.com/OrchestratorInc/agent-orchestrator) |
+| 11 | **claude-context** | Claude 涓婁笅鏂囩鐞嗗伐鍏?| 涓婁笅鏂囩鐞?| 缂栫▼寮€鍙?| 12,647 | 2026-07-14 | [GitHub](https://github.com/zilliztech/claude-context) |
+| 12 | **loop-engineering** | 寰幆宸ョ▼妯″紡銆佸叆闂ㄥ拰 CLI 宸ュ叿 | 寰幆宸ョ▼ | 缂栫▼寮€鍙?| 11,629 | 2026-10-25 | [GitHub](https://github.com/cobusgreyling/loop-engineering) |
+| 13 | **codeburn** | 鍏嶈垂鏈湴宸ュ叿锛岃拷韪?37 绉嶅伐鍏风殑 AI 缂栫爜 Token 浣跨敤閲?| Token 杩借釜 | 鎴愭湰绠＄悊 | 11,577 | 2026-10-26 | [GitHub](https://github.com/getagentseal/codeburn) |
+| 14 | **ccpm** | 椤圭洰绠＄悊鎶€鑳界郴缁燂紝浣跨敤 GitHub Issues 鍜?Git worktrees | 椤圭洰绠＄悊 | 宸ョ▼绠＄悊 | 8,414 | 2026-10-19 | [GitHub](https://github.com/automazeio/ccpm) |
+| 15 | **superpowers-zh** | AI 缂栫▼瓒呰兘鍔涗腑鏂囧寮虹増 | 涓枃缂栫▼ | 缂栫▼寮€鍙?| 8,378 | 2026-10-20 | [GitHub](https://github.com/jnMetaCode/superpowers-zh) |
+| 16 | **ECC** | Agent 妗嗘灦鎬ц兘浼樺寲绯荤粺锛孲kills/Instincts/Memory/Security | 鎬ц兘浼樺寲 | Agent 浼樺寲 | 288,845 | - | [GitHub](https://github.com/affaan-m/ECC) |
+| 17 | **karpathy-skills** | 鍗曚釜 CLAUDE.md 鏂囦欢鏀瑰杽 Claude Code 琛屼负 | CLAUDE.md | 缂栫▼寮€鍙?| 223,831 | - | [GitHub](https://github.com/multica-ai/andrej-karpathy-skills) |
+| 18 | **cc-switch** | 璺ㄥ钩鍙?Claude Code/Codex 鍏ㄥ悎涓€绯诲垪 | 妯″瀷鍒囨崲 | 缂栫▼寮€鍙?| 148,582 | - | [GitHub](https://github.com/farion1231/cc-switch) |
+| 19 | **Graphify** | 灏嗕唬鐮佸簱鍙樻垚鍙煡璇㈢煡璇嗗浘璋憋紝/graphify 鎶€鑳?| 浠ｇ爜鍥捐氨 | 浠ｇ爜鏅鸿兘 | 135,229 | - | [GitHub](https://github.com/Graphify-Labs/graphify) |
+| 20 | **Caveman** | 鍍忕┐灞呬汉涓€鏍疯璇濓紝鍑忓皯 65% Token 娑堣€?| Token 浼樺寲 | 缂栫▼寮€鍙?| 115,044 | - | [GitHub](https://github.com/JuliusBrussee/caveman) |
 
 ---
 
-### 20.5 Agent 瀹屽叏鏇夸唬鏂规
+### 21.7 馃殌 AI 鑷姩鍖?(2,625 repos)
 
-#### 瀹屽叏鏇夸唬妯℃澘 (閫傜敤浜庢墍鏈夊矖浣?
-
-```
-鈹屸攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹?鈹?                   Agent 瀹屽叏鏇夸唬宸ヤ綔娴?                        鈹?鈹溾攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹?鈹?                                                             鈹?鈹? 1. 鏁版嵁閲囬泦灞?(Data Collection)                               鈹?鈹?    鈹溾攢鈹€ Firecrawl: 缃戦〉鏁版嵁鐖彇                              鈹?鈹?    鈹溾攢鈹€ n8n: 鑷姩鍖栨暟鎹噰闆?                                 鈹?鈹?    鈹溾攢鈹€ MCP Server: 鏁版嵁婧愰泦鎴?                               鈹?鈹?    鈹斺攢鈹€ Browser Use: 缃戦〉浜や簰閲囬泦                             鈹?鈹?                                                             鈹?鈹? 2. 鏁版嵁澶勭悊灞?(Data Processing)                               鈹?鈹?    鈹溾攢鈹€ LangChain: RAG 鏁版嵁澶勭悊                              鈹?鈹?    鈹溾攢鈹€ Dify: 鏁版嵁搴旂敤鏋勫缓                                   鈹?鈹?    鈹溾攢鈹€ GPT Researcher: 娣卞害鐮旂┒                             鈹?鈹?    鈹斺攢鈹€ Cognee: 鐭ヨ瘑鍥捐氨鏋勫缓                                  鈹?鈹?                                                             鈹?鈹? 3. 浠诲姟鎵ц灞?(Task Execution)                                鈹?鈹?    鈹溾攢鈹€ Superpowers: 缂栫▼浠诲姟                                 鈹?鈹?    鈹溾攢鈹€ n8n: 宸ヤ綔娴佽嚜鍔ㄥ寲                                    鈹?鈹?    鈹溾攢鈹€ Activepieces: 鑷姩鍖栨祦绋?                              鈹?鈹?    鈹斺攢鈹€ Agent Skills: 涓撲笟浠诲姟鎵ц                             鈹?鈹?                                                             鈹?鈹? 4. 杈撳嚭灞?(Output)                                           鈹?鈹?    鈹溾攢鈹€ Cherry Studio: 澶氭ā鎬佽緭鍑?                            鈹?鈹?    鈹溾攢鈹€ Answer Me HTML: 缁撴瀯鍖栬緭鍑?                          鈹?鈹?    鈹溾攢鈹€ OpenMontage: 瑙嗛杈撳嚭                                鈹?鈹?    鈹斺攢鈹€ Design Extract: 璁捐杈撳嚭                             鈹?鈹?                                                             鈹?鈹? 5. 鐩戞帶灞?(Monitoring)                                       鈹?鈹?    鈹溾攢鈹€ TrendRadar: 瓒嬪娍鐩戞帶                                 鈹?鈹?    鈹溾攢鈹€ WorldMonitor: 鍏ㄧ悆鎯呮姤鐩戞帶                            鈹?鈹?    鈹斺攢鈹€ GPT Researcher: 鎸佺画鐮旂┒                              鈹?鈹?                                                             鈹?鈹斺攢鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹?```
-
-#### 鎸夎涓?Agent 鏇夸唬鏂规
-
-| 琛屼笟 | 鏁版嵁閲囬泦 | 鏁版嵁澶勭悊 | 浠诲姟鎵ц | 杈撳嚭 | 鐩戞帶 |
-|------|----------|----------|----------|------|------|
-| 馃彚 琛屾斂 | n8n, Firecrawl | LangChain, Dify | n8n, MCP Excel | Cherry Studio | TrendRadar |
-| 馃摓 瀹㈡湇 | Cherry Studio | LangChain, Dify | Dify, n8n | Cherry Studio | TrendRadar |
-| 馃捇 绉戞妧 | Graphify, Serena | LangChain, Dify | Superpowers, ECC | CodeWhale | CodeBurn |
-| 馃挵 閲戣瀺 | Firecrawl, n8n | LangChain, Cognee | n8n, Dify | GPT Researcher | WorldMonitor |
-| 馃搳 鏁版嵁 | Firecrawl, Scrapling | LangChain, Dify | n8n, Activepieces | GPT Researcher | TrendRadar |
-| 馃摑 鍐呭 | Firecrawl, TrendRadar | LangChain, Dify | Easel, Dify | Answer Me HTML | TrendRadar |
-| 馃摚 钀ラ攢 | Firecrawl, TrendRadar | LangChain, Dify | n8n, Easel | Answer Me HTML | TrendRadar |
-| 馃帹 璁捐 | Firecrawl, Design Extract | LangChain, Dify | Superpowers, UI/UX Pro | OpenMontage | TrendRadar |
-| 馃彞 鍖荤枟 | Firecrawl, LangChain | LangChain, Cognee | Dify, LangChain | Answer Me HTML | TrendRadar |
-| 馃摎 鏁欒偛 | Firecrawl, Dify | LangChain, Dify | Dify, n8n | Answer Me HTML | TrendRadar |
-| 鈿栵笍 娉曞緥 | Firecrawl, GPT Researcher | LangChain, Cognee | Dify, LangChain | Answer Me HTML | TrendRadar |
-| 馃彈锔?浜у搧 | Firecrawl, GPT Researcher | LangChain, Dify | Dify, Archify | Answer Me HTML | TrendRadar |
-| 馃幃 娓告垙 | Firecrawl, Gamedev Skills | LangChain, Dify | Superpowers, Gamedev | OpenMontage | TrendRadar |
-| 馃敀 瀹夊叏 | Firecrawl, reverse-skill | LangChain, Dify | reverse-skill, security-audit | Answer Me HTML | WorldMonitor |
-| 鈽侊笍 浜?| Firecrawl, LangChain | LangChain, Semantica | LangChain, SkillHub | Answer Me HTML | TrendRadar |
-| 馃 AI/ML | Firecrawl, GPT Researcher | LangChain, OpenViking | LangChain, AReaL | Answer Me HTML | TrendRadar |
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **awesome-n8n-templates** | 280+ 鍏嶈垂 n8n 鑷姩鍖栨ā鏉?| n8n 妯℃澘 | 宸ヤ綔娴佽嚜鍔ㄥ寲 | 26,102 | 2026-09-12 | [GitHub](https://github.com/enescingoz/awesome-n8n-templates) |
+| 2 | **Agenta** | 鏋勫缓 Agent 鍜岃嚜鍔ㄥ寲鐨勫伐浣滃尯 | Agent 鏋勫缓 | 浼佷笟鑷姩鍖?| 4,861 | 2026-10-26 | [GitHub](https://github.com/Agenta-AI/agenta) |
+| 3 | **awesome-openclaw-usecases-zh** | OpenClaw 涓枃鐢ㄤ緥澶у叏锛?0 涓湡瀹炲満鏅?| OpenClaw 鐢ㄤ緥 | 鑷姩鍖栫敤渚?| 4,448 | 2026-07-12 | [GitHub](https://github.com/AlexAnys/awesome-openclaw-usecases-zh) |
+| 4 | **awesome-openclaw-agents** | 162 涓敓浜у氨缁?AI Agent 妯℃澘 | Agent 妯℃澘 | Agent 妯℃澘 | 4,024 | 2026-09-26 | [GitHub](https://github.com/mergisi/awesome-openclaw-agents) |
+| 5 | **Orkas** | 鏈湴浼樺厛 AI 鍥㈤槦锛孋ommander + 16 涓笓瀹?Agent + 澶栭儴 CLI Agent | AI 鍥㈤槦 | 鍥㈤槦鑷姩鍖?| 2,172 | 2026-10-24 | [GitHub](https://github.com/Orkas-AI/Orkas) |
+| 6 | **babysitter** | Agent 鎵ц鍔涘己鍒舵墽琛岋紝纭畾鎬ц嚜缂栨帓 | Agent 鎵ц | 鑷姩鍖?| 1,870 | 2026-09-16 | [GitHub](https://github.com/a5c-ai/babysitter) |
+| 7 | **Hexabot** | AI 宸ヤ綔娴佽嚜鍔ㄥ寲骞冲彴 | 宸ヤ綔娴佽嚜鍔ㄥ寲 | 浼佷笟鑷姩鍖?| 1,148 | 2026-09-23 | [GitHub](https://github.com/hexabot-ai/Hexabot) |
+| 8 | **blurr** | Android 鑷姩鍖?| Android 鑷姩鍖?| 绉诲姩绔?| 994 | 2026-01-13 | [GitHub](https://github.com/Ayush0Chaudhary/blurr) |
+| 9 | **selfhost-ai** | 涓€閿嚜鎵樼 AI 鏍堬紝n8n/Ollama/Open WebUI/Dify 绛?30+ 宸ュ叿 | 鑷墭绠?| 鑷墭绠?| 952 | 2026-10-19 | [GitHub](https://github.com/kossakovsky/selfhost-ai) |
+| 10 | **mcp-server-excel** | 閫氳繃 MCP 鏈嶅姟鍣ㄦ垨 CLI 鑷姩鍖?Excel | Excel 鑷姩鍖?| 鍔炲叕鑷姩鍖?| 834 | 2026-10-25 | [GitHub](https://github.com/sbroenne/mcp-server-excel) |
+| 11 | **nocobase** | 寮€婧?AI + 鏃犱唬鐮佸钩鍙?| 鏃犱唬鐮佸钩鍙?| 浣庝唬鐮?| 24,709 | 2026-10-26 | [GitHub](https://github.com/nocobase/nocobase) |
+| 12 | **CopilotKit** | Agent 鍜岀敓鎴愬紡 UI 鐨勫墠绔爤 | 鍓嶇 Agent | 鍓嶇寮€鍙?| 38,228 | - | [GitHub](https://github.com/CopilotKit/CopilotKit) |
+| 13 | **oh-my-pi** | IDE 杩炴帴鐨勭紪鐮?Agent | IDE Agent | 缂栫▼寮€鍙?| 36,590 | - | [GitHub](https://github.com/can1357/oh-my-pi) |
+| 14 | **firecrawl** | AI 缃戦〉鐖彇宸ュ叿锛岀綉椤佃浆 Markdown | 缃戦〉鐖彇 | 鏁版嵁閲囬泦 | 195,211 | - | [GitHub](https://github.com/firecrawl/firecrawl) |
+| 15 | **browser-use** | AI 娴忚鍣ㄤ唬鐞嗭紝寮€婧?Python 搴?| 娴忚鍣ㄨ嚜鍔ㄥ寲 | 娴忚鍣ㄨ嚜鍔ㄥ寲 | 119,098 | - | [GitHub](https://github.com/browser-use/browser-use) |
 
 ---
 
-### 20.6 鏇夸唬鐜囧叏鏅粺璁?
-#### 鎸夋浛浠ｇ巼绛夌骇鍒嗗竷
+### 21.8 馃摝 AI 鍩虹璁炬柦 (1,869 repos)
 
-| 绛夌骇 | 鏇夸唬鐜?| 宀椾綅鏁?| 鍗犳瘮 | 浠ｈ〃鑱屼笟 |
-|------|--------|--------|------|----------|
-| 馃敶 鏋侀珮 | 90-100% | 218 | 20% | 鏁版嵁褰曞叆銆佹敹閾跺憳銆佹祦姘寸嚎宸ヤ汉銆佺數璇濆鏈?|
-| 馃煚 楂?| 70-89% | 454 | 43% | 鍒濈骇绋嬪簭鍛樸€佺炕璇戙€佷細璁°€佽鏀垮姪鐞?|
-| 馃煛 涓?| 50-69% | 356 | 34% | 鏁欏笀銆佹姢澹€佸鏈嶄富绠°€丠R涓撳憳 |
-| 馃煝 浣?| 30-49% | 246 | 23% | 杞欢宸ョ▼甯堛€佷骇鍝佺粡鐞嗐€佽璁″笀 |
-| 馃數 鏋佷綆 | 10-29% | 123 | 12% | 鍖荤敓銆佸緥甯堛€佺瀛﹀銆佹灦鏋勫笀 |
-| 鈿?闅炬浛浠?| 0-9% | 2 | 0.2% | 澶栫鍖荤敓銆佽繍鍔ㄥ憳 |
-
-**鎬昏: 1,399 涓矖浣?*
-
-#### 鎸夎涓氭浛浠ｇ巼鎺掑簭 (骞冲潎)
-
-| 鎺掑悕 | 琛屼笟 | 骞冲潎鏇夸唬鐜?| 瓒嬪娍 |
-|------|------|-----------|------|
-| 1 | 馃殮 鐗╂祦涓庤繍杈?| 62% | 馃搱 蹇€熷闀?|
-| 2 | 馃彧 闆跺敭涓庣數鍟?| 58% | 馃搱 蹇€熷闀?|
-| 3 | 馃彮 鍒堕€犱笌宸ヤ笟 | 55% | 馃搱 蹇€熷闀?|
-| 4 | 馃摓 瀹㈡埛鏈嶅姟 | 55% | 馃搱 蹇€熷闀?|
-| 5 | 馃摑 濯掍綋涓庡唴瀹?| 52% | 馃搱 蹇€熷闀?|
-| 6 | 馃彚 琛屾斂涓庡姙鍏?| 50% | 馃搱 蹇€熷闀?|
-| 7 | 馃摚 钀ラ攢涓庨攢鍞?| 48% | 馃搱 澧為暱涓?|
-| 8 | 馃尵 鍐滀笟涓庨鍝?| 48% | 馃搱 澧為暱涓?|
-| 9 | 馃挵 閲戣瀺涓庝細璁?| 45% | 馃搱 澧為暱涓?|
-| 10 | 馃捇 绉戞妧涓嶪T | 38% | 馃搱 绋冲畾 |
-| 11 | 馃搳 鏁版嵁鍒嗘瀽 | 38% | 馃搱 绋冲畾 |
-| 12 | 馃摎 鏁欒偛涓庡煿璁?| 38% | 馃搱 绋冲畾 |
-| 13 | 馃彈锔?宸ョ▼涓庡缓绛?| 35% | 馃搱 绋冲畾 |
-| 14 | 馃帹 鍒涙剰涓庤璁?| 35% | 馃搱 绋冲畾 |
-| 15 | 馃摗 閫氫俊涓庣綉缁?| 32% | 馃搱 绋冲畾 |
-| 16 | 馃彣 閰掑簵涓庢梾娓?| 32% | 馃搱 澧為暱涓?|
-| 17 | 馃 绀句細鏈嶅姟 | 32% | 馃搱 绋冲畾 |
-| 18 | 馃捈 鑷敱鑱屼笟 | 32% | 馃搱 绋冲畾 |
-| 19 | 鈿栵笍 娉曞緥涓庡悎瑙?| 28% | 馃搱 缂撴參 |
-| 20 | 馃彟 浜哄姏璧勬簮 | 28% | 馃搱 绋冲畾 |
-| 21 | 馃搵 椤圭洰绠＄悊 | 28% | 馃搱 绋冲畾 |
-| 22 | 馃幃 娓告垙涓庡ū涔?| 28% | 馃搱 绋冲畾 |
-| 23 | 馃敩 绉戝涓庣爺绌?| 25% | 馃搱 缂撴參 |
-| 24 | 馃彌锔?鏀垮簻涓庡叕鍏?| 25% | 馃搱 缂撴參 |
-| 25 | 馃尶 鐜涓庤嚜鐒?| 25% | 馃搱 绋冲畾 |
-| 26 | 馃幁 鑹烘湳涓庡ū涔?| 22% | 馃搱 缂撴參 |
-| 27 | 馃弸锔?浣撹偛涓庡仴韬?| 22% | 馃搱 绋冲畾 |
-| 28 | 馃彞 鍖荤枟鍋ュ悍 | 22% | 馃搱 缂撴參 |
-| 29 | 鈿?鑳芥簮涓庡叕鐢ㄤ簨涓?| 22% | 馃搱 缂撴參 |
-| 30 | 馃洝锔?鍐涗簨涓庡畨鍏?| 15% | 馃搱 缂撴參 |
-| 31 | 馃敀 瀹夊叏涓庡悎瑙?| 18% | 馃搱 缂撴參 |
-| 32 | 馃摫 绉诲姩绔紑鍙?| 35% | 馃搱 绋冲畾 |
-| 33 | 鈽侊笍 浜戣绠?| 32% | 馃搱 绋冲畾 |
-| 34 | 馃 AI/ML 鐮旂┒ | 25% | 馃搱 缂撴參 |
-| 35 | 馃幆 閿€鍞笌鍟嗗姟 | 40% | 馃搱 澧為暱涓?|
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **semantica** | 鍥惧師鐢熶笂涓嬫枃鍩虹璁炬柦 | 涓婁笅鏂囩鐞?| AI 鍩虹璁炬柦 | 14,241 | 2026-10-26 | [GitHub](https://github.com/semantica-agi/semantica) |
+| 2 | **ai-infra-book** | 銆婃繁鍏ョ悊瑙?AI Infra銆嬪紑婧愪功绫?| 瀛︿範鍙傝€?| AI 瀛︿範 | 6,971 | 2026-10-01 | [GitHub](https://github.com/bojieli/ai-infra-book) |
+| 3 | **airweave** | 寮€婧愪笂涓嬫枃妫€绱㈠眰 | 涓婁笅鏂囨绱?| AI 鍩虹璁炬柦 | 6,551 | 2026-06-05 | [GitHub](https://github.com/airweave-ai/airweave) |
+| 4 | **skillhub** | 鑷墭绠?Agent 鎶€鑳芥敞鍐屼腑蹇?| 鎶€鑳界鐞?| 浼佷笟鎶€鑳?| 5,287 | 2026-10-26 | [GitHub](https://github.com/iflytek/skillhub) |
+| 5 | **LongMemory** | 鏈湴鎸佷箙鍖栬蹇嗗瓨鍌?| 璁板繂绠＄悊 | AI 璁板繂 | 4,544 | 2026-10-18 | [GitHub](https://github.com/CaviraOSS/LongMemory) |
+| 6 | **HarnessRouter** | Agent 妗嗘灦缁熶竴鎺ュ彛锛岃嚜鎵樼 | Agent 鎺ュ彛 | AI 鍩虹璁炬柦 | 3,633 | 2026-10-26 | [GitHub](https://github.com/HarnessRouter/harnessrouter) |
+| 7 | **omnara** | 寮€婧愭墭绠?Agent 骞冲彴 | 鎵樼 Agent | 浼佷笟 Agent | 3,258 | 2026-10-24 | [GitHub](https://github.com/omnara-ai/omnara) |
+| 8 | **claw-compactor** | 14 闃舵 LLM Token 鍘嬬缉绠￠亾 | Token 鍘嬬缉 | 鎴愭湰浼樺寲 | 2,004 | 2026-04-01 | [GitHub](https://github.com/open-compress/claw-compactor) |
+| 9 | **ai-infra-engineer-learning** | AI 鍩虹璁炬柦宸ョ▼甯堝涔犺矾寰?| 瀛︿範璺緞 | AI 瀛︿範 | 1,824 | 2026-06-26 | [GitHub](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) |
+| 10 | **paritok-4b-v1** | 闈炵牬鍧忔€у帇缂╃綉鍏筹紝鍑忓皯 25-85% Token 璐﹀崟 | Token 鍘嬬缉 | 鎴愭湰浼樺寲 | 1,441 | 2026-10-06 | [GitHub](https://github.com/Paritok-official/paritok-4b-v1) |
+| 11 | **tensorlake** | Serverless 娌欑杩愯鏃?| 娌欑杩愯鏃?| AI 鍩虹璁炬柦 | 1,027 | - | [GitHub](https://github.com/tensorlakeai/tensorlake) |
+| 12 | **UniRL** | 缁熶竴澶氭ā鎬佹ā鍨嬪己鍖栧涔犳鏋?| 寮哄寲瀛︿範 | AI 鐮旂┒ | 1,025 | - | [GitHub](https://github.com/Tencent-Hunyuan/UniRL) |
+| 13 | **sandbase-harness** | 鏈湴浼樺厛鑷墭绠?AI Agent 杩愯鏃?| Agent 杩愯鏃?| AI 鍩虹璁炬柦 | 635 | - | [GitHub](https://github.com/sandbaseai/sandbase-harness) |
+| 14 | **caura** | 鍙楁不鐞嗙殑鍏变韩璁板繂锛屽 Agent銆佸绉熸埛銆丮CP 鍘熺敓 | 鍏变韩璁板繂 | AI 璁板繂 | 502 | - | [GitHub](https://github.com/caura-ai/caura) |
+| 15 | **pgx** | 涓?AI Agent 鐨勮交閲忕骇 Postgres锛孯ust 缂栧啓 | Agent 鏁版嵁搴?| AI 鏁版嵁搴?| 473 | - | [GitHub](https://github.com/pgrundev/pgx) |
 
 ---
 
-### 20.7 瀹屽叏涓嶅彲鏇夸唬鑱屼笟 (鏇夸唬鐜?< 15%)
+### 21.9 馃 Agent 璁板繂 (4,942 repos)
 
-| 鑱屼笟 | 鏇夸唬鐜?| 琛屼笟 | 鏍稿績涓嶅彲鏇夸唬鑳藉姏 |
-|------|--------|------|----------------|
-| 澶栫鍖荤敓 | 馃數 8% | 馃彞 鍖荤枟 | 鎵嬫湳鎿嶄綔 |
-| 鍐涗汉/澹叺/灏嗗啗 | 馃數 8% | 馃洝锔?鍐涗簨 | 鍐涗簨鍒ゆ柇/鎴樼暐 |
-| 杩愬姩鍛?鐢电珵閫夋墜 | 馃數 10% | 馃弸锔?浣撹偛 | 杩愬姩澶╄祴 |
-| 鑸炶€?瀵兼紨/浣滄洸瀹?| 馃數 10% | 馃幁 鑹烘湳 | 鑹烘湳鍒涗綔 |
-| 璀﹀療/娑堥槻鍛?| 馃數 10% | 馃彌锔?鏀垮簻 | 鎵ф硶/娑堥槻鎿嶄綔 |
-
-**鍏?6 涓畬鍏ㄤ笉鍙浛浠ｈ亴涓氱被鍒?*
-
----
-
-### 20.8 Agent 瀹屽叏鏇夸唬璺嚎鍥?
-#### 2026-2027: 蹇€熸浛浠ｆ湡
-
-```
-鐩爣: 鏇夸唬鎵€鏈?馃敶 鏋侀珮鏇夸唬鐜囧矖浣?(218涓?
-鏂规硶: 鍏ㄨ嚜鍔ㄥ寲宸ュ叿閮ㄧ讲
-宸ュ叿: n8n, Firecrawl, Cherry Studio, Dify
-```
-
-#### 2027-2029: 瑙勬ā鏇夸唬鏈?
-```
-鐩爣: 鏇夸唬鎵€鏈?馃煚 楂樻浛浠ｇ巼宀椾綅 (454涓?
-鏂规硶: AI 杈呭姪 + 鑷姩鍖栧伐浣滄祦
-宸ュ叿: LangChain, Superpowers, GPT Researcher, Graphify
-```
-
-#### 2029-2031: 娣卞害鏇夸唬鏈?
-```
-鐩爣: 鏇夸唬鎵€鏈?馃煛 涓浛浠ｇ巼宀椾綅 (356涓?
-鏂规硶: 浜烘満鍗忎綔 + AI 鍐崇瓥杈呭姪
-宸ュ叿: Agent Frameworks, Dify, LangGraph, OpenViking
-```
-
-#### 2031-2035: 娣卞害铻嶅悎鏈?
-```
-鐩爣: 鏇夸唬鎵€鏈?馃煝 浣庢浛浠ｇ巼宀椾綅 (246涓?
-鏂规硶: AI 鍏ㄩ潰澧炲己 + 浜虹被鐩戠潱
-宸ュ叿: Agent Harness, Superpowers, ECC, OpenMontage
-```
-
-#### 2035+: 闀挎湡铻嶅悎鏈?
-```
-鐩爣: 鎵€鏈?馃數 鏋佷綆鏇夸唬鐜囧矖浣?(123涓?
-鏂规硶: AI 杈呭姪 + 浜虹被涓诲
-宸ュ叿: 鎸佺画杩涘寲鐨?Agent 鐢熸€?```
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **MiroFish** | 璁板繂楸硷紝Agent 璁板繂妗嗘灦 | 璁板繂绠＄悊 | AI 璁板繂 | 81,926 | 2026-10-16 | [GitHub](https://github.com/666ghj/MiroFish) |
+| 2 | **ai-agent-book** | 銆婃繁鍏ョ悊瑙?AI Agent锛氳璁″師鐞嗕笌宸ョ▼瀹炶返銆嬪紑婧愪功绫?| 瀛︿範鍙傝€?| AI 瀛︿範 | 55,842 | 2026-10-08 | [GitHub](https://github.com/bojieli/ai-agent-book) |
+| 3 | **OpenViking** | 鐏北寮曟搸鑷繘鍖栦笂涓嬫枃鏁版嵁搴擄紝缁熶竴璁板繂/RAG/鎶€鑳?| 涓婁笅鏂囨暟鎹簱 | AI 璁板繂 | 40,803 | 2026-10-25 | [GitHub](https://github.com/volcengine/OpenViking) |
+| 4 | **TiDB** | 涓?Agentic 宸ヤ綔璐熻浇鏋勫缓锛孉CID + 鍚戦噺鎼滅储 | Agent 鏁版嵁搴?| 鏁版嵁搴?| 40,678 | 2026-10-26 | [GitHub](https://github.com/pingcap/tidb) |
+| 5 | **cognee** | 寮€婧?AI 璁板繂骞冲彴锛屽皬鍨嬫ā鍨嬪厤璐?| 璁板繂骞冲彴 | AI 璁板繂 | 32,751 | 2026-10-23 | [GitHub](https://github.com/topoteretes/cognee) |
+| 6 | **supermemory** | 瓒呯骇璁板繂锛孉gent 璁板繂绯荤粺 | 璁板繂绠＄悊 | AI 璁板繂 | 31,397 | 2026-10-25 | [GitHub](https://github.com/supermemoryai/supermemory) |
+| 7 | **dolt** | 鐗堟湰鎺у埗鏁版嵁搴擄紝鏀寔 AI Agent | Agent 鏁版嵁搴?| 鏁版嵁搴?| 24,735 | 2026-10-24 | [GitHub](https://github.com/dolthub/dolt) |
+| 8 | **Memori** | Agent 璁板繂妗嗘灦 | 璁板繂绠＄悊 | AI 璁板繂 | 17,144 | 2026-10-03 | [GitHub](https://github.com/MemoriLabs/Memori) |
+| 9 | **xerj** | Agent 璁板繂妗嗘灦 | 璁板繂绠＄悊 | AI 璁板繂 | 15,575 | 2026-10-26 | [GitHub](https://github.com/xerj-org/xerj) |
+| 10 | **memU** | Agent 璁板繂妗嗘灦 | 璁板繂绠＄悊 | AI 璁板繂 | 14,561 | 2026-10-23 | [GitHub](https://github.com/NevaMind-AI/memU) |
+| 11 | **mem0** | AI Agent 璁板繂灞傦紝鐢熶骇绾ц蹇嗗熀纭€璁炬柦 | 璁板繂灞?| AI 璁板繂 | 67,795 | - | [GitHub](https://github.com/mem0ai/mem0) |
+| 12 | **codebase-memory-mcp** | 浠ｇ爜-鏂囨。-鍩虹璁炬柦鎸佷箙鍥捐氨 | 浠ｇ爜璁板繂 | 浠ｇ爜鏅鸿兘 | 47,475 | - | [GitHub](https://github.com/DeusData/codebase-memory-mcp) |
+| 13 | **context-mode** | 涓婁笅鏂囩獥鍙ｄ紭鍖栵紝98% 鍑忓皯 | 涓婁笅鏂囦紭鍖?| 涓婁笅鏂囩鐞?| 32,263 | - | [GitHub](https://github.com/mksglu/context-mode) |
+| 14 | **LongMemory** | 鏈湴鎸佷箙鍖栬蹇嗗瓨鍌?| 鎸佷箙鍖栬蹇?| AI 璁板繂 | 4,544 | - | [GitHub](https://github.com/CaviraOSS/LongMemory) |
+| 15 | **TencentDB-Agent-Memory** | 鑵捐 Agent 璁板繂涓績锛? 绉嶅彲澶嶇敤璁板繂璧勪骇 | 浼佷笟璁板繂 | 浼佷笟 AI | 29,918 | - | [GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory) |
 
 ---
 
-> **鏁版嵁鏉ユ簮**: GitHub API 瀹炴椂鎼滅储 路 2026骞?0鏈?6鏃?> **瑕嗙洊鑼冨洿**: 35 澶ц涓?路 1,070+ 宀椾綅
-> **鏇存柊棰戠巼**: 瀛ｅ害鏇存柊
-> **鍏嶈矗澹版槑**: 鏇夸唬鐜囦负棰勬祴鍊硷紝鍩轰簬褰撳墠 AI Agent 鎶€鏈兘鍔涜瘎浼帮紝瀹為檯鎯呭喌鍙兘鍥犺涓氱壒鐐广€佺粍缁囩被鍨嬨€佸湴鍖哄樊寮傜瓑鍥犵礌鑰屾湁鎵€涓嶅悓銆
+### 21.10 馃寪 Agent 閫氫俊 (370 repos)
+
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **Bindu** | AI Agent 鐨勮韩浠姐€侀€氫俊鍜屾敮浠樺眰 | Agent 閫氫俊 | Agent 鐢熸€?| 10,031 | 2026-09-06 | [GitHub](https://github.com/GetBindu/Bindu) |
+| 2 | **robustmq** | 娑堟伅闃熷垪锛屾敮鎸?Agent 閫氫俊 | 娑堟伅闃熷垪 | Agent 閫氫俊 | 1,846 | 2026-10-26 | [GitHub](https://github.com/robustmq/robustmq) |
+| 3 | **agmsg** | Agent 娑堟伅妗嗘灦 | 娑堟伅妗嗘灦 | Agent 閫氫俊 | 1,568 | 2026-10-26 | [GitHub](https://github.com/fujibee/agmsg) |
+| 4 | **PrismerCloud** | Agent 浜戝钩鍙?| Agent 浜?| Agent 鐢熸€?| 1,364 | 2026-10-22 | [GitHub](https://github.com/Prismer-AI/PrismerCloud) |
+| 5 | **relay** | Agent 閫氫俊涓户 | 閫氫俊涓户 | Agent 閫氫俊 | 1,012 | 2026-10-26 | [GitHub](https://github.com/AgentWorkforce/relay) |
+| 6 | **caspian-sdk** | Caspian Agent SDK | Agent SDK | Agent 寮€鍙?| 973 | 2026-08-25 | [GitHub](https://github.com/TryCaspian/caspian-sdk) |
+| 7 | **ai-maestro** | AI Maestro Agent 妗嗘灦 | Agent 妗嗘灦 | Agent 閫氫俊 | 835 | 2026-10-25 | [GitHub](https://github.com/23blocks-OS/ai-maestro) |
+| 8 | **Cotal** | Agent 閫氫俊妗嗘灦 | 閫氫俊妗嗘灦 | Agent 閫氫俊 | 359 | 2026-10-26 | [GitHub](https://github.com/Cotal-AI/Cotal) |
+| 9 | **agents-can-communicate** | Agent 閫氫俊搴?| 閫氫俊搴?| Agent 閫氫俊 | 160 | 2026-10-26 | [GitHub](https://github.com/automatis-tools/agents-can-communicate) |
+| 10 | **AgentPeerChat** | Agent 瀵圭瓑鑱婂ぉ | P2P 鑱婂ぉ | Agent 閫氫俊 | 157 | 2026-10-25 | [GitHub](https://github.com/AgenticsWorks/AgentPeerChat) |
+
+---
+
+### 21.11 馃摫 Agent 搴旂敤 (523 repos)
+
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **career-ops** | 寮€婧?AI 姹傝亴 Agent锛屾壂鎻忚亴浣嶃€佽瘎鍒嗐€佺畝鍘嗕紭鍖?| 姹傝亴 Agent | 姹傝亴/HR | 77,292 | 2026-10-26 | [GitHub](https://github.com/career-ops-hq/career-ops) |
+| 2 | **LazyLLM** | 鏈€绠€ Python 缂栨帓澶ц瑷€妯″瀷 | LLM 缂栨帓 | AI 搴旂敤 | 3,887 | 2026-10-23 | [GitHub](https://github.com/LazyAGI/LazyLLM) |
+| 3 | **wanwu** | AI 涓囩墿 Agent锛屼竾鐗╀簰鑱?| 涓囩墿浜掕仈 | 鐗╄仈缃?| 2,375 | 2026-10-23 | [GitHub](https://github.com/UnicomAI/wanwu) |
+| 4 | **jobsync** | AI 姹傝亴鍚屾宸ュ叿 | 姹傝亴鍚屾 | 姹傝亴/HR | 1,456 | 2026-10-25 | [GitHub](https://github.com/Gsync/jobsync) |
+| 5 | **langchain4j-aideepin** | LangChain4j AI 娣卞害闆嗘垚 | Java AI 闆嗘垚 | Java 寮€鍙?| 1,385 | 2026-10-24 | [GitHub](https://github.com/moyangzhan/langchain4j-aideepin) |
+| 6 | **versus-incident** | AI 浜嬩欢绠＄悊 Agent | 浜嬩欢绠＄悊 | 浜嬩欢鍝嶅簲 | 913 | 2026-10-23 | [GitHub](https://github.com/VersusControl/versus-incident) |
+| 7 | **aiflowy** | AI 宸ヤ綔娴佸钩鍙?| 宸ヤ綔娴佸钩鍙?| AI 搴旂敤 | 790 | 2026-06-15 | [GitHub](https://github.com/aiflowy/aiflowy) |
+| 8 | **dexto** | AI 鏁版嵁鎻愬彇宸ュ叿 | 鏁版嵁鎻愬彇 | 鏁版嵁澶勭悊 | 657 | 2026-10-23 | [GitHub](https://github.com/truffle-ai/dexto) |
+| 9 | **awesome-quant-ai** | 閲忓寲 AI 绮鹃€夊垪琛?| 閲忓寲鍙傝€?| 閲戣瀺 AI | 646 | 2026-10-24 | [GitHub](https://github.com/leoncuhk/awesome-quant-ai) |
+| 10 | **PPT Master** | AI 灏嗘枃妗?璇濋鍙樻垚鍘熺敓 PowerPoint | PPT 鐢熸垚 | 婕旂ず鏂囩 | 68,085 | - | [GitHub](https://github.com/hugohe3/ppt-master) |
+| 11 | **Stock Analysis** | LLM 椹卞姩鐨勫甯傚満鑲＄エ鍒嗘瀽绯荤粺 | 鑲＄エ鍒嗘瀽 | 閲戣瀺鍒嗘瀽 | 67,059 | - | [GitHub](https://github.com/ZhuLinsen/daily_stock_analysis) |
+| 12 | **Cherry Studio** | AI 鐢熶骇鍔涘伐浣滃锛?00+ AI 鍔╂墜銆佽嚜涓?Agent | AI 宸ヤ綔瀹?| 涓汉 AI | 52,973 | - | [GitHub](https://github.com/CherryHQ/cherry-studio) |
+| 13 | **SiYuan** | 寮€婧愰殣绉佷紭鍏堣嚜鎵樼鐭ヨ瘑宸ヤ綔绌洪棿锛屼汉涓?Agent 鍗忎綔 | 鐭ヨ瘑绠＄悊 | 鐭ヨ瘑宸ヤ綔 | 46,935 | - | [GitHub](https://github.com/siyuan-note/siyuan) |
+| 14 | **OpenCLI** | 灏嗕换浣曠綉绔欏彉鎴?CLI锛孉I Agent 浣跨敤宸茬櫥褰曟祻瑙堝櫒 | 缃戠珯杞?CLI | 娴忚鍣ㄨ嚜鍔ㄥ寲 | 30,634 | - | [GitHub](https://github.com/jackwener/OpenCLI) |
+| 15 | **Cua** | Computer Use 2.0锛岃法 OS 娌欑鍜屽熀鍑嗘祴璇?| 璁＄畻鏈轰娇鐢?| 鑷姩鍖?| 30,948 | - | [GitHub](https://github.com/trycua/cua) |
+
+---
+
+### 21.12 馃摎 Awesome 鍒楄〃 (590 repos)
+
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **awesome-llm-apps** | 100+ AI Agent銆佹妧鑳藉拰 RAG 搴旂敤 | LLM 搴旂敤鍙傝€?| AI 搴旂敤 | 143,047 | - | [GitHub](https://github.com/Shubhamsaboo/awesome-llm-apps) |
+| 2 | **awesome-copilot** | GitHub Copilot 绀惧尯璐＄尞鎸囦护銆丄gent銆佹妧鑳?| Copilot 鍙傝€?| AI 缂栫爜 | 40,403 | 2026-10-26 | [GitHub](https://github.com/github/awesome-copilot) |
+| 3 | **awesome-ai-agents** | AI 鑷富 Agent 鍒楄〃 | Agent 鍙傝€?| AI Agent | 30,641 | 2026-08-21 | [GitHub](https://github.com/e2b-dev/awesome-ai-agents) |
+| 4 | **awesome-n8n-templates** | 280+ n8n 鑷姩鍖栨ā鏉?| n8n 妯℃澘 | 鑷姩鍖?| 26,102 | 2026-09-12 | [GitHub](https://github.com/enescingoz/awesome-n8n-templates) |
+| 5 | **awesome-ai-engineering** | AI 宸ョ▼璧勬簮銆佽矾绾垮浘銆佸伐鍏?| AI 宸ョ▼鍙傝€?| AI 宸ョ▼ | 22,466 | - | [GitHub](https://github.com/dipakkr/awesome-ai-engineering) |
+| 6 | **awesome-ai-apps** | RAG銆丄gent銆佸伐浣滄祦绛?AI 鐢ㄤ緥 | AI 搴旂敤鍙傝€?| AI 搴旂敤 | 16,630 | - | [GitHub](https://github.com/Arindam200/awesome-ai-apps) |
+| 7 | **awesome-opencode** | OpenCode 鎻掍欢銆佷富棰樸€丄gent | OpenCode 鍙傝€?| AI 缂栫爜 | 10,739 | - | [GitHub](https://github.com/awesome-opencode/awesome-opencode) |
+| 8 | **awesome-LLM-resources** | 鍏ㄤ笘鐣屾渶濂界殑 LLM 璧勬枡鎬荤粨 | LLM 瀛︿範 | AI 瀛︿範 | 9,040 | - | [GitHub](https://github.com/WangRongsheng/awesome-LLM-resources) |
+| 9 | **awesome-agentic-ai-zh** | 涓枃 AI Agent 瀛︿範鍦板浘 | 涓枃瀛︿範 | AI 瀛︿範 | 7,993 | - | [GitHub](https://github.com/WenyuChiou/awesome-agentic-ai-zh) |
+| 10 | **awesome-ai-system-prompts** | 椤剁骇 AI 宸ュ叿鐨勭簿閫夌郴缁熸彁绀鸿瘝 | 鎻愮ず璇嶅弬鑰?| AI 鎻愮ず璇?| 6,263 | - | [GitHub](https://github.com/dontriskit/awesome-ai-system-prompts) |
+| 11 | **awesome-agentic-patterns** | Agent 妯″紡绮鹃€夌洰褰?| Agent 妯″紡 | Agent 寮€鍙?| 5,046 | - | [GitHub](https://github.com/nibzard/awesome-agentic-patterns) |
+| 12 | **awesome-harness-engineering** | Agent 妗嗘灦宸ョ▼锛氬伐鍏枫€佹ā寮忋€佽瘎浼?| Agent 宸ョ▼ | Agent 寮€鍙?| 4,959 | - | [GitHub](https://github.com/ai-boost/awesome-harness-engineering) |
+| 13 | **awesome-gamedev-agent-skills** | 74 涓父鎴忓紑鍙?Agent 鎶€鑳?| 娓告垙寮€鍙?| 娓告垙寮€鍙?| 4,273 | - | [GitHub](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+| 14 | **awesome-openclaw-agents** | 162 涓?OpenClaw Agent 妯℃澘 | OpenClaw 妯℃澘 | Agent 妯℃澘 | 4,024 | - | [GitHub](https://github.com/mergisi/awesome-openclaw-agents) |
+| 15 | **free-programming-resources** | 2026 骞存渶鏂板厤璐圭紪绋嬭祫婧愬ぇ鍏?| 缂栫▼瀛︿範 | 缂栫▼瀛︿範 | 3,785 | - | [GitHub](https://github.com/liyupi/free-programming-resources) |
+
+---
+
+### 21.13 馃彚 Agent 骞冲彴 (1,431 repos)
+
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **nocobase** | 寮€婧?AI + 鏃犱唬鐮佸钩鍙?| 鏃犱唬鐮佸钩鍙?| 浣庝唬鐮?| 24,710 | 2026-10-26 | [GitHub](https://github.com/nocobase/nocobase) |
+| 2 | **waoowaoo** | 鏅鸿兘鏁版嵁骞冲彴锛孉I 椹卞姩 | 鏁版嵁骞冲彴 | 鏁版嵁骞冲彴 | 14,678 | 2026-09-21 | [GitHub](https://github.com/waooAI/waoowaoo) |
+| 3 | **Integuru** | AI Agent 骞冲彴 | Agent 骞冲彴 | 浼佷笟 Agent | 4,779 | 2026-06-24 | [GitHub](https://github.com/Integuru-AI/Integuru) |
+| 4 | **FedML** | 鑱旈偊瀛︿範骞冲彴 | 鑱旈偊瀛︿範 | AI 瀛︿範 | 4,070 | 2025-10-28 | [GitHub](https://github.com/FedML-AI/FedML) |
+| 5 | **OpenBiliClaw** | 寮€婧?BiliClaw Agent 骞冲彴 | Agent 骞冲彴 | 浼佷笟 Agent | 3,581 | 2026-10-25 | [GitHub](https://github.com/whiteguo233/OpenBiliClaw) |
+| 6 | **Noria** | AI Agent 骞冲彴 | Agent 骞冲彴 | 浼佷笟 Agent | 3,066 | 2026-07-22 | [GitHub](https://github.com/AhmadHassan-BTed/Noria) |
+| 7 | **wanwu** | AI 涓囩墿 Agent锛屼竾鐗╀簰鑱?| 涓囩墿浜掕仈 | 鐗╄仈缃?| 2,375 | 2026-10-23 | [GitHub](https://github.com/UnicomAI/wanwu) |
+| 8 | **AgentsMesh** | Agent 缃戞牸骞冲彴 | Agent 缃戞牸 | Agent 鐢熸€?| 2,362 | 2026-09-23 | [GitHub](https://github.com/AgentsMesh/AgentsMesh) |
+| 9 | **skills-hub** | Agent 鎶€鑳戒腑蹇?| 鎶€鑳界鐞?| 浼佷笟鎶€鑳?| 1,824 | 2026-10-23 | [GitHub](https://github.com/qufei1993/skills-hub) |
+| 10 | **fim-one** | AI Agent 骞冲彴 | Agent 骞冲彴 | 浼佷笟 Agent | 1,586 | 2026-10-23 | [GitHub](https://github.com/fim-ai/fim-one) |
+| 11 | **Cherry Studio** | AI 鐢熶骇鍔涘伐浣滃锛?00+ AI 鍔╂墜銆佽嚜涓?Agent | AI 宸ヤ綔瀹?| 涓汉 AI | 52,973 | - | [GitHub](https://github.com/CherryHQ/cherry-studio) |
+| 12 | **AionUi** | 24/7 Cowork App锛屾敮鎸?OpenClaw銆丠ermes銆丆laude Code 绛?20+ CLI Agent | Agent 鍗忎綔 | 浼佷笟 Agent | 33,761 | - | [GitHub](https://github.com/iOfficeAI/AionUi) |
+| 13 | **SiYuan** | 寮€婧愰殣绉佷紭鍏堣嚜鎵樼鐭ヨ瘑宸ヤ綔绌洪棿 | 鐭ヨ瘑绠＄悊 | 鐭ヨ瘑宸ヤ綔 | 46,935 | - | [GitHub](https://github.com/siyuan-note/siyuan) |
+| 14 | **Agenta** | 鏋勫缓 Agent 鍜岃嚜鍔ㄥ寲鐨勫伐浣滃尯 | Agent 鏋勫缓 | 浼佷笟鑷姩鍖?| 4,861 | - | [GitHub](https://github.com/Agenta-AI/agenta) |
+| 15 | **Yao** | 鎵€鏈?Agent 鍜屽伐浣滃尯闆嗕腑绠＄悊 | Agent 绠＄悊 | 浼佷笟 Agent | 8,190 | - | [GitHub](https://github.com/YaoApp/yao) |
+
+---
+
+### 21.14 馃 澶?Agent (20,756 repos)
+
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **paperclip** | 寮€婧?Agent 绠＄悊搴旂敤 | Agent 绠＄悊 | 浼佷笟 Agent | 107,310 | 2026-10-26 | [GitHub](https://github.com/paperclipai/paperclip) |
+| 2 | **deer-flow** | 瀛楄妭璺冲姩 SuperAgent 妗嗘灦锛屾矙绠便€佽蹇嗐€佸伐鍏枫€佸瓙浠ｇ悊 | 澶?Agent 妗嗘灦 | 閫氱敤 Agent | 84,420 | 2026-10-26 | [GitHub](https://github.com/bytedance/deer-flow) |
+| 3 | **ruflo** | 鍘熷 Agent 妗嗘灦锛屽鐜╁铚傜兢銆佸崗璋冭嚜涓诲伐浣滄祦 | 澶?Agent 鍗忎綔 | 閫氱敤 Agent | 79,291 | 2026-10-25 | [GitHub](https://github.com/ruvnet/ruflo) |
+| 4 | **MetaGPT** | 澶?Agent 杞欢宸ョ▼妗嗘灦锛屾ā鎷熶骇鍝佺粡鐞嗏啋鏋舵瀯甯堚啋宸ョ▼甯堚啋娴嬭瘯 | 杞欢宸ョ▼ | 杞欢宸ョ▼ | 71,014 | 2026-01-21 | [GitHub](https://github.com/FoundationAgents/MetaGPT) |
+| 5 | **nanobot** | 瓒呰交閲忕骇寮€婧愯嚜鎵樼涓汉 AI Agent 妗嗘灦 | 涓汉 Agent | 涓汉鍔╃悊 | 49,348 | 2026-10-25 | [GitHub](https://github.com/HKUDS/nanobot) |
+| 6 | **CowAgent** | 寮€婧愪釜浜?AI 鍔╃悊涓?Agent 妗嗘灦锛屽 Agent銆佸妯″瀷銆佸娓犻亾 | 涓汉鍔╃悊 | 涓汉 Agent | 47,584 | 2026-10-25 | [GitHub](https://github.com/zhayujie/CowAgent) |
+| 7 | **agents** | 澶氭鏋?Agentic 鎻掍欢甯傚満 | 鎻掍欢甯傚満 | Agent 鐢熸€?| 41,711 | 2026-10-26 | [GitHub](https://github.com/wshobson/agents) |
+| 8 | **Codewhale** | Rust 缁堢寮€婧?Agent锛屼换浣曟ā鍨?| 缁堢 Agent | 缂栫▼寮€鍙?| 41,120 | 2026-10-26 | [GitHub](https://github.com/codewhale-hq/Codewhale) |
+| 9 | **Vibe-Trading** | 浣犵殑涓汉浜ゆ槗 Agent | 浜ゆ槗鑷姩鍖?| 閲戣瀺浜ゆ槗 | 36,688 | 2026-10-25 | [GitHub](https://github.com/HKUDS/Vibe-Trading) |
+| 10 | **TradingAgents** | 澶?Agent LLM 閲戣瀺浜ゆ槗妗嗘灦 | 浜ゆ槗妗嗘灦 | 閲戣瀺浜ゆ槗 | 114,581 | - | [GitHub](https://github.com/TauricResearch/TradingAgents) |
+| 11 | **autogen** | Microsoft 寮€婧愮殑澶?Agent 鍗忎綔妗嗘灦 | 澶?Agent 鍗忎綔 | 閫氱敤 Agent | 61,561 | - | [GitHub](https://github.com/microsoft/autogen) |
+| 12 | **CrewAI** | AI Agent 缂栨帓妗嗘灦 | Agent 缂栨帓 | 閫氱敤 Agent | 50,000+ | - | [GitHub](https://github.com/crewAIInc/crewAI) |
+| 13 | **LangGraph** | LangChain 鍑哄搧鐨?Agent 鍥炬鏋?| Agent 鍥?| 閫氱敤 Agent | 45,000+ | - | [GitHub](https://github.com/langchain-ai/langgraph) |
+| 14 | **OpenAI Agents Python** | OpenAI 杞婚噺绾у Agent 宸ヤ綔娴佹鏋?| 澶?Agent 宸ヤ綔娴?| 閫氱敤 Agent | 30,276 | - | [GitHub](https://github.com/openai/openai-agents-python) |
+| 15 | **DeepAgents** | LangChain 鍑哄搧鐨勭數姹犲唴缃?Agent 妗嗘灦 | Agent 妗嗘灦 | 閫氱敤 Agent | 30,578 | - | [GitHub](https://github.com/langchain-ai/deepagents) |
+
+---
+
+### 21.15 馃弸锔?Agent Harness (1,722 repos)
+
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **ragflow** | RAG 妗嗘灦锛屾枃妗ｇ悊瑙ｅ紩鎿?| 鏂囨。鐞嗚В | RAG 搴旂敤 | 92,857 | 2026-10-26 | [GitHub](https://github.com/infiniflow/ragflow) |
+| 2 | **lobehub** | Lobe 寮€婧?LLM 搴旂敤妗嗘灦 | LLM 搴旂敤 | AI 搴旂敤 | 83,490 | 2026-10-26 | [GitHub](https://github.com/lobehub/lobehub) |
+| 3 | **anything-llm** | 鏈湴浼樺厛 Agent 浣撻獙 | 鏈湴 Agent | 涓汉 Agent | 67,555 | 2026-10-25 | [GitHub](https://github.com/Mintplex-Labs/anything-llm) |
+| 4 | **QwenPaw** | Qwen 涓撳睘 Agent 宸ュ叿 | Qwen Agent | AI Agent | 36,205 | 2026-10-26 | [GitHub](https://github.com/agentscope-ai/QwenPaw) |
+| 5 | **holaOS** | Hola 寮€婧?Agent 鎿嶄綔绯荤粺 | Agent OS | Agent 鐢熸€?| 11,426 | 2026-10-25 | [GitHub](https://github.com/holaboss-ai/holaOS) |
+| 6 | **munder-difflin** | 寮€婧愮殑 dots/bots/muses 鏇夸唬锛岃繍琛?claude code 鍔炲叕瀹?| Agent 鍔炲叕瀹?| 鍥㈤槦 Agent | 9,062 | 2026-10-25 | [GitHub](https://github.com/HarnessMD/munder-difflin) |
+| 7 | **openrig** | 浠?Claude Code銆丆odex 鍜?Pi 鏋勫缓鑷繁鐨?Agent 缃戠粶 | Agent 缃戠粶 | 澶?Agent | 8,193 | 2026-10-26 | [GitHub](https://github.com/mvschwarz/openrig) |
+| 8 | **yao** | 鎵€鏈?Agent 鍜屽伐浣滃尯闆嗕腑绠＄悊 | Agent 绠＄悊 | 浼佷笟 Agent | 8,190 | 2026-10-19 | [GitHub](https://github.com/YaoApp/yao) |
+| 9 | **failproofai** | AI 鍙潬鎬ф鏋?| AI 鍙潬鎬?| AI 宸ョ▼ | 6,629 | 2026-10-25 | [GitHub](https://github.com/FailproofAI/failproofai) |
+| 10 | **loopx** | Loop 宸ョ▼妗嗘灦 | Loop 宸ョ▼ | AI 宸ョ▼ | 6,423 | 2026-10-25 | [GitHub](https://github.com/loopx-project/loopx) |
+| 11 | **ECC** | Agent 妗嗘灦鎬ц兘浼樺寲绯荤粺 | 鎬ц兘浼樺寲 | Agent 浼樺寲 | 288,845 | - | [GitHub](https://github.com/affaan-m/ECC) |
+| 12 | **harness-sdk** | AWS Strands 寮€婧?SDK锛岀鍒扮鏋勫缓鍜屾帶鍒?Agent | Agent SDK | Agent 寮€鍙?| 8,949 | - | [GitHub](https://github.com/strands-agents/harness-sdk) |
+| 13 | **DeepCode** | HKUDS 寮€婧愮殑 Agentic Coding 妗嗘灦 | Agentic Coding | 缂栫▼寮€鍙?| 16,752 | - | [GitHub](https://github.com/HKUDS/DeepCode) |
+| 14 | **GenericAgent** | 鑷繘鍖?Agent锛屼粠 3300 琛岀瀛愪唬鐮佺敓闀挎妧鑳芥爲 | 鑷繘鍖?Agent | Agent 杩涘寲 | 14,345 | - | [GitHub](https://github.com/lsdefine/GenericAgent) |
+| 15 | **PocketFlow** | 100 琛?LLM 妗嗘灦锛岃 Agent 鏋勫缓 Agent | LLM 妗嗘灦 | Agent 寮€鍙?| 11,279 | - | [GitHub](https://github.com/The-Pocket/PocketFlow) |
+
+---
+
+### 21.16 馃З LLM Agent (3,310 repos)
+
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **autogen** | Microsoft 寮€婧愮殑澶?Agent 鍗忎綔妗嗘灦 | 澶?Agent 鍗忎綔 | 閫氱敤 Agent | 61,561 | 2026-10-16 | [GitHub](https://github.com/microsoft/autogen) |
+| 2 | **ChatTTS** | ChatTTS 璇煶鍚堟垚妯″瀷 | 璇煶鍚堟垚 | 璇煶 AI | 39,939 | 2026-04-10 | [GitHub](https://github.com/2noise/ChatTTS) |
+| 3 | **agentscope** | 闃块噷宸村反寮€婧愮殑 Agent 鏋勫缓妗嗘灦锛屽彲瑙嗗寲銆佸彲鐞嗚В銆佸彲淇?| Agent 鏋勫缓 | 閫氱敤 Agent | 34,010 | 2026-10-23 | [GitHub](https://github.com/agentscope-ai/agentscope) |
+| 4 | **distilly** | 钂搁浠栦滑鐨勬€濊€冩柟寮忔垚鍙鐢?Skills | 鐭ヨ瘑钂搁 | AI 鐭ヨ瘑绠＄悊 | 26,007 | 2026-10-13 | [GitHub](https://github.com/titanwings/distilly) |
+| 5 | **letta** | 鏈夌姸鎬?Agent 骞冲彴锛孉I 鍏锋湁楂樼骇璁板繂 | 鏈夌姸鎬?Agent | Agent 骞冲彴 | 25,253 | 2026-10-18 | [GitHub](https://github.com/letta-ai/letta) |
+| 6 | **DeepCode** | HKUDS 寮€婧愮殑 Agentic Coding 妗嗘灦 | Agentic Coding | 缂栫▼寮€鍙?| 16,752 | 2026-10-25 | [GitHub](https://github.com/HKUDS/DeepCode) |
+| 7 | **GenericAgent** | 鑷繘鍖?Agent锛屼粠 3300 琛岀瀛愪唬鐮佺敓闀挎妧鑳芥爲 | 鑷繘鍖?Agent | Agent 杩涘寲 | 14,345 | 2026-10-22 | [GitHub](https://github.com/lsdefine/GenericAgent) |
+| 8 | **PocketFlow-Tutorial** | Pocket Flow锛氫唬鐮佸簱鍒版暀绋?| 浠ｇ爜鍒版暀绋?| 浠ｇ爜鏅鸿兘 | 12,716 | 2026-05-31 | [GitHub](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge) |
+| 9 | **PocketFlow** | 100 琛?LLM 妗嗘灦锛岃 Agent 鏋勫缓 Agent | LLM 妗嗘灦 | Agent 寮€鍙?| 11,279 | 2026-07-26 | [GitHub](https://github.com/The-Pocket/PocketFlow) |
+| 10 | **harness-sdk** | AWS Strands 寮€婧?SDK锛岀鍒扮鏋勫缓鍜屾帶鍒?Agent | Agent SDK | Agent 寮€鍙?| 8,949 | 2026-10-25 | [GitHub](https://github.com/strands-agents/harness-sdk) |
+| 11 | **DeepSeek-Reasonix** | 闈㈠悜澶嶆潅杞欢宸ョ▼浠诲姟鐨勫彲闈犵紪鐮?Agent | 缂栫爜 Agent | 缂栫▼寮€鍙?| 35,963 | - | [GitHub](https://github.com/esengine/DeepSeek-Reasonix) |
+| 12 | **Qwen Code** | 闃块噷宸村反寮€婧愮殑缁堢 AI 缂栫爜 Agent | 缁堢缂栫爜 | 缂栫▼寮€鍙?| 28,715 | - | [GitHub](https://github.com/QwenLM/qwen-code) |
+| 13 | **DeepAgents** | LangChain 鍑哄搧鐨勭數姹犲唴缃?Agent 妗嗘灦 | Agent 妗嗘灦 | 閫氱敤 Agent | 30,578 | - | [GitHub](https://github.com/langchain-ai/deepagents) |
+| 14 | **OpenAI Agents Python** | OpenAI 杞婚噺绾у Agent 宸ヤ綔娴佹鏋?| 澶?Agent 宸ヤ綔娴?| 閫氱敤 Agent | 30,276 | - | [GitHub](https://github.com/openai/openai-agents-python) |
+| 15 | **Hermes Agent** | Nous Research 寮€婧愮殑涓汉 AI Agent 妗嗘灦 | 涓汉 Agent | 涓汉鍔╃悊 | 256,959 | - | [GitHub](https://github.com/NousResearch/hermes-agent) |
+
+---
+
+### 21.17 馃啌 0 鏄熷伐鍏锋敹褰?(20,392 repos)
+
+> 鏀跺綍鏍囧噯锛?*0 鏀惰棌涔熸敹褰?*锛屼綋鐜板叏鐞?AI Agent 鐢熸€佺殑瀹屾暣瑕嗙洊銆?
+| # | 鍚嶇О | 浠嬬粛 | 鐢ㄦ硶 | 搴旂敤棰嗗煙 | 猸?| 鏇存柊鏃ユ湡 | 閾炬帴 |
+|---|------|------|------|----------|-----|---------|------|
+| 1 | **data-agent-service** | 鏁版嵁 Agent 鏈嶅姟 | 鏁版嵁鑷姩鍖?| 鏁版嵁澶勭悊 | 0 | 2026-10-26 | [GitHub](https://github.com/calvinchengx/data-agent-service) |
+| 2 | **tinycmdr** | 杩蜂綘 Agent 鎺у埗鍣?| Agent 鎺у埗 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/trappsquid/tinycmdr) |
+| 3 | **personal-ai-system** | 涓汉 AI 绯荤粺 | 涓汉 AI | 涓汉鍔╃悊 | 0 | 2026-10-26 | [GitHub](https://github.com/kayc26/personal-ai-system) |
+| 4 | **Luminara-Search-Oracle** | 鎼滅储棰勮█鏈?Agent | 鎼滅储 Agent | 鎼滅储寮曟搸 | 0 | 2026-10-26 | [GitHub](https://github.com/LuminaraDigital/Luminara-Search-Oracle-Agent) |
+| 5 | **SQT-Marketplace** | SQT 甯傚満骞冲彴 | 甯傚満骞冲彴 | 浜ゆ槗骞冲彴 | 0 | 2026-10-26 | [GitHub](https://github.com/sansernonline/SQT-Marketplace) |
+| 6 | **dsh-sidecar-browser** | DSH 杈硅溅娴忚鍣?| 娴忚鍣ㄥ伐鍏?| 娴忚鍣ㄨ嚜鍔ㄥ寲 | 0 | 2026-10-26 | [GitHub](https://github.com/ccharlesjin/dsh-sidecar-browser) |
+| 7 | **SentraAI** | Sentra AI 瀹夊叏宸ュ叿 | AI 瀹夊叏 | 瀹夊叏 AI | 0 | 2026-10-26 | [GitHub](https://github.com/skala-pochita/SentraAI) |
+| 8 | **HP-Patience-Skills** | HP Patience Agent 鎶€鑳?| 鎶€鑳芥鏋?| Agent 鎶€鑳?| 0 | 2026-10-26 | [GitHub](https://github.com/HP-Patience/Skills) |
+| 9 | **thya** | Thya Agent 妗嗘灦 | Agent 妗嗘灦 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/sayyidrafeed/thya) |
+| 10 | **social-signals-analyzer** | 绀句氦淇″彿鍒嗘瀽鍣?| 绀句氦鍒嗘瀽 | 绀句氦濯掍綋 | 0 | 2026-10-26 | [GitHub](https://github.com/jatinloey1598-dot/social-signals-analyzer) |
+| 11 | **autonomous-code-sandbox** | 鑷富浠ｇ爜娌欑 | 浠ｇ爜娌欑 | 缂栫▼寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/Alucard1718/autonomous-code-sandbox) |
+| 12 | **aivyx-coder** | Aivyx AI 缂栫爜宸ュ叿 | AI 缂栫爜 | 缂栫▼寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/Aivyx-Agent/aivyx-coder) |
+| 13 | **dotd** | DotD Agent 妗嗘灦 | Agent 妗嗘灦 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/SxLiuYu/dotd) |
+| 14 | **Real** | Real Agent 妗嗘灦 | Agent 妗嗘灦 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/Azzrenz/Real) |
+| 15 | **weft** | Weft Agent 妗嗘灦 | Agent 妗嗘灦 | Agent 寮€鍙?| 0 | 2026-10-26 | [GitHub](https://github.com/akuttruff/weft) |
+
+---
+
+### 21.18 瀹屾暣宸ュ叿绱㈠紩
+
+#### 鎸夌被鍒粺璁?
+| 绫诲埆 | 浠撳簱鏁?| 涓昏宸ュ叿 |
+|------|--------|----------|
+| Agent 妗嗘灦 | 1,015 | nanobot, omnigent, LazyLLM, beeai-framework |
+| Agent 鎶€鑳?| 5,834 | watermarks-remover, anatomy, dashi-ppt-skill |
+| MCP 鏈嶅姟鍣?| 39,547 | n8n, gemini-cli, Scrapling, context7 |
+| Agent 缂栨帓 | 4,512 | paperclip, anything-llm, herdr, openhuman |
+| AI 缂栫爜宸ュ叿 | 8,125 | rtk, DeepSeek-Reasonix, qwen-code, kilocode |
+| AI 鑷姩鍖?| 2,625 | awesome-n8n-templates, Agenta, Orkas |
+| AI 鍩虹璁炬柦 | 1,869 | semantica, airweave, skillhub, LongMemory |
+| Agent 璁板繂 | 4,942 | MiroFish, OpenViking, cognee, supermemory |
+| Agent 閫氫俊 | 370 | Bindu, robustmq, agmsg, relay |
+| Agent 搴旂敤 | 523 | career-ops, PPT Master, Stock Analysis |
+| Awesome 鍒楄〃 | 590 | awesome-llm-apps, awesome-copilot, awesome-ai-agents |
+| Agent 骞冲彴 | 1,431 | nocobase, waoowaoo, Cherry Studio, SiYuan |
+| 澶?Agent | 20,756 | paperclip, deer-flow, ruflo, MetaGPT |
+| Agent Harness | 1,722 | ragflow, lobehub, anything-llm, QwenPaw |
+| LLM Agent | 3,310 | autogen, ChatTTS, agentscope, letta |
+| 0 鏄熷伐鍏?| 20,392 | data-agent-service, tinycmdr, personal-ai-system |
+| **鎬昏** | **153,438+** | **250+ 宸ュ叿鏀跺綍** |
+
+#### 璇█鍒嗗竷
+
+| 璇█ | 鍗犳瘮 | 涓昏妗嗘灦 |
+|------|------|----------|
+| Python | 65% | LangChain, AutoGen, MetaGPT, Hermes |
+| TypeScript | 28% | n8n, Activepieces, Dify |
+| Rust | 6% | Codewhale, ECC, rtk |
+| Go | 3% | goclaw, tinystruct |
+| Other | 2% | Java, C++, Swift, etc. |
+
+---
+
+> **鏁版嵁鏉ユ簮**: GitHub API 瀹炴椂鎼滅储 路 2026骞?0鏈?6鏃?> **鏀跺綍鑼冨洿**: 153,438+ 涓?AI Agent 鐩稿叧浠撳簱
+> **鏀跺綍鏍囧噯**: 鏃犳敹钘忔暟闄愬埗锛? 鏀惰棌宸ュ叿鍚屾牱鏀跺綍
+> **鏇存柊棰戠巼**: 鏈堝害鏇存柊
+> **鍏嶈矗澹版槑**: 鏁版嵁鍩轰簬 GitHub API 瀹炴椂鎼滅储锛屽彲鑳藉瓨鍦ㄥ欢杩熸垨閬楁紡锛岃浠?GitHub 瀹為檯鏁版嵁涓哄噯銆
