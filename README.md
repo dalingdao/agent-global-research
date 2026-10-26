@@ -507,3 +507,757 @@ cat README.md
 > **鏁版嵁鏇存柊**: GitHub API 瀹炴椂鎼滅储  
 > **浠撳簱鍦板潃**: https://github.com/dalingdao/agent-global-research  
 > **鐩稿叧鎶ュ憡**: https://github.com/dalingdao/ai-agent-tools-report
+
+---
+
+## 鍗佸洓銆侌煄?鑱屼笟宸ュ叿濂楄 (Professional Toolkits)
+
+> 涓?20 澶х儹闂ㄨ亴涓氶噺韬畾鍒剁殑 AI Agent 宸ュ叿涓庢妧鑳介泦鍚堬紝寮€绠卞嵆鐢紝蹇€熸彁鍗囧伐浣滄晥鐜囥€?
+---
+
+### 14.1 鑱屼笟鎬昏
+
+| 鑱屼笟 | 鏍稿績鑳藉姏 | 宸ュ叿鏁?| 鎶€鑳芥暟 |
+|------|----------|--------|--------|
+| 馃鈥嶐煉?杞欢宸ョ▼甯?| 浠ｇ爜鐢熸垚銆佽皟璇曘€佹灦鏋勮璁?| 12 | 8 |
+| 馃搳 鏁版嵁鍒嗘瀽甯?| 鏁版嵁澶勭悊銆佸彲瑙嗗寲銆丮L | 10 | 6 |
+| 馃摑 鍐呭鍒涗綔鑰?| 鍐欎綔銆佺紪杈戙€丼EO | 12 | 9 |
+| 馃帹 骞抽潰璁捐甯?| 鍥惧儚澶勭悊銆乁I/UX銆佸搧鐗?| 10 | 7 |
+| 馃幀 瑙嗛鍒涗綔鑰?| 鍓緫銆佺壒鏁堛€佸埗浣?| 10 | 6 |
+| 馃搱 閲戣瀺鍒嗘瀽甯?| 閲忓寲銆侀鎺с€佷氦鏄?| 12 | 8 |
+| 馃彞 鍖荤枟鍋ュ悍 | 璇婃柇銆佺梾鍘嗐€佽嵂鐗?| 8 | 5 |
+| 馃摎 鏁欒偛宸ヤ綔鑰?| 鏁欏銆佽瘎浼般€佽绋?| 10 | 6 |
+| 鈿栵笍 娉曞緥宸ヤ綔鑰?| 娉曡銆佸悎鍚屻€佽瘔璁?| 8 | 5 |
+| 馃彈锔?浜у搧缁忕悊 | 闇€姹傘€佸師鍨嬨€佽矾绾垮浘 | 10 | 6 |
+| 馃摚 甯傚満钀ラ攢 | 澧為暱銆佸搧鐗屻€佹姇鏀?| 12 | 8 |
+| 馃洅 鐢靛晢杩愯惀 | 閫夊搧銆佹姇鏀俱€佸鏈?| 10 | 7 |
+| 馃幃 娓告垙寮€鍙戣€?| 寮曟搸銆佺編鏈€佹祴璇?| 10 | 6 |
+| 馃敀 瀹夊叏鐮旂┒鍛?| 娓楅€忋€佸璁°€侀槻鎶?| 12 | 8 |
+| 馃摫 绉诲姩寮€鍙戣€?| iOS銆丄ndroid銆佽法骞冲彴 | 10 | 6 |
+| 鈽侊笍 浜戞灦鏋勫笀 | 閮ㄧ讲銆佺洃鎺с€佷紭鍖?| 10 | 6 |
+| 馃 AI 鐮旂┒鍛?| 妯″瀷銆佽缁冦€佽瘎娴?| 12 | 8 |
+| 馃搵 椤圭洰缁忕悊 | 瑙勫垝銆佽拷韪€佸崗浣?| 10 | 6 |
+| 馃寪 鍏ㄦ爤寮€鍙戣€?| 鍓嶇銆佸悗绔€丏evOps | 12 | 8 |
+| 馃捈 鑷敱鑱屼笟鑰?| 澶氭妧鑳姐€佹晥鐜囥€佹帴鍗?| 10 | 6 |
+
+---
+
+### 14.2 馃鈥嶐煉?杞欢宸ョ▼甯?(Software Engineer)
+
+**鏍稿績鑳藉姏**: 浠ｇ爜鐢熸垚銆佽皟璇曘€佹灦鏋勮璁°€佷唬鐮佸鏌ャ€丏evOps
+
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Superpowers** | AI 缂栫▼瓒呰兘鍔涙鏋讹紝304K Stars | [GitHub](https://github.com/obra/superpowers) |
+| **Graphify** | 浠ｇ爜搴撯啋鐭ヨ瘑鍥捐氨锛?graphify 鎶€鑳?| [GitHub](https://github.com/Graphify-Labs/graphify) |
+| **Serena** | MCP 缂栫爜宸ュ叿鍖咃紝Agent 鐨?IDE | [GitHub](https://github.com/oraios/serena) |
+| **Code Review Graph** | 鏈湴浼樺厛浠ｇ爜鏅鸿兘鍥捐氨 | [GitHub](https://github.com/tirth8205/code-review-graph) |
+| **Caveman** | 鍑忓皯 65% Token 娑堣€?| [GitHub](https://github.com/JuliusBrussee/caveman) |
+| **Archify** | 鎯虫硶鈫掍氦浜掑紡鍥捐〃 | [GitHub](https://github.com/tt-a1i/archify) |
+| **ECC** | Agent 鎬ц兘浼樺寲绯荤粺 | [GitHub](https://github.com/affaan-m/ECC) |
+| **CodeWhale** | Rust 缁堢寮€婧?Agent | [GitHub](https://github.com/codewhale-hq/Codewhale) |
+| **Kilo** | 涓€浣撳寲 Agentic 宸ョ▼骞冲彴 | [GitHub](https://github.com/Kilo-Org/kilocode) |
+| **Loop Engineering** | 寰幆宸ョ▼妯″紡涓?CLI | [GitHub](https://github.com/cobusgreyling/loop-engineering) |
+| **CodeBurn** | Token 浣跨敤閲忚拷韪?| [GitHub](https://github.com/getagentseal/codeburn) |
+| **CCPM** | Git worktrees 骞惰绠＄悊 | [GitHub](https://github.com/automazeio/ccpm) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Karpathy Skills** | CLAUDE.md 鏈€浣冲疄璺?| [GitHub](https://github.com/multica-ai/andrej-karpathy-skills) |
+| **Superpowers-zh** | 涓枃澧炲己鐗?| [GitHub](https://github.com/jnMetaCode/superpowers-zh) |
+| **Agent Best Practices** | Agent 璁捐鏈€浣冲疄璺?| [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| **Marketing Skills** | 鎶€鏈惀閿€鎶€鑳?| [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **n8n as Code** | 鑷姩鍖栧伐浣滄祦 | [GitHub](https://github.com/EtienneLescot/n8n-as-code) |
+| **KiCad Happy** | 鐢靛瓙璁捐鎶€鑳?| [GitHub](https://github.com/aklofas/kicad-happy) |
+| **Agents Best Practices** | 鎻愪緵鍟嗕腑绔嬬殑 Agent 璁捐 | [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| **Learn Claude Code** | 浠?0 鍒?1 鏋勫缓 Agent | [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+
+#### 鎺ㄨ崘宸ヤ綔娴?
+```
+闇€姹傚垎鏋?鈫?Graphify 鐭ヨ瘑鍥捐氨 鈫?Superpowers 鎶€鑳借矾鐢?    鈫?Claude Code 浠ｇ爜鐢熸垚 鈫?Code Review Graph 瀹℃煡
+    鈫?Loop Engineering 寰幆杩唬 鈫?CodeBurn 鎴愭湰杩借釜
+```
+
+---
+
+### 14.3 馃搳 鏁版嵁鍒嗘瀽甯?(Data Analyst)
+
+**鏍稿績鑳藉姏**: 鏁版嵁澶勭悊銆佸彲瑙嗗寲銆佹満鍣ㄥ涔犮€丅I
+
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **LangChain** | LLM 搴旂敤寮€鍙戯紝RAG | [GitHub](https://github.com/langchain-ai/langchain) |
+| **Dify** | AI 搴旂敤寮€鍙戝钩鍙?| [GitHub](https://github.com/langgenius/dify) |
+| **n8n** | 宸ヤ綔娴佽嚜鍔ㄥ寲 | [GitHub](https://github.com/n8n-io/n8n) |
+| **Firecrawl** | 缃戦〉鐖彇鏁版嵁 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **Scrapling** | Web 鐖櫕妗嗘灦 | [GitHub](https://github.com/D4Vinci/Scrapling) |
+| **TrendRadar** | 鑸嗘儏鐩戞帶鍒嗘瀽 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| **Graphify** | 鏁版嵁鈫掔煡璇嗗浘璋?| [GitHub](https://github.com/Graphify-Labs/graphify) |
+| **Codebase Memory** | 鏁版嵁鎸佷箙鍥捐氨 | [GitHub](https://github.com/DeusData/codebase-memory-mcp) |
+| **Stock Analysis** | 鑲＄エ鍒嗘瀽绯荤粺 | [GitHub](https://github.com/ZhuLinsen/daily_stock_analysis) |
+| **OpenViking** | 涓婁笅鏂囨暟鎹簱 | [GitHub](https://github.com/volcengine/OpenViking) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Marketing Skills** | 鏁版嵁椹卞姩钀ラ攢 | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **Agenta** | Agent 鏋勫缓宸ヤ綔鍖?| [GitHub](https://github.com/Agenta-AI/Agenta) |
+| **Agentic SEO** | SEO 鏁版嵁鍒嗘瀽 | [GitHub](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) |
+| **Prompt Optimizer** | 鎻愮ず璇嶄紭鍖?| [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+| **Wondel.ai Skills** | 鍟嗕笟鏁版嵁鍒嗘瀽 | [GitHub](https://github.com/wondelai/skills) |
+| **SkillNet** | 鎶€鑳藉垱寤鸿瘎浼?| [GitHub](https://github.com/zjunlp/SkillNet) |
+
+#### 鎺ㄨ崘宸ヤ綔娴?
+```
+鏁版嵁閲囬泦(Firecrawl/Scrapling) 鈫?鏁版嵁澶勭悊(LangChain)
+    鈫?鍒嗘瀽(Dify/n8n) 鈫?鍙鍖?TrendRadar)
+    鈫?鎶ュ憡(Answer Me With HTML)
+```
+
+---
+
+### 14.4 馃摑 鍐呭鍒涗綔鑰?(Content Creator)
+
+**鏍稿績鑳藉姏**: 鍐欎綔銆佺紪杈戙€丼EO銆佸骞冲彴鍙戝竷
+
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Easel** | AI 绀句氦濯掍綋 Agent | [GitHub](https://github.com/ZJU-REAL/Easel) |
+| **LinkedIn Skills** | LinkedIn 鍐呭鍒涗綔 | [GitHub](https://github.com/sergebulaev/linkedin-skills) |
+| **Career-Ops** | 姹傝亴鍐呭浼樺寲 | [GitHub](https://github.com/career-ops-hq/career-ops) |
+| **Firecrawl** | 鍐呭鐮旂┒鐖彇 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **Prompt Optimizer** | Prompt 浼樺寲 | [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+| **Cherry Studio** | AI 鐢熶骇鍔涘伐浣滃 | [GitHub](https://github.com/CherryHQ/cherry-studio) |
+| **Dify** | AI 搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **n8n** | 鍐呭宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+| **GPT Researcher** | 娣卞害鐮旂┒ Agent | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **TrendRadar** | 鐑偣瓒嬪娍鐩戞帶 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| **Reactive Resume** | 绠€鍘嗘瀯寤哄櫒 | [GitHub](https://github.com/reactive-resume/reactive-resume) |
+| **n8n Templates** | 280+ 鍐呭妯℃澘 | [GitHub](https://github.com/enescingoz/awesome-n8n-templates) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Shuorenhua** | 鍘?AI 鍛虫敼鍐?| [GitHub](https://github.com/MrGeDiao/shuorenhua) |
+| **Wondel.ai Skills** | 鍟嗕笟鍐欎綔妗嗘灦 | [GitHub](https://github.com/wondelai/skills) |
+| **Answer Me With HTML** | HTML 鍥炵瓟 | [GitHub](https://github.com/QingYunA/answer-me-with-html) |
+| **Marketing Skills** | 钀ラ攢鏂囨 | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **Agent Rules Books** | 鍐欎綔瑙勫垯 | [GitHub](https://github.com/ciembor/agent-rules-books) |
+| **Awesome Seedance** | 鎻愮ず璇嶅簱 | [GitHub](https://github.com/LearnPrompt/awesome-seedance) |
+| **gzh-design-skill** | 鍏紬鍙锋帓鐗?| [GitHub](https://github.com/isjiamu/gzh-design-skill) |
+| **Nihaixia** | 涓尰鐭ヨ瘑钂搁 | [GitHub](https://github.com/jangviktor-web/nihaixia) |
+| **Cangjie Skill** | 涔︾睄钂搁 | [GitHub](https://github.com/kangarooking/cangjie-skill) |
+
+#### 鎺ㄨ崘宸ヤ綔娴?
+```
+閫夐鐮旂┒(Firecrawl/TrendRadar) 鈫?鍐呭鍒涗綔(Dify/Prompt)
+    鈫?缂栬緫浼樺寲(Shuorenhua/Wondel.ai)
+    鈫?鎺掔増鍙戝竷(Easel/gzh-design) 鈫?鍒嗗彂鐩戞帶(n8n)
+```
+
+---
+
+### 14.5 馃帹 骞抽潰璁捐甯?(Graphic Designer)
+
+**鏍稿績鑳藉姏**: 鍥惧儚澶勭悊銆乁I/UX銆佸搧鐗岃璁°€佹帓鐗?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **UI/UX Pro Max** | AI 璁捐鏅鸿兘锛岃法骞冲彴 | [GitHub](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| **Design Extract** | 缃戠珯璁捐绯荤粺鎻愬彇 | [GitHub](https://github.com/Manavarya09/design-extract) |
+| **dashi-ppt-skill** | 婕旂ず鏂囩鐢熸垚 | [GitHub](https://github.com/chuspeeism/dashi-ppt-skill) |
+| **guizang-ppt-skill** | HTML 骞荤伅鐗囩敓鎴?| [GitHub](https://github.com/op7418/guizang-ppt-skill) |
+| **Anatomy** | 绛夎窛鎻掑浘鐢熸垚 | [GitHub](https://github.com/wheresryan22/anatomy) |
+| **PPT Master** | AI 鍘熺敓 PPT | [GitHub](https://github.com/hugohe3/ppt-master) |
+| **guizang-social-card** | 绀句氦濯掍綋鍗＄墖 | [GitHub](https://github.com/op7418/guizang-social-card-skill) |
+| **Watermarks Remover** | AI 姘村嵃绉婚櫎 | [GitHub](https://github.com/guillaumemeyer/watermarks-remover) |
+| **Oil Motion** | Web 鍔ㄧ敾 | [GitHub](https://github.com/oil-oil/oil-motion) |
+| **OpenMontage** | 瑙嗛鍒朵綔绯荤粺 | [GitHub](https://github.com/calesthio/OpenMontage) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Front-End Checklist** | 鍓嶇璁捐妫€鏌ユ竻鍗?| [GitHub](https://github.com/thedaviddias/Front-End-Checklist) |
+| **Design Extract** | 璁捐绯荤粺鎻愬彇 | [GitHub](https://github.com/Manavarya09/design-extract) |
+| **gzh-design-skill** | 鍏紬鍙锋帓鐗?| [GitHub](https://github.com/isjiamu/gzh-design-skill) |
+| **Mono Color** | 鍗曞ⅷ缂栬緫鍗板埛 | [GitHub](https://github.com/yanliudesign/mono-color-skill) |
+| **OneTake** | 杩炵画闀滃ご鍔ㄧ敾 | [GitHub](https://github.com/feitangyuan/onetake) |
+| **Qwen21 NSFW** | AI 鍑哄浘鎶€鑳?| [GitHub](https://github.com/Arekejoker/qwen21-nsfw-pose-skill) |
+| **Gamedev Skills** | 娓告垙缇庢湳鎶€鑳?| [GitHub](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+
+---
+
+### 14.6 馃幀 瑙嗛鍒涗綔鑰?(Video Creator)
+
+**鏍稿績鑳藉姏**: 鍓緫銆佺壒鏁堛€侀厤闊炽€佸瓧骞?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **OpenMontage** | 寮€婧?Agentic 瑙嗛鍒朵綔锛?2 鏉℃祦姘寸嚎 | [GitHub](https://github.com/calesthio/OpenMontage) |
+| **OneTake** | 杩炵画闀滃ご鍔ㄧ敾 | [GitHub](https://github.com/feitangyuan/onetake) |
+| **Oil Motion** | Web 鍔ㄧ敾鎶€鑳?| [GitHub](https://github.com/oil-oil/oil-motion) |
+| **PPT Master** | 瑙嗛骞荤伅鐗?| [GitHub](https://github.com/hugohe3/ppt-master) |
+| **OpenMontage** | 瑙嗛鍒朵綔绯荤粺 | [GitHub](https://github.com/calesthio/OpenMontage) |
+| **Firecrawl** | 绱犳潗閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **Browser Use** | 缃戦〉褰曞埗 | [GitHub](https://github.com/browser-use/browser-use) |
+| **Cua** | 灞忓箷褰曞埗 | [GitHub](https://github.com/trycua/cua) |
+| **Cherry Studio** | AI 鍓緫杈呭姪 | [GitHub](https://github.com/CherryHQ/cherry-studio) |
+| **n8n** | 瑙嗛宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **OpenMontage Skills** | 700+ 瑙嗛鍒朵綔鎶€鑳?| [GitHub](https://github.com/calesthio/OpenMontage) |
+| **Awesome Seedance** | 840+ 瑙嗛鎻愮ず璇?| [GitHub](https://github.com/LearnPrompt/awesome-seedance) |
+| **Gamedev Skills** | 娓告垙瑙嗛鎶€鑳?| [GitHub](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+| **gzh-design-skill** | 灏侀潰璁捐 | [GitHub](https://github.com/isjiamu/gzh-design-skill) |
+| **guizang-ppt-skill** | 婕旂ず鏂囩 | [GitHub](https://github.com/op7418/guizang-ppt-skill) |
+| **Qwen21 NSFW** | AI 鍑哄浘 | [GitHub](https://github.com/Arekejoker/qwen21-nsfw-pose-skill) |
+
+---
+
+### 14.7 馃搱 閲戣瀺鍒嗘瀽甯?(Financial Analyst)
+
+**鏍稿績鑳藉姏**: 閲忓寲鍒嗘瀽銆侀闄╂帶鍒躲€佷氦鏄撶瓥鐣?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **TradingAgents** | 澶?Agent 閲戣瀺浜ゆ槗妗嗘灦 | [GitHub](https://github.com/TauricResearch/TradingAgents) |
+| **Stock Analysis** | 澶氬競鍦鸿偂绁ㄥ垎鏋?| [GitHub](https://github.com/ZhuLinsen/daily_stock_analysis) |
+| **Vibe Trading** | 涓汉浜ゆ槗 Agent | [GitHub](https://github.com/HKUDS/Vibe-Trading) |
+| **GPT Researcher** | 娣卞害鐮旂┒ Agent | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **Firecrawl** | 閲戣瀺鏁版嵁閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **TrendRadar** | 鑸嗘儏鐩戞帶 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| **LangChain** | RAG 鍒嗘瀽妗嗘灦 | [GitHub](https://github.com/langchain-ai/langchain) |
+| **n8n** | 浜ゆ槗宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+| **Dify** | AI 搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **mem0** | 浜ゆ槗璁板繂灞?| [GitHub](https://github.com/mem0ai/mem0) |
+| **Cognee** | 鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/topoteretes/cognee) |
+| **WorldMonitor** | 鍏ㄧ悆鎯呮姤鐩戞帶 | [GitHub](https://github.com/koala73/worldmonitor) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Trading Skills** | 浜ゆ槗鎶€鑳借捀棣?| [GitHub](https://github.com/titanwings/distilly) |
+| **Market Skills** | 甯傚満鍒嗘瀽妗嗘灦 | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **Prompt Optimizer** | Prompt 浼樺寲 | [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+| **AI Agent Book** | Agent 璁捐鍘熺悊 | [GitHub](https://github.com/bojieli/ai-agent-book) |
+| **AI Infra Book** | 鍩虹璁炬柦璁捐 | [GitHub](https://github.com/bojieli/ai-infra-book) |
+
+---
+
+### 14.8 馃彞 鍖荤枟鍋ュ悍 (Healthcare Professional)
+
+**鏍稿績鑳藉姏**: 璇婃柇杈呭姪銆佺梾鍘嗗垎鏋愩€佽嵂鐗╃爺绌?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **LangChain** | 鍖诲鐭ヨ瘑 RAG | [GitHub](https://github.com/langchain-ai/langchain) |
+| **Dify** | 鍖诲搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **GPT Researcher** | 鍖诲鏂囩尞鐮旂┒ | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **Firecrawl** | 鍖诲淇℃伅閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **n8n** | 鍖荤枟宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+| **mem0** | 鎮ｈ€呰蹇嗙鐞?| [GitHub](https://github.com/mem0ai/mem0) |
+| **Cognee** | 鍖诲鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/topoteretes/cognee) |
+| **AI Infra Book** | 鍩虹璁炬柦鍙傝€?| [GitHub](https://github.com/bojieli/ai-infra-book) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Nihaixia** | 涓尰璇婃柇鎶€鑳斤紝2452 椤佃涔?| [GitHub](https://github.com/jangviktor-web/nihaixia) |
+| **Cangjie Skill** | 鍖诲涔︾睄钂搁 | [GitHub](https://github.com/kangarooking/cangjie-skill) |
+| **Answer Me With HTML** | 鍖诲闂瓟 | [GitHub](https://github.com/QingYunA/answer-me-with-html) |
+| **Karpathy LLM Wiki** | 鍖诲鐭ヨ瘑搴?| [GitHub](https://github.com/Astro-Han/karpathy-llm-wiki) |
+| **AI Agent Book** | Agent 璁捐鍙傝€?| [GitHub](https://github.com/bojieli/ai-agent-book) |
+
+---
+
+### 14.9 馃摎 鏁欒偛宸ヤ綔鑰?(Educator)
+
+**鏍稿績鑳藉姏**: 璇剧▼璁捐銆佹暀瀛﹁瘎浼般€佺煡璇嗙鐞?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **LangChain** | 鏁欒偛搴旂敤寮€鍙?| [GitHub](https://github.com/langchain-ai/langchain) |
+| **Dify** | 鏁欒偛搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **n8n** | 鏁欒偛鑷姩鍖?| [GitHub](https://github.com/n8n-io/n8n) |
+| **Cherry Studio** | AI 鐢熶骇鍔?| [GitHub](https://github.com/CherryHQ/cherry-studio) |
+| **GPT Researcher** | 鏁欒偛璧勬簮鐮旂┒ | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **SiYuan** | 鐭ヨ瘑绠＄悊宸ヤ綔绌洪棿 | [GitHub](https://github.com/siyuan-note/siyuan) |
+| **OpenViking** | 鏁欒偛鐭ヨ瘑鏁版嵁搴?| [GitHub](https://github.com/volcengine/OpenViking) |
+| **mem0** | 瀛︾敓璁板繂绠＄悊 | [GitHub](https://github.com/mem0ai/mem0) |
+| **n8n Templates** | 280+ 鏁欒偛妯℃澘 | [GitHub](https://github.com/enescingoz/awesome-n8n-templates) |
+| **Free Programming** | 鍏嶈垂缂栫▼璧勬簮 | [GitHub](https://github.com/liyupi/free-programming-resources) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Free Programming** | 缂栫▼璧勬簮澶у叏 | [GitHub](https://github.com/liyupi/free-programming-resources) |
+| **Awesome Agentic AI ZH** | 涓枃 Agent 瀛︿範鍦板浘 | [GitHub](https://github.com/WenyuChiou/awesome-agentic-ai-zh) |
+| **Cangjie Skill** | 涔︾睄钂搁 | [GitHub](https://github.com/kangarooking/cangjie-skill) |
+| **Agent Rules Books** | 鏁欒偛瑙勫垯 | [GitHub](https://github.com/ciembor/agent-rules-books) |
+| **Learn Claude Code** | 缂栫▼鏁欏 | [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+| **AI Agent Book** | Agent 鏁欐潗 | [GitHub](https://github.com/bojieli/ai-agent-book) |
+
+---
+
+### 14.10 鈿栵笍 娉曞緥宸ヤ綔鑰?(Legal Professional)
+
+**鏍稿績鑳藉姏**: 娉曡鍒嗘瀽銆佸悎鍚屽鏌ャ€佽瘔璁兼敮鎸?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **LangChain** | 娉曞緥 RAG 绯荤粺 | [GitHub](https://github.com/langchain-ai/langchain) |
+| **GPT Researcher** | 娉曞緥鏂囩尞鐮旂┒ | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **Firecrawl** | 娉曞緥淇℃伅閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **Dify** | 娉曞緥搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **n8n** | 娉曞緥宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+| **Cognee** | 娉曞緥鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/topoteretes/cognee) |
+| **mem0** | 妗堜欢璁板繂绠＄悊 | [GitHub](https://github.com/mem0ai/mem0) |
+| **SiYuan** | 娉曞緥鐭ヨ瘑搴?| [GitHub](https://github.com/siyuan-note/siyuan) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Answer Me With HTML** | 娉曞緥闂瓟 | [GitHub](https://github.com/QingYunA/answer-me-with-html) |
+| **Council of High Intel** | 澶氳瑙掑喅绛?| [GitHub](https://github.com/0xNyk/council-of-high-intelligence) |
+| **Agent Rules Books** | 娉曞緥瑙勫垯 | [GitHub](https://github.com/ciembor/agent-rules-books) |
+| **Wondel.ai Skills** | 鍟嗕笟娉曞緥妗嗘灦 | [GitHub](https://github.com/wondelai/skills) |
+| **AI Agent Book** | 娉曞緥 Agent 璁捐 | [GitHub](https://github.com/bojieli/ai-agent-book) |
+
+---
+
+### 14.11 馃彈锔?浜у搧缁忕悊 (Product Manager)
+
+**鏍稿績鑳藉姏**: 闇€姹傚垎鏋愩€佸師鍨嬭璁°€佽矾绾垮浘绠＄悊
+
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Dify** | 浜у搧鍘熷瀷鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **n8n** | 浜у搧宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+| **Graphify** | 浜у搧鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/Graphify-Labs/graphify) |
+| **Archify** | 浜у搧鏋舵瀯鍥?| [GitHub](https://github.com/tt-a1i/archify) |
+| **GPT Researcher** | 绔炲搧鐮旂┒ | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **TrendRadar** | 甯傚満瓒嬪娍鐩戞帶 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| **Firecrawl** | 甯傚満淇℃伅閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **Dify** | 浜у搧搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **OpenMontage** | 浜у搧婕旂ず瑙嗛 | [GitHub](https://github.com/calesthio/OpenMontage) |
+| **Cherry Studio** | AI 鐢熶骇鍔?| [GitHub](https://github.com/CherryHQ/cherry-studio) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Agent Rules Books** | 浜у搧瑙勫垯 | [GitHub](https://github.com/ciembor/agent-rules-books) |
+| **Marketing Skills** | 浜у搧钀ラ攢 | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **Wondel.ai Skills** | 鍟嗕笟浜у搧妗嗘灦 | [GitHub](https://github.com/wondelai/skills) |
+| **AI Agent Book** | Agent 璁捐 | [GitHub](https://github.com/bojieli/ai-agent-book) |
+| **AI Infra Book** | 鍩虹璁炬柦鍙傝€?| [GitHub](https://github.com/bojieli/ai-infra-book) |
+| **Career-Ops** | 姹傝亴浜у搧浼樺寲 | [GitHub](https://github.com/career-ops-hq/career-ops) |
+
+---
+
+### 14.12 馃摚 甯傚満钀ラ攢 (Marketing Professional)
+
+**鏍稿績鑳藉姏**: 澧為暱绛栫暐銆佸搧鐗屽缓璁俱€佸箍鍛婃姇鏀?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Marketing Skills** | CRO/鏂囨/SEO/澧為暱 | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **n8n** | 钀ラ攢鑷姩鍖?| [GitHub](https://github.com/n8n-io/n8n) |
+| **n8n Templates** | 280+ 钀ラ攢妯℃澘 | [GitHub](https://github.com/enescingoz/awesome-n8n-templates) |
+| **TrendRadar** | 鑸嗘儏鐩戞帶 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| **Easel** | 绀句氦濯掍綋 Agent | [GitHub](https://github.com/ZJU-REAL/Easel) |
+| **LinkedIn Skills** | LinkedIn 钀ラ攢 | [GitHub](https://github.com/sergebulaev/linkedin-skills) |
+| **Firecrawl** | 绔炲搧閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **Dify** | 钀ラ攢搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **GPT Researcher** | 甯傚満鐮旂┒ | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **Prompt Optimizer** | Prompt 浼樺寲 | [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+| **Agentic SEO** | SEO 鍒嗘瀽 | [GitHub](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) |
+| **Activepieces** | AI 钀ラ攢鑷姩鍖?| [GitHub](https://github.com/activepieces/activepieces) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Marketing Skills** | CRO/鏂囨/SEO | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **LinkedIn Skills** | LinkedIn 鍐呭 | [GitHub](https://github.com/sergebulaev/linkedin-skills) |
+| **Shuorenhua** | 鍘?AI 鍛虫敼鍐?| [GitHub](https://github.com/MrGeDiao/shuorenhua) |
+| **Wondel.ai Skills** | 鍟嗕笟钀ラ攢妗嗘灦 | [GitHub](https://github.com/wondelai/skills) |
+| **Agentic SEO** | SEO 鍒嗘瀽鎶€鑳?| [GitHub](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) |
+| **Prompt Optimizer** | Prompt 浼樺寲 | [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+| **Cangjie Skill** | 鍝佺墝钂搁 | [GitHub](https://github.com/kangarooking/cangjie-skill) |
+| **gzh-design-skill** | 鍏紬鍙疯惀閿€ | [GitHub](https://github.com/isjiamu/gzh-design-skill) |
+
+---
+
+### 14.13 馃洅 鐢靛晢杩愯惀 (E-commerce Operator)
+
+**鏍稿績鑳藉姏**: 閫夊搧鍒嗘瀽銆佸箍鍛婃姇鏀俱€佸鏈?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **n8n** | 鐢靛晢鑷姩鍖?| [GitHub](https://github.com/n8n-io/n8n) |
+| **n8n Templates** | 鐢靛晢妯℃澘 | [GitHub](https://github.com/enescingoz/awesome-n8n-templates) |
+| **TrendRadar** | 甯傚満瓒嬪娍鐩戞帶 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| **Firecrawl** | 绔炲搧閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **Dify** | 鐢靛晢搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **Easel** | 绀句氦濯掍綋杩愯惀 | [GitHub](https://github.com/ZJU-REAL/Easel) |
+| **GPT Researcher** | 甯傚満鐮旂┒ | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **LangChain** | 鐢靛晢 RAG | [GitHub](https://github.com/langchain-ai/langchain) |
+| **Activepieces** | 鐢靛晢宸ヤ綔娴?| [GitHub](https://github.com/activepieces/activepieces) |
+| **Cherry Studio** | AI 瀹㈡湇 | [GitHub](https://github.com/CherryHQ/cherry-studio) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Marketing Skills** | 鐢靛晢钀ラ攢 | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **Agentic SEO** | 鐢靛晢 SEO | [GitHub](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) |
+| **Easel Skills** | 绀句氦鐢靛晢 | [GitHub](https://github.com/ZJU-REAL/Easel) |
+| **Shuorenhua** | 鍟嗗搧鎻忚堪浼樺寲 | [GitHub](https://github.com/MrGeDiao/shuorenhua) |
+| **Prompt Optimizer** | 骞垮憡 Prompt | [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+| **gzh-design-skill** | 鍟嗗搧鍥炬枃 | [GitHub](https://github.com/isjiamu/gzh-design-skill) |
+| **Career-Ops** | 姹傝亴鐢靛晢浼樺寲 | [GitHub](https://github.com/career-ops-hq/career-ops) |
+
+---
+
+### 14.14 馃幃 娓告垙寮€鍙戣€?(Game Developer)
+
+**鏍稿績鑳藉姏**: 寮曟搸寮€鍙戙€佺編鏈祫婧愩€佹祴璇?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Gamedev Skills** | 74 涓父鎴忓紑鍙戞妧鑳?| [GitHub](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+| **Superpowers** | 娓告垙缂栫▼瓒呰兘鍔?| [GitHub](https://github.com/obra/superpowers) |
+| **Graphify** | 浠ｇ爜鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/Graphify-Labs/graphify) |
+| **Serena** | 缂栫爜 IDE | [GitHub](https://github.com/oraios/serena) |
+| **CodeWhale** | 缁堢 Agent | [GitHub](https://github.com/codewhale-hq/Codewhale) |
+| **Kilo** | 宸ョ▼骞冲彴 | [GitHub](https://github.com/Kilo-Org/kilocode) |
+| **OpenMontage** | 娓告垙瀹ｄ紶瑙嗛 | [GitHub](https://github.com/calesthio/OpenMontage) |
+| **Cua** | 娓告垙娴嬭瘯 | [GitHub](https://github.com/trycua/cua) |
+| **Browser Use** | 娓告垙缃戦〉娴嬭瘯 | [GitHub](https://github.com/browser-use/browser-use) |
+| **ECC** | 鎬ц兘浼樺寲 | [GitHub](https://github.com/affaan-m/ECC) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Gamedev Skills** | Godot/Unity/Unreal | [GitHub](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+| **Karpathy Skills** | 缂栫▼鏈€浣冲疄璺?| [GitHub](https://github.com/multica-ai/andrej-karpathy-skills) |
+| **Agent Best Practices** | Agent 璁捐 | [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| **Learn Claude Code** | 浠庨浂瀛︿範 | [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+| **Design Extract** | 娓告垙 UI 鎻愬彇 | [GitHub](https://github.com/Manavarya09/design-extract) |
+| **Qwen21 NSFW** | 娓告垙鍑哄浘 | [GitHub](https://github.com/Arekejoker/qwen21-nsfw-pose-skill) |
+
+---
+
+### 14.15 馃敀 瀹夊叏鐮旂┒鍛?(Security Researcher)
+
+**鏍稿績鑳藉姏**: 娓楅€忔祴璇曘€佸畨鍏ㄥ璁°€侀槻鎶?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **reverse-skill** | 閫嗗悜/娓楅€忔妧鑳借矾鐢?| [GitHub](https://github.com/zhaoxuya520/reverse-skill) |
+| **security-audit-skill** | 澶氶樁娈靛畨鍏ㄥ璁?| [GitHub](https://github.com/cloudflare/security-audit-skill) |
+| **OpenMontage** | 瀹夊叏婕旂ず瑙嗛 | [GitHub](https://github.com/calestho/OpenMontage) |
+| **Cua** | 瀹夊叏鑷姩鍖?| [GitHub](https://github.com/trycua/cua) |
+| **Browser Use** | 瀹夊叏娴忚 | [GitHub](https://github.com/browser-use/browser-use) |
+| **Firecrawl** | 瀹夊叏鎯呮姤閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **Graphify** | 瀹夊叏鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/Graphify-Labs/graphify) |
+| **LangChain** | 瀹夊叏 RAG | [GitHub](https://github.com/langchain-ai/langchain) |
+| **n8n** | 瀹夊叏宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+| **Dify** | 瀹夊叏搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **AI Infra Book** | 瀹夊叏鍩虹璁炬柦 | [GitHub](https://github.com/bojieli/ai-infra-book) |
+| **AI Agent Book** | Agent 瀹夊叏璁捐 | [GitHub](https://github.com/bojieli/ai-agent-book) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **reverse-skill** | 閫嗗悜宸ョ▼鎶€鑳?| [GitHub](https://github.com/zhaoxuya520/reverse-skill) |
+| **security-audit-skill** | 瀹夊叏瀹¤鎶€鑳?| [GitHub](https://github.com/cloudflare/security-audit-skill) |
+| **Agent Best Practices** | 瀹夊叏 Agent 璁捐 | [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| **Karpathy Skills** | 瀹夊叏缂栫爜 | [GitHub](https://github.com/multica-ai/andrej-karpathy-skills) |
+| **Learn Claude Code** | 瀹夊叏缂栫▼瀛︿範 | [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+
+---
+
+### 14.16 馃摫 绉诲姩寮€鍙戣€?(Mobile Developer)
+
+**鏍稿績鑳藉姏**: iOS銆丄ndroid銆佽法骞冲彴寮€鍙?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Superpowers** | 绉诲姩缂栫▼瓒呰兘鍔?| [GitHub](https://github.com/obra/superpowers) |
+| **Graphify** | 浠ｇ爜鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/Graphify-Labs/graphify) |
+| **Serena** | 缂栫爜 IDE | [GitHub](https://github.com/oraios/serena) |
+| **CodeWhale** | 缁堢 Agent | [GitHub](https://github.com/codewhale-hq/Codewhale) |
+| **Kilo** | 宸ョ▼骞冲彴 | [GitHub](https://github.com/Kilo-Org/kilocode) |
+| **App Store Connect** | 搴旂敤鍟嗗簵鑷姩鍖?| [GitHub](https://github.com/rorkai/app-store-connect-cli-skills) |
+| **Blurr** | Android 鑷姩鍖?| [GitHub](https://github.com/Ayush0Chaudhary/blurr) |
+| **Cua** | 绉诲姩娴嬭瘯 | [GitHub](https://github.com/trycua/cua) |
+| **ECC** | 鎬ц兘浼樺寲 | [GitHub](https://github.com/affaan-m/ECC) |
+| **Archify** | 绉诲姩鏋舵瀯鍥?| [GitHub](https://github.com/tt-a1i/archify) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **App Store Connect** | 搴旂敤鍟嗗簵鎶€鑳?| [GitHub](https://github.com/rorkai/app-store-connect-cli-skills) |
+| **Karpathy Skills** | 绉诲姩缂栫▼瀹炶返 | [GitHub](https://github.com/multica-ai/andrej-karpathy-skills) |
+| **Agent Best Practices** | 绉诲姩 Agent 璁捐 | [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| **Learn Claude Code** | 绉诲姩缂栫▼瀛︿範 | [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+| **Design Extract** | UI 璁捐鎻愬彇 | [GitHub](https://github.com/Manavarya09/design-extract) |
+| **Front-End Checklist** | 鍓嶇妫€鏌ユ竻鍗?| [GitHub](https://github.com/thedaviddias/Front-End-Checklist) |
+
+---
+
+### 14.17 鈽侊笍 浜戞灦鏋勫笀 (Cloud Architect)
+
+**鏍稿績鑳藉姏**: 閮ㄧ讲銆佺洃鎺с€佷紭鍖栥€丼erverless
+
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Semantica** | 鍥惧師鐢熶笂涓嬫枃鍩虹璁炬柦 | [GitHub](https://github.com/semantica-agi/semantica) |
+| **Airweave** | 涓婁笅鏂囨绱㈠眰 | [GitHub](https://github.com/airweave-ai/airweave) |
+| **Tensorlake** | Serverless 娌欑杩愯鏃?| [GitHub](https://github.com/tensorlakeai/tensorlake) |
+| **HarnessRouter** | Agent 妗嗘灦缁熶竴鎺ュ彛 | [GitHub](https://github.com/HarnessRouter/harnessrouter) |
+| **SkillHub** | 鎶€鑳芥敞鍐屼腑蹇?| [GitHub](https://github.com/iflytek/skillhub) |
+| **PGX** | AI Agent 鏁版嵁搴?| [GitHub](https://github.com/pgrundev/pgx) |
+| **SelfHost AI** | 涓€閿嚜鎵樼 AI 鏍?| [GitHub](https://github.com/kossakovsky/selfhost-ai) |
+| **n8n** | 浜戝伐浣滄祦 | [GitHub](https://github.com/n8n-io/n8n) |
+| **Cura** | 鍏变韩璁板繂娌荤悊 | [GitHub](https://github.com/caura-ai/caura) |
+| **AI Infra Book** | 鍩虹璁炬柦涔︾睄 | [GitHub](https://github.com/bojieli/ai-infra-book) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **AI Infra Book** | 鍩虹璁炬柦涔︾睄 | [GitHub](https://github.com/bojieli/ai-infra-book) |
+| **AI Infra Engineer Learning** | 宸ョ▼甯堝涔犺矾寰?| [GitHub](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) |
+| **n8n as Code** | 浜戣嚜鍔ㄥ寲鎶€鑳?| [GitHub](https://github.com/EtienneLescot/n8n-as-code) |
+| **Agent Best Practices** | 浜?Agent 璁捐 | [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| **Learn Claude Code** | 浜戠紪绋嬪涔?| [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+| **AI Agent Book** | Agent 璁捐鍙傝€?| [GitHub](https://github.com/bojieli/ai-agent-book) |
+
+---
+
+### 14.18 馃 AI 鐮旂┒鍛?(AI Researcher)
+
+**鏍稿績鑳藉姏**: 妯″瀷璁粌銆佽瘎娴嬨€佺爺绌躲€佽鏂?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **LangChain** | 鐮旂┒妗嗘灦 | [GitHub](https://github.com/langchain-ai/langchain) |
+| **GPT Researcher** | 娣卞害鐮旂┒ Agent | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **Firecrawl** | 璁烘枃閲囬泦 | [GitHub](https://github.com/firecrawl/firecrawl) |
+| **OpenViking** | 鐮旂┒鐭ヨ瘑搴?| [GitHub](https://github.com/volcengine/OpenViking) |
+| **mem0** | 鐮旂┒璁板繂灞?| [GitHub](https://github.com/mem0ai/mem0) |
+| **Cognee** | 鐮旂┒鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/topoteretes/cognee) |
+| **LangGraph** | 鐮旂┒宸ヤ綔娴?| [GitHub](https://github.com/langchain-ai/langchain) |
+| **Dify** | 鐮旂┒搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **n8n** | 鐮旂┒宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+| **AReaL** | RL 妗ユ帴 | [GitHub](https://github.com/areal-project/AReaL) |
+| **UniRL** | 澶氭ā鎬?RL | [GitHub](https://github.com/Tencent-Hunyuan/UniRL) |
+| **AI Infra Book** | 鍩虹璁炬柦鍙傝€?| [GitHub](https://github.com/bojieli/ai-infra-book) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **AI Agent Book** | Agent 璁捐鍘熺悊 | [GitHub](https://github.com/bojieli/ai-agent-book) |
+| **AI Infra Book** | 鍩虹璁炬柦璁捐 | [GitHub](https://github.com/bojieli/ai-infra-book) |
+| **Agent Best Practices** | Agent 璁捐鏈€浣冲疄璺?| [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| **Learn Claude Code** | 浠庨浂鏋勫缓 | [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+| **Prompt Optimizer** | Prompt 浼樺寲 | [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+| **AI Agent Book** | Agent 璁捐鍙傝€?| [GitHub](https://github.com/bojieli/ai-agent-book) |
+
+---
+
+### 14.19 馃搵 椤圭洰缁忕悊 (Project Manager)
+
+**鏍稿績鑳藉姏**: 瑙勫垝銆佽拷韪€佸崗浣溿€侀闄╃鐞?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Paperclip** | Agent 绠＄悊骞冲彴 | [GitHub](https://github.com/paperclipai/paperclip) |
+| **n8n** | 椤圭洰宸ヤ綔娴?| [GitHub](https://github.com/n8n-io/n8n) |
+| **n8n Templates** | 椤圭洰绠＄悊妯℃澘 | [GitHub](https://github.com/enescingoz/awesome-n8n-templates) |
+| **CCPM** | Git worktrees 骞惰 | [GitHub](https://github.com/automazeio/ccpm) |
+| **Archify** | 椤圭洰鏋舵瀯鍥?| [GitHub](https://github.com/tt-a1i/archify) |
+| **Graphify** | 椤圭洰鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/Graphify-Labs/graphify) |
+| **Cherry Studio** | AI 鐢熶骇鍔?| [GitHub](https://github.com/CherryHQ/cherry-studio) |
+| **Dify** | 椤圭洰搴旂敤鏋勫缓 | [GitHub](https://github.com/langgenius/dify) |
+| **GPT Researcher** | 椤圭洰鐮旂┒ | [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **Activepieces** | AI 宸ヤ綔娴?| [GitHub](https://github.com/activepieces/activepieces) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Agent Rules Books** | 椤圭洰瑙勫垯 | [GitHub](https://github.com/ciembor/agent-rules-books) |
+| **Marketing Skills** | 椤圭洰钀ラ攢 | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **AI Agent Book** | Agent 璁捐鍙傝€?| [GitHub](https://github.com/bojieli/ai-agent-book) |
+| **Career-Ops** | 椤圭洰绠＄悊鎶€鑳?| [GitHub](https://github.com/career-ops-hq/career-ops) |
+| **Wondel.ai Skills** | 鍟嗕笟妗嗘灦 | [GitHub](https://github.com/wondelai/skills) |
+| **Learn Claude Code** | 椤圭洰绠＄悊瀛︿範 | [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+
+---
+
+### 14.20 馃寪 鍏ㄦ爤寮€鍙戣€?(Full Stack Developer)
+
+**鏍稿績鑳藉姏**: 鍓嶇銆佸悗绔€丏evOps銆佹灦鏋?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Superpowers** | 鍏ㄦ爤缂栫▼瓒呰兘鍔?| [GitHub](https://github.com/obra/superpowers) |
+| **Graphify** | 鍏ㄦ爤鐭ヨ瘑鍥捐氨 | [GitHub](https://github.com/Graphify-Labs/graphify) |
+| **Serena** | 缂栫爜 IDE | [GitHub](https://github.com/oraios/serena) |
+| **CodeWhale** | 缁堢 Agent | [GitHub](https://github.com/codewhale-hq/Codewhale) |
+| **Kilo** | 宸ョ▼骞冲彴 | [GitHub](https://github.com/Kilo-Org/kilocode) |
+| **ECC** | 鎬ц兘浼樺寲 | [GitHub](https://github.com/affaan-m/ECC) |
+| **Archify** | 鍏ㄦ爤鏋舵瀯鍥?| [GitHub](https://github.com/tt-a1i/archify) |
+| **Caveman** | Token 浼樺寲 | [GitHub](https://github.com/JuliusBrussee/caveman) |
+| **Loop Engineering** | 寰幆宸ョ▼ | [GitHub](https://github.com/cobusgreyling/loop-engineering) |
+| **CodeBurn** | Token 杩借釜 | [GitHub](https://github.com/getagentseal/codeburn) |
+| **CCPM** | 骞惰绠＄悊 | [GitHub](https://github.com/automazeio/ccpm) |
+| **Code Review Graph** | 浠ｇ爜瀹℃煡 | [GitHub](https://github.com/tirth8205/code-review-graph) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Karpathy Skills** | CLAUDE.md 鏈€浣冲疄璺?| [GitHub](https://github.com/multica-ai/andrej-karpathy-skills) |
+| **Superpowers-zh** | 涓枃澧炲己 | [GitHub](https://github.com/jnMetaCode/superpowers-zh) |
+| **Agent Best Practices** | 鍏ㄦ爤 Agent 璁捐 | [GitHub](https://github.com/DenisSergeevitch/agents-best-practices) |
+| **Front-End Checklist** | 鍓嶇妫€鏌ユ竻鍗?| [GitHub](https://github.com/thedaviddias/Front-End-Checklist) |
+| **n8n as Code** | 鑷姩鍖栨妧鑳?| [GitHub](https://github.com/EtienneLescot/n8n-as-code) |
+| **Learn Claude Code** | 浠庨浂瀛︿範 | [GitHub](https://github.com/shareAI-lab/learn-claude-code) |
+
+---
+
+### 14.21 馃捈 鑷敱鑱屼笟鑰?(Freelancer)
+
+**鏍稿績鑳藉姏**: 澶氭妧鑳姐€佹晥鐜囥€佹帴鍗曘€佷氦浠?
+#### 宸ュ叿濂楄
+
+| 宸ュ叿 | 鐢ㄩ€?| 閾炬帴 |
+|------|------|------|
+| **Career-Ops** | 姹傝亴 Agent | [GitHub](https://github.com/career-ops-hq/career-ops) |
+| **Reactive Resume** | 绠€鍘嗘瀯寤?| [GitHub](https://github.com/reactive-resume/reactive-resume) |
+| **Cherry Studio** | AI 鐢熶骇鍔?| [GitHub](https://github.com/CherryHQ/cherry-studio) |
+| **n8n** | 鑷姩鍖栧伐浣滄祦 | [GitHub](https://github.com/n8n-io/n8n) |
+| **Dify** | 澶氬簲鐢ㄦ瀯寤?| [GitHub](https://github.com/langgenius/dify) |
+| **GPT Researcher** | 蹇€熺爺绌?| [GitHub](https://github.com/assafelovic/gpt-researcher) |
+| **Prompt Optimizer** | Prompt 浼樺寲 | [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+| **TrendRadar** | 鐑偣鐩戞帶 | [GitHub](https://github.com/sansan0/TrendRadar) |
+| **Easel** | 绀句氦濯掍綋 | [GitHub](https://github.com/ZJU-REAL/Easel) |
+| **OpenMontage** | 瑙嗛鍒朵綔 | [GitHub](https://github.com/calestho/OpenMontage) |
+
+#### 鎶€鑳藉瑁?
+| 鎶€鑳?| 鍔熻兘 | 閾炬帴 |
+|------|------|------|
+| **Career-Ops** | 姹傝亴鎶€鑳?| [GitHub](https://github.com/career-ops-hq/career-ops) |
+| **Shuorenhua** | 鍘?AI 鍛虫敼鍐?| [GitHub](https://github.com/MrGeDiao/shuorenhua) |
+| **Marketing Skills** | 涓汉鍝佺墝 | [GitHub](https://github.com/coreyhaines31/marketingskills) |
+| **LinkedIn Skills** | 绀句氦姹傝亴 | [GitHub](https://github.com/sergebulaev/linkedin-skills) |
+| **Wondel.ai Skills** | 鍟嗕笟妗嗘灦 | [GitHub](https://github.com/wondelai/skills) |
+| **Prompt Optimizer** | Prompt 浼樺寲 | [GitHub](https://github.com/linshenkx/prompt-optimizer) |
+
+---
+
+## 鍗佷簲銆佽亴涓氬伐鍏烽€夋嫨鎸囧崡
+
+### 15.1 蹇€熼€夋嫨琛?
+| 鑱屼笟 | 鎺ㄨ崘妗嗘灦 | 鎺ㄨ崘鎶€鑳芥鏋?| 鎺ㄨ崘 MCP |
+|------|----------|-------------|----------|
+| 杞欢宸ョ▼甯?| Superpowers | Superpowers | Graphify |
+| 鏁版嵁鍒嗘瀽甯?| LangChain | Marketing Skills | Firecrawl |
+| 鍐呭鍒涗綔鑰?| Dify | Wondel.ai | Easel |
+| 骞抽潰璁捐甯?| Superpowers | UI/UX Pro | Design Extract |
+| 瑙嗛鍒涗綔鑰?| OpenMontage | Gamedev Skills | OpenMontage |
+| 閲戣瀺鍒嗘瀽甯?| LangChain | Trading Skills | Firecrawl |
+| 鍖荤枟鍋ュ悍 | Dify | Nihaixia | LangChain |
+| 鏁欒偛宸ヤ綔鑰?| Dify | Free Programming | SiYuan |
+| 娉曞緥宸ヤ綔鑰?| LangChain | Answer Me HTML | Cognee |
+| 浜у搧缁忕悊 | Dify | Marketing Skills | Archify |
+| 甯傚満钀ラ攢 | Dify | Marketing Skills | TrendRadar |
+| 鐢靛晢杩愯惀 | Dify | Agentic SEO | Easel |
+| 娓告垙寮€鍙戣€?| Superpowers | Gamedev Skills | Graphify |
+| 瀹夊叏鐮旂┒鍛?| LangChain | reverse-skill | Firecrawl |
+| 绉诲姩寮€鍙戣€?| Superpowers | App Store Connect | Graphify |
+| 浜戞灦鏋勫笀 | LangChain | AI Infra Book | SkillHub |
+| AI 鐮旂┒鍛?| LangChain | Agent Book | LangChain |
+| 椤圭洰缁忕悊 | Paperclip | Agent Rules | Graphify |
+| 鍏ㄦ爤寮€鍙戣€?| Superpowers | Karpathy Skills | Graphify |
+| 鑷敱鑱屼笟鑰?| Cherry Studio | Career-Ops | Career-Ops |
+
+### 15.2 鑱屼笟宸ュ叿缁勫悎绀轰緥
+
+#### 缁勫悎 1: 鐙珛寮€鍙戣€?(Indie Hacker)
+```
+Superpowers + Graphify + LangChain + Easel + TrendRadar
+    + Marketing Skills + Career-Ops + n8n
+鍦烘櫙: 鐙珛寮€鍙戙€佷骇鍝佸彂甯冦€佽惀閿€鑾峰
+```
+
+#### 缁勫悎 2: 鍐呭鍒涗笟
+```
+Dify + Easel + TrendRadar + Firecrawl
+    + Wondel.ai + Shuorenhua + gzh-design + LinkedIn Skills
+鍦烘櫙: 鑷獟浣撱€佺煡璇嗕粯璐广€佺ぞ缇よ繍钀?```
+
+#### 缁勫悎 3: 鎶€鏈【闂?```
+Superpowers + ECC + LangChain + Graphify
+    + Agent Best Practices + AI Infra Book + Learn Claude Code
+鍦烘櫙: 浼佷笟鍜ㄨ銆佹灦鏋勮瘎瀹°€佹妧鏈煿璁?```
+
+#### 缁勫悎 4: 鏁版嵁椹卞姩杩愯惀
+```
+LangChain + Firecrawl + TrendRadar + n8n
+    + Agentic SEO + Marketing Skills + Cognee
+鍦烘櫙: 鐢靛晢杩愯惀銆佺敤鎴峰闀裤€佹暟鎹垎鏋?```
+
+---
+
+## 鍗佸叚銆佽亴涓氳祫婧愰€熸煡
+
+### 16.1 鎸夊涔犻樁娈?
+| 闃舵 | 鎺ㄨ崘璧勬簮 |
+|------|----------|
+| **鍏ラ棬** | AI Agent Book, Learn Claude Code, Free Programming |
+| **杩涢樁** | Agent Best Practices, Agent Rules Books, AI Infra Book |
+| **涓撳** | Superpowers, ECC, Graphify, n8n as Code |
+| **鍒涗笟** | Career-Ops, Marketing Skills, Easel, TrendRadar |
+
+### 16.2 鎸夎涓?
+| 琛屼笟 | 鏍稿績宸ュ叿 | 鏍稿績鎶€鑳?|
+|------|----------|----------|
+| **绉戞妧浜掕仈缃?* | Superpowers, Graphify, LangChain | Karpathy Skills, Agent Best Practices |
+| **閲戣瀺** | TradingAgents, Stock Analysis, GPT Researcher | Trading Skills, AI Agent Book |
+| **鍖荤枟** | LangChain, Cognee, mem0 | Nihaixia, Answer Me HTML |
+| **鏁欒偛** | Dify, Free Programming, SiYuan | Free Programming, Learn Claude Code |
+| **娉曞緥** | LangChain, GPT Researcher | Answer Me HTML, Council of High Intel |
+| **钀ラ攢** | Dify, n8n, Easel, TrendRadar | Marketing Skills, LinkedIn Skills |
+| **鐢靛晢** | Dify, Easel, n8n | Agentic SEO, Marketing Skills |
+| **娓告垙** | Superpowers, Gamedev Skills | Gamedev Skills, Design Extract |
+| **瀹夊叏** | reverse-skill, security-audit | reverse-skill, Agent Best Practices |
+| **浜戝師鐢?* | LangChain, Semantica, Airweave | AI Infra Book, AI Infra Learning |
+
+---
